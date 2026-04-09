@@ -1,0 +1,13 @@
+{
+    "logo": "Conquer Clinic",
+    "navItems": [
+      { "label": "Urgent Care" },
+      { "label": "Mental Health" },
+      { "label": "All Telehealth Services" },
+      { "label": "About" }
+    ],
+    "buttons": {
+      "login": "Log In",
+      "signup": "Sign Up"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "backgroundImage": "/images/home/banner.png",
+    "heading": "Not your normal telemedicine company",
+    "subHeading": "Science-backed care for anti aging, longevity , and optimized healthspan.",
+    "buttons": [
+      {
+        "label": "Shop women",
+        "variant": "light"
+      },
+      {
+        "label": "Shop men",
+        "variant": "dark"
+      }
+    ]
+  }

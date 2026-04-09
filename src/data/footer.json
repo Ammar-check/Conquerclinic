@@ -1,0 +1,66 @@
+{
+  "promo": {
+    "image": "/images/home/Overlay.png",
+    "alt": "Conquer Clinic app preview"
+  },
+  "columns": [
+    {
+      "title": "Learn",
+      "links": [
+        "Weight Loss",
+        "Sexual Health",
+        "Testosterone",
+        "Hair Regrowth",
+        "Mental Health",
+        "Drug Comparisons",
+        "Drugs & Medications",
+        "About the Company"
+      ]
+    },
+    {
+      "title": "Popular",
+      "links": [
+        "Weight Loss Oral Medication Kits",
+        "GLP-1 Injections",
+        "Sildenafil",
+        "Cialis",
+        "Tadalafil",
+        "Minoxidil Solution",
+        "Finasteride Pills",
+        "Topical Finasteride",
+        "Sertraline for PE",
+        "Sertraline",
+        "Escitalopram"
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        "About Us",
+        "Good Health (It's our blog)",
+        "How It Works",
+        "Clinical Excellence",
+        "Innovation",
+        "Quality & Safety",
+        "Editorial Standards",
+        "FAQs",
+        "Investors",
+        "Careers",
+        "Professionals",
+        "Providers",
+        "Customer Help Center",
+        "Press Center"
+      ]
+    }
+  ],
+  "socials": ["f", "x", "ig", "t"],
+  "legalLinks": [
+    "Terms & Conditions",
+    "Privacy Policy",
+    "Sitemap",
+    "Telehealth Consent & Open Payments",
+    "Consumer Health Data Privacy Policy",
+    "Your Privacy Choices"
+  ],
+  "copyright": "© 2025 All rights reserved."
+}

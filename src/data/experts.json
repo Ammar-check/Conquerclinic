@@ -1,0 +1,16 @@
+{
+  "title": "MEET OUR\nEXPERTS",
+  "profileImage": "/images/home/teams.png",
+  "doctor": {
+    "name": "Dr. Jon Kheterpal, MD",
+    "role": "Chief Medical Officer",
+    "bio": "Duke University dermatologist shaping Rewinding's approach to skin health and teledermatology."
+  },
+  "avatars": [
+    "/images/home/team-1.png",
+    "/images/home/team-2.png",
+    "/images/home/team-3.png",
+    "/images/home/team-4.png",
+    "/images/home/team-5.png"
+  ]
+}

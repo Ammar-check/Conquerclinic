@@ -1,0 +1,78 @@
+{
+  "heading": "FAST ONLINE CARE FOR URGENT AND MENTAL HEALTH NEEDS.",
+  "subheading": "Your visit could be free or low-cost.",
+  "tabs": [
+    {
+      "label": "URGENT CARE",
+      "leftColumn": [
+        "Cold & Flu",
+        "Sinus Infections",
+        "UTIs",
+        "STD Treatment",
+        "Strep Throat"
+      ],
+      "rightColumn": [
+        "COVID",
+        "Ear Infections",
+        "Yeast Infections",
+        "BV Treatment",
+        "Pink Eye"
+      ],
+      "ctaLabel": "VIEW URGENT CARE"
+    },
+    {
+      "label": "THERAPY",
+      "leftColumn": [
+        "Anxiety & Stress",
+        "Depression Support",
+        "Grief Counseling",
+        "Relationship Issues",
+        "Life Transitions"
+      ],
+      "rightColumn": [
+        "Trauma-Informed Care",
+        "CBT Sessions",
+        "Mindfulness Coaching",
+        "Work-Life Balance",
+        "Family Therapy"
+      ],
+      "ctaLabel": "VIEW THERAPY"
+    },
+    {
+      "label": "PSYCHIATRY",
+      "leftColumn": [
+        "Medication Management",
+        "ADHD Evaluation",
+        "Anxiety Disorders",
+        "Depression Treatment",
+        "Sleep Disorders"
+      ],
+      "rightColumn": [
+        "Mood Stabilization",
+        "PTSD Care",
+        "Substance Use Support",
+        "Follow-Up Visits",
+        "Prescription Refills"
+      ],
+      "ctaLabel": "VIEW PSYCHIATRY"
+    },
+    {
+      "label": "PSYCHIATRY",
+      "leftColumn": [
+        "Initial Psychiatric Eval",
+        "Medication Adjustments",
+        "Bipolar Disorder",
+        "OCD Support",
+        "Crisis Planning"
+      ],
+      "rightColumn": [
+        "Telehealth Visits",
+        "Lab Coordination",
+        "Care Team Collaboration",
+        "Treatment Planning",
+        "Ongoing Monitoring"
+      ],
+      "ctaLabel": "VIEW PSYCHIATRY"
+    }
+  ]
+}

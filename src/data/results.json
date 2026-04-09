@@ -1,0 +1,32 @@
+{
+  "titlePrefix": "SMALL CHANGES,",
+  "titleHighlight": "BIG RESULTS",
+  "description": "We are here to support your unique needs every step of the way.",
+  "cards": [
+    {
+      "title": "DIAGNOSTIC LABS",
+      "buttonLabel": "LEARN MORE",
+      "image": "/images/home/result-1.png"
+    },
+    {
+      "title": "MENOPAUSE CARE",
+      "buttonLabel": "LEARN MORE",
+      "image": "/images/home/result-2.png"
+    },
+    {
+      "title": "TESTOSTERONE",
+      "buttonLabel": "LEARN MORE",
+      "image": "/images/home/result-3.png"
+    },
+    {
+      "title": "SEXUAL HEALTH",
+      "buttonLabel": "LEARN MORE",
+      "image": "/images/home/result-4.png"
+    },
+    {
+      "title": "SKIN CARE",
+      "buttonLabel": "LEARN MORE",
+      "image": "/images/home/result-5.png"
+    }
+  ]
+}

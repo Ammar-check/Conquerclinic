@@ -1,0 +1,23 @@
+{
+  "title": "YOUR HEALTH, YOUR CARE, ALL IN ONE PLACE",
+  "cards": [
+    {
+      "eyebrow": "CLINICIANS",
+      "title": "QUALITY CARE STARTS HERE",
+      "buttonLabel": "JOIN THE TEAM",
+      "image": "/images/home/benefit-1.png"
+    },
+    {
+      "eyebrow": "INDIVIDUALS",
+      "title": "ANYTIME, ANYWHERE, ANYTHING CARE",
+      "buttonLabel": "GET CARE NOW",
+      "image": "/images/home/benefit-2.png"
+    },
+    {
+      "eyebrow": "ORGANIZATIONS",
+      "title": "FROM HOSPITAL TO HOME",
+      "buttonLabel": "WAYS WE HELP",
+      "image": "/images/home/benefit-3.png"
+    }
+  ]
+}

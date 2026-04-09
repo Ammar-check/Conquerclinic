@@ -447,3 +447,670 @@ body {
         padding-bottom: 18px;
     }
 }
+
+/* Results section */
+.results-section {
+    background: #000;
+    color: #fff;
+    padding: 64px 0 74px;
+}
+
+.results-container {
+    overflow: hidden;
+}
+
+.results-title {
+    margin: 0;
+    text-align: center;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.results-title-prefix {
+    color: rgba(255, 255, 255, 0.38);
+}
+
+.results-title-highlight {
+    color: #ffffff;
+}
+
+.results-description {
+    margin: 12px 0 34px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 15px;
+    line-height: 1.35;
+}
+
+.results-carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 8px;
+}
+
+.results-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.results-card-item {
+    flex: 0 0 calc((100% - 30px) / 4);
+    min-width: calc((100% - 30px) / 4);
+}
+
+.feature-card {
+    position: relative;
+    min-height: 270px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.feature-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 20%, rgba(0, 0, 0, 0.62) 100%);
+}
+
+.feature-card-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 18px 14px 24px;
+    text-align: center;
+}
+
+.feature-card-title {
+    margin: 0 0 16px;
+    color: #fff;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.feature-card-button {
+    border: 1px solid rgba(255, 255, 255, 0.88);
+    background: rgba(255, 255, 255, 0.03);
+    color: #fff;
+    min-width: 118px;
+    padding: 6px 12px;
+    font-size: 11px;
+    line-height: 1;
+    font-family: "Beausite Fit Trial", sans-serif;
+    text-transform: uppercase;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+.feature-card-button:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .results-section {
+        padding: 50px 0 56px;
+    }
+
+    .results-title {
+        font-size: 28px;
+    }
+
+    .results-description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .results-card-item {
+        flex: 0 0 72%;
+        min-width: 240px;
+    }
+
+    .feature-card {
+        min-height: 280px;
+    }
+
+    .feature-card-title {
+        font-size: 13px;
+    }
+}
+
+/* Benefits section */
+.benefits-section {
+    background: #141414;
+    color: #fff;
+    padding: 72px 0 82px;
+}
+
+.benefits-title {
+    margin: 0 0 28px;
+    text-align: center;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.benefit-card {
+    position: relative;
+    min-height: 410px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.benefit-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 24%, rgba(0, 0, 0, 0.52) 100%);
+}
+
+.benefit-card-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    padding: 20px 16px 28px;
+}
+
+.benefit-card-eyebrow {
+    margin: 0 0 6px;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.benefit-card-title {
+    margin: 0 0 12px;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.benefit-card-button {
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.9);
+    min-width: 140px;
+    padding: 7px 12px;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+.benefit-card-button:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .benefits-section {
+        padding: 54px 0 62px;
+    }
+
+    .benefits-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .benefit-card {
+        min-height: 320px;
+    }
+
+    .benefit-card-eyebrow {
+        font-size: 11px;
+    }
+
+    .benefit-card-title {
+        font-size: 16px;
+    }
+
+    .benefit-card-button {
+        min-width: 120px;
+        font-size: 10px;
+    }
+}
+
+/* Branding / as seen in */
+.branding-section {
+    background: #141414;
+    padding: 24px 0 48px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.branding-container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.branding-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 56px;
+}
+
+.branding-row--bottom {
+    margin-top: 36px;
+    gap: 48px 72px;
+}
+
+.branding-logo-wrap {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+}
+
+.branding-logo {
+    display: block;
+    max-width: min(160px, 22vw);
+    width: auto;
+    height: auto;
+    max-height: 32px;
+    object-fit: contain;
+    opacity: 0.78;
+}
+
+@media (max-width: 991px) {
+    .branding-section {
+        padding: 18px 0 36px;
+    }
+
+    .branding-row {
+        gap: 28px 32px;
+    }
+
+    .branding-row--bottom {
+        margin-top: 28px;
+        gap: 28px 40px;
+    }
+
+    .branding-logo {
+        max-height: 26px;
+        max-width: min(140px, 38vw);
+    }
+}
+
+/* Experts section — match reference layout */
+.experts-section {
+    background: #121212;
+    color: #fff;
+    padding: 56px 0 60px;
+}
+
+.experts-container {
+    max-width: 1140px;
+}
+
+.experts-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 200px) minmax(240px, 300px) minmax(0, 1fr);
+    align-items: center;
+    gap: 40px 48px;
+}
+
+.experts-title {
+    margin: 0;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.08;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    white-space: pre-line;
+    text-align: left;
+    max-width: 200px;
+}
+
+.experts-profile-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #2a2a2a;
+    max-width: 300px;
+}
+
+.experts-profile-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.experts-content {
+    min-width: 0;
+    padding-top: 2px;
+}
+
+.experts-avatars-track {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Per-avatar white wash: stronger toward the right (matches reference) */
+.experts-avatar-wrap {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.experts-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.experts-avatar-white {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    background: #ffffff;
+}
+
+.experts-avatar-wrap--0 .experts-avatar-white {
+    opacity: 0;
+}
+
+.experts-avatar-wrap--1 .experts-avatar-white {
+    opacity: 0.14;
+}
+
+.experts-avatar-wrap--2 .experts-avatar-white {
+    opacity: 0.3;
+}
+
+.experts-avatar-wrap--3 .experts-avatar-white {
+    opacity: 0.48;
+}
+
+.experts-avatar-wrap--4 .experts-avatar-white {
+    opacity: 0.66;
+}
+
+.experts-name {
+    margin: 0 0 10px;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.12;
+    letter-spacing: 0;
+}
+
+.experts-role {
+    margin: 0 0 14px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.25;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 12px;
+    max-width: 440px;
+}
+
+.experts-bio {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.72);
+    max-width: 480px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.35;
+}
+
+@media (max-width: 991px) {
+    .experts-section {
+        padding: 44px 0 48px;
+    }
+
+    .experts-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .experts-title {
+        max-width: 100%;
+        font-size: 28px;
+        white-space: normal;
+    }
+
+    .experts-profile-wrap {
+        max-width: 320px;
+    }
+
+    .experts-name {
+        font-size: 20px;
+    }
+
+    .experts-role,
+    .experts-bio {
+        font-size: 14px;
+    }
+}
+
+/* Care tabs — urgent / mental health */
+.care-tabs-section {
+    background: #121212;
+    color: #fff;
+    padding: 64px 0 72px;
+}
+
+.care-tabs-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.care-tabs-heading {
+    margin: 0 auto 14px;
+    max-width: 820px;
+    text-align: center;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.care-tabs-subheading {
+    margin: 0 auto 36px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.35;
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.care-tabs-bar {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    border: 1px solid #2d2d2d;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.care-tabs-tab {
+    margin: 0;
+    padding: 14px 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border: none;
+    border-right: 1px solid #2d2d2d;
+    background: #121212;
+    color: rgba(255, 255, 255, 0.42);
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.care-tabs-tab:last-child {
+    border-right: none;
+}
+
+.care-tabs-tab:hover:not(.is-active) {
+    color: rgba(255, 255, 255, 0.65);
+    background: #181818;
+}
+
+.care-tabs-tab.is-active {
+    background: #4a4a4a;
+    color: #ffffff;
+}
+
+.care-tabs-panel {
+    padding: 28px 32px 36px;
+}
+
+.care-tabs-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px 56px;
+    align-items: start;
+}
+
+.care-tabs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.care-tabs-item {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.35;
+    color: rgba(255, 255, 255, 0.72);
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.care-tabs-item:first-child {
+    padding-top: 0;
+}
+
+.care-tabs-cta-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.care-tabs-cta {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 12px 28px;
+    color: rgba(255, 255, 255, 0.75);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.care-tabs-cta:hover {
+    color: #121212;
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 767px) {
+    .care-tabs-section {
+        padding: 48px 0 56px;
+    }
+
+    .care-tabs-heading {
+        font-size: 22px;
+        padding: 0 8px;
+    }
+
+    .care-tabs-subheading {
+        font-size: 14px;
+        margin-bottom: 28px;
+    }
+
+    .care-tabs-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .care-tabs-tab {
+        border-right: none;
+        border-bottom: 1px solid #2d2d2d;
+        font-size: 10px;
+        padding: 12px 8px;
+    }
+
+    .care-tabs-tab:last-child {
+        border-bottom: none;
+    }
+
+    .care-tabs-panel {
+        padding: 22px 18px 28px;
+    }
+
+    .care-tabs-columns {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .care-tabs-list:last-child .care-tabs-item:first-child {
+        padding-top: 14px;
+    }
+}

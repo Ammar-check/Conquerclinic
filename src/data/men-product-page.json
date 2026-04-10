@@ -1,0 +1,154 @@
+{
+  "slug": "men-products",
+  "hero": {
+    "heading": "All Men Products",
+    "backgroundImage": "/images/product-page-Men/Frame%20105.png"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "mp1",
+      "slug": "men-products",
+      "category": "hormone-health",
+      "name": "TRT Essentials",
+      "subtitle": "Clinician-led optimization plan",
+      "price": "$129/mo",
+      "image": "/images/product-page/Background.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "mp2",
+      "slug": "men-products",
+      "category": "sexual-health",
+      "name": "Sildenafil",
+      "subtitle": "Discreet daily support",
+      "price": "$19/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "mp3",
+      "slug": "men-products",
+      "category": "sexual-health",
+      "name": "Tadalafil",
+      "subtitle": "Long-duration performance support",
+      "price": "$27/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "mp4",
+      "slug": "men-products",
+      "category": "skin-care",
+      "name": "Hair Restore Formula",
+      "subtitle": "Topical + oral protocol",
+      "price": "$34/mo",
+      "image": "/images/product-page/Background.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "mp5",
+      "slug": "men-products",
+      "category": "weight-loss",
+      "name": "Metabolic Lean Program",
+      "subtitle": "Fat-loss support with coaching",
+      "price": "$149/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "mp6",
+      "slug": "men-products",
+      "category": "supplements",
+      "name": "Vitality Stack",
+      "subtitle": "Daily strength and energy support",
+      "price": "$39/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "mp7",
+      "slug": "men-products",
+      "category": "diagnostic-labs",
+      "name": "Men's Full Panel",
+      "subtitle": "Comprehensive biomarker analysis",
+      "price": "$99",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "mp8",
+      "slug": "men-products",
+      "category": "longevity",
+      "name": "Longevity Performance Plan",
+      "subtitle": "Preventive + recovery protocol",
+      "price": "$79/mo",
+      "image": "/images/product-page/Background.png"
+    }
+  ],
+  "stories": {
+    "title": "Story",
+    "cta": {
+      "label": "Explore",
+      "href": "/stories"
+    },
+    "items": [
+      {
+        "id": "ms1",
+        "title": "Men's telehealth trends for 2026",
+        "date": "June 10, 2026",
+        "href": "/stories/mens-telehealth-trends",
+        "image": "/images/product-page-Men/Achieving%20Optimal%20Wellness%20Through%20Self-Improvement_%20Strategies%20for%20a%20Balanced%20Life.png"
+      },
+      {
+        "id": "ms2",
+        "title": "Building energy, focus, and consistency",
+        "date": "June 22, 2026",
+        "href": "/stories/energy-focus-consistency",
+        "image": "/images/product-page-Men/From%20Breakouts%20to%20Wrinkles_%20How%20Hormones%20Shape%20Your%20Skin.png"
+      },
+      {
+        "id": "ms3",
+        "title": "How personalized labs improve outcomes",
+        "date": "July 3, 2026",
+        "href": "/stories/personalized-labs-outcomes",
+        "image": "/images/product-page-Men/Best%20Functional%20Ingredients%20for%20Menopause%20Symptom%20Management.png"
+      },
+      {
+        "id": "ms4",
+        "title": "Holiday Hormone Harmony guide",
+        "date": "July 19, 2026",
+        "href": "/stories/holiday-hormone-harmony",
+        "image": "/images/product-page-Men/Holiday%20Hormone%20Harmony_%20How%20Connection,%20Sleep,%20and%20Nutrition%20Work%20Together.png"
+      },
+      {
+        "id": "ms5",
+        "title": "The Sober Stack essentials",
+        "date": "August 1, 2026",
+        "href": "/stories/the-sober-stack",
+        "image": "/images/product-page-Men/The%20Sober%20Stack_%20Foundational%20Supplements%20for%20Feeling%20Your%20Best.png"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Men Product Questions",
+    "items": [
+      {
+        "question": "Are these plans personalized for men?",
+        "answer": "Yes. Recommendations are based on your goals, history, and clinician review."
+      },
+      {
+        "question": "How quickly can I start treatment?",
+        "answer": "Most people complete onboarding quickly and receive next steps after clinician approval."
+      },
+      {
+        "question": "Can I switch plans later?",
+        "answer": "Absolutely. Your care team can adjust your plan as your needs change."
+      }
+    ]
+  }
+}

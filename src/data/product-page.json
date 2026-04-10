@@ -1,0 +1,185 @@
+{
+  "slug": "product",
+  "hero": {
+    "heading": "All Products",
+    "backgroundImage": "/images/product-page/banner-product.png"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "slug": "product",
+      "category": "weight-loss",
+      "name": "GLP-1 Starter Kit",
+      "subtitle": "Physician-guided plan",
+      "price": "$149/mo",
+      "image": "/images/product-page/Background.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "p2",
+      "slug": "product",
+      "category": "sexual-health",
+      "name": "Sildenafil",
+      "subtitle": "Fast and discreet delivery",
+      "price": "$19/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p3",
+      "slug": "product",
+      "category": "hair",
+      "name": "Minoxidil Solution",
+      "subtitle": "Daily topical formula",
+      "price": "$24/mo",
+      "image": "/images/product-page/Background.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "p4",
+      "slug": "product",
+      "category": "mental-health",
+      "name": "Escitalopram",
+      "subtitle": "Online clinician support",
+      "price": "$29/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p5",
+      "slug": "product",
+      "category": "weight-loss",
+      "name": "Metabolic Reset",
+      "subtitle": "Personalized medication options",
+      "price": "$129/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p6",
+      "slug": "product",
+      "category": "sexual-health",
+      "name": "Tadalafil",
+      "subtitle": "Long-lasting support",
+      "price": "$27/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p7",
+      "slug": "product",
+      "category": "diagnostic-labs",
+      "name": "Comprehensive Blood Panel",
+      "subtitle": "In-depth biomarkers & insights",
+      "price": "$89",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p8",
+      "slug": "product",
+      "category": "hormone-health",
+      "name": "TRT Evaluation Pack",
+      "subtitle": "Hormone profile + specialist review",
+      "price": "$119",
+      "image": "/images/product-page/Background.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "p9",
+      "slug": "product",
+      "category": "longevity",
+      "name": "Longevity Essentials",
+      "subtitle": "Preventive protocol starter",
+      "price": "$69/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p10",
+      "slug": "product",
+      "category": "skin-care",
+      "name": "Clear Skin Program",
+      "subtitle": "Customized treatment pathway",
+      "price": "$39/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p11",
+      "slug": "product",
+      "category": "supplements",
+      "name": "Daily Performance Stack",
+      "subtitle": "Science-backed daily formula",
+      "price": "$34/mo",
+      "image": "/images/product-page/Background.png"
+    },
+    {
+      "id": "p12",
+      "slug": "product",
+      "category": "weight-loss",
+      "name": "Metabolic Support+",
+      "subtitle": "App + medication + coaching",
+      "price": "$159/mo",
+      "image": "/images/product-page/Background.png",
+      "badge": "Best Seller"
+    }
+  ],
+  "stories": {
+    "title": "Story",
+    "cta": {
+      "label": "Explore",
+      "href": "/stories"
+    },
+    "items": [
+      {
+        "id": "s1",
+        "title": "How we personalize treatment for every patient",
+        "date": "March 14, 2026",
+        "href": "/stories/personalized-treatment",
+        "image": "/images/product-page/Link (1).png"
+      },
+      {
+        "id": "s2",
+        "title": "The science behind our modern telehealth model",
+        "date": "April 2, 2026",
+        "href": "/stories/science-behind-telehealth",
+        "image": "/images/product-page/Container (20).png"
+      },
+      {
+        "id": "s3",
+        "title": "What to expect in your first 30 days",
+        "date": "April 22, 2026",
+        "href": "/stories/first-30-days",
+        "image": "/images/product-page/Link.png"
+      },
+      {
+        "id": "s4",
+        "title": "Lifestyle habits that amplify medical outcomes",
+        "date": "May 5, 2026",
+        "href": "/stories/lifestyle-and-outcomes",
+        "image": "/images/product-page/Link (1).png"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Product Questions",
+    "items": [
+      {
+        "question": "How do I know which product is right for me?",
+        "answer": "After checkout, a licensed clinician reviews your health profile and recommends the safest and most effective option."
+      },
+      {
+        "question": "Do I need a prescription?",
+        "answer": "For prescription treatments, yes. Our online medical flow makes this quick and secure."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Most orders are processed within 1-2 business days and shipped based on your location."
+      }
+    ]
+  }
+}

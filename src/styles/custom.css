@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Beausite Classic Medium";
+    src: url("/fonts/OnlineWebFonts_COM_0432f91eb4d315fb799481274411650e/Beausite%20Classic%20Medium/Web%20Fonts/d30a14a0fb8a68b8cd82416ce9d93125.svg#BeausiteClassic-Medium")
+        format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: "Inter", sans-serif;
 }
@@ -445,6 +454,419 @@ body {
         font-size: 15px;
         padding-right: 0;
         padding-bottom: 18px;
+    }
+} 
+
+/* Product page */
+.product-hero-section {
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.product-hero-content {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 0;
+}
+
+.product-hero-title {
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 760px;
+    margin: 0;
+}
+
+.product-catalog-section {
+    background: #151515;
+}
+
+.product-filter-bar {
+    width: 100%;
+    background: #e6e6e6;
+    padding: 2px 0;
+}
+
+.product-filter-bar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.product-filter-list {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 8px 0;
+}
+
+.product-filter-list::-webkit-scrollbar {
+    display: none;
+}
+
+.product-filter-btn {
+    border: none;
+    color: #3d3d3d;
+    background: transparent;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 0;
+    position: relative;
+    border-radius: 999px;
+    transition: all 0.2s ease;
+}
+
+.product-filter-btn.active {
+    color: #111;
+    background: #ffffff;
+    box-shadow: 0 0 0 1px rgba(17, 17, 17, 0.12) inset;
+    padding-left: 18px;
+}
+
+.product-filter-btn.active::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #111;
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-filter-btn.active,
+.product-filter-btn:hover {
+    color: #111;
+}
+
+.product-filter-btn:focus-visible {
+    outline: 2px solid #111;
+    outline-offset: 2px;
+}
+
+@media (max-width: 991px) {
+    .product-hero-section {
+        min-height: 62vh;
+        background-position: center;
+    }
+
+    .product-hero-content {
+        padding-top: 74px;
+    }
+
+    .product-hero-title {
+        font-size: 42px;
+        line-height: 100%;
+        max-width: 92%;
+    }
+
+    .product-filter-bar {
+        padding: 6px 0;
+    }
+
+    .product-filter-bar-inner {
+        gap: 0;
+    }
+
+    .product-filter-list {
+        gap: 22px;
+        width: 100%;
+        padding: 6px 2px;
+    }
+
+    .product-filter-btn {
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+}
+
+@media (max-width: 575px) {
+    .product-hero-section {
+        min-height: 56vh;
+        background-position: center;
+    }
+
+    .product-hero-content {
+        padding-top: 66px;
+    }
+
+    .product-hero-title {
+        font-size: 32px;
+        line-height: 100%;
+        max-width: 100%;
+    }
+
+    .product-filter-list {
+        gap: 16px;
+        padding: 4px 2px;
+    }
+
+    .product-filter-btn {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .product-filter-btn.active {
+        padding-left: 16px;
+    }
+
+    .product-filter-btn.active::before {
+        width: 5px;
+        height: 5px;
+        left: 5px;
+    }
+}
+
+.product-card {
+    background: transparent;
+    border: none;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+}
+
+.product-card-image-wrap {
+    background: #f3f3f3;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+    background: #111;
+    color: #fff;
+    border-radius: 999px;
+    padding: 5px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.product-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease, filter 0.45s ease;
+}
+
+.product-card:hover .product-card-image {
+    transform: scale(1.04);
+    filter: brightness(1.03);
+}
+
+.product-card-body {
+    padding: 14px 0 0;
+}
+
+.product-card-title {
+    margin: 0;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: 21.6px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+
+.product-card-subtitle {
+    margin: 8px 0 10px;
+    color: #cfcfcf;
+    font-size: 14px;
+}
+
+.product-card-price {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product-add-btn {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: transparent;
+    color: #fff;
+    width: 130px;
+    height: 47.61px;
+    margin-top: 10px;
+    border-radius: 100px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.product-add-btn:hover {
+    background: #fff;
+    color: #111;
+}
+
+.product-stories-section {
+    background: #121212;
+    color: #fff;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    margin-top: 42px;
+    padding-top: 46px !important;
+}
+
+.product-stories-title {
+    margin: 0;
+    font-family: "Beausite Fit Trial", sans-serif;
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.product-stories-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.product-stories-cta-row {
+    width: 100%;
+}
+
+.product-stories-cta {
+    color: #111;
+    background: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 13px;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    border-radius: 999px;
+    display: inline-flex;
+    transition: all 0.25s ease;
+}
+
+.product-stories-cta:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.product-marquee-wrapper {
+    overflow: hidden;
+}
+
+.product-marquee-track {
+    display: flex;
+    width: max-content;
+    animation: productMarquee 28s linear infinite;
+}
+
+.product-marquee-track.paused {
+    animation-play-state: paused;
+}
+
+.story-card {
+    width: 300px;
+    min-width: 300px;
+    margin-right: 16px;
+    background: #0f0f0f;
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28);
+}
+
+.story-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.story-content {
+    padding: 14px;
+}
+
+.story-date {
+    margin: 0 0 8px;
+    font-size: 12px;
+    color: #b5b5b5;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.story-footer-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.story-title {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.story-arrow {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1;
+    margin-top: -2px;
+    transition: transform 0.2s ease;
+}
+
+.story-arrow:hover {
+    transform: translateX(2px);
+}
+
+.logo-text,
+.hero-heading,
+.hero-subheading,
+.custom-hero-btn,
+.faq-title,
+.faq-question,
+.product-hero-title,
+.product-card-title,
+.product-stories-title {
+    font-family: "Beausite Classic Medium", "Beausite Fit Trial", sans-serif !important;
+}
+
+@keyframes productMarquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
     }
 }
 

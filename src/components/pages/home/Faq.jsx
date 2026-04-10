@@ -3,9 +3,10 @@
 import { useState } from "react";
 import faqData from "@/data/faq.json";
 
-export default function Faq() {
+export default function Faq({ data }) {
   const [openIndex, setOpenIndex] = useState(null);
-  const { title, items } = faqData;
+  const source = data || faqData;
+  const { title, items } = source;
 
   const toggleItem = (index) => {
     setOpenIndex((prev) => (prev === index ? null : index));

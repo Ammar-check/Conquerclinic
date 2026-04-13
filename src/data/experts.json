@@ -1,16 +1,40 @@
 {
   "title": "MEET OUR\nEXPERTS",
-  "profileImage": "/images/home/teams.png",
-  "doctor": {
-    "name": "Dr. Jon Kheterpal, MD",
-    "role": "Chief Medical Officer",
-    "bio": "Duke University dermatologist shaping Rewinding's approach to skin health and teledermatology."
-  },
-  "avatars": [
-    "/images/home/team-1.png",
-    "/images/home/team-2.png",
-    "/images/home/team-3.png",
-    "/images/home/team-4.png",
-    "/images/home/team-5.png"
+  "testimonials": [
+    {
+      "profileImage": "/images/home/testimonial-1.png",
+      "name": "Dr. Jon Kheterpal, MD",
+      "role": "Chief Medical Officer",
+      "bio": "Duke University dermatologist shaping Conquerclinic's approach to skin health and teledermatology.",
+      "avatar": "/images/home/team-1.png"
+    },
+    {
+      "profileImage": "/images/home/testimonial-2.png",
+      "name": "Dr. Sarah Mitchell, MD",
+      "role": "Dermatology Specialist",
+      "bio": "Harvard Medical School graduate with 15+ years of experience in advanced dermatological care.",
+      "avatar": "/images/home/team-2.png"
+    },
+    {
+      "profileImage": "/images/home/testimonial-3.png",
+      "name": "Dr. James Chen, MD",
+      "role": "Longevity Expert",
+      "bio": "Board-certified in regenerative medicine with focus on preventative health and anti-aging protocols.",
+      "avatar": "/images/home/team-3.png"
+    },
+    {
+      "profileImage": "/images/home/testimonial-4.png",
+      "name": "Dr. Elizabeth Rodriguez, MD",
+      "role": "Wellness Director",
+      "bio": "Integrative medicine practitioner dedicated to optimizing health span and quality of life.",
+      "avatar": "/images/home/team-4.png"
+    },
+    {
+      "profileImage": "/images/home/testimonial-5.png",
+      "name": "Dr. Michael Thompson, MD",
+      "role": "Clinical Research Lead",
+      "bio": "Pioneering research in teledermatology and personalized medicine for modern healthcare.",
+      "avatar": "/images/home/team-5.png"
+    }
   ]
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import FeatureCard from "@/components/resuabale/FeatureCard";
 import resultsData from "@/data/results.json";
 
@@ -8,6 +8,7 @@ export default function ResultsCarousel() {
   const { titlePrefix, titleHighlight, description, cards } = resultsData;
   const carouselRef = useRef(null);
   const loopCards = [...cards, ...cards];
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const carousel = carouselRef.current;
@@ -21,10 +22,12 @@ export default function ResultsCarousel() {
     const resetPoint = carousel.scrollWidth / 2;
 
     const animate = () => {
-      carousel.scrollLeft += speedPerFrame;
+      if (!isPaused) {
+        carousel.scrollLeft += speedPerFrame;
 
-      if (carousel.scrollLeft >= resetPoint) {
-        carousel.scrollLeft -= resetPoint;
+        if (carousel.scrollLeft >= resetPoint) {
+          carousel.scrollLeft -= resetPoint;
+        }
       }
 
       animationId = window.requestAnimationFrame(animate);
@@ -33,7 +36,12 @@ export default function ResultsCarousel() {
     animationId = window.requestAnimationFrame(animate);
 
     return () => window.cancelAnimationFrame(animationId);
-  }, [cards.length]);
+  }, [cards.length, isPaused]);
+
+  const handleMouseEnter = () => setIsPaused(true);
+  const handleMouseLeave = () => setIsPaused(false);
+  const handleMouseDown = () => setIsPaused(true);
+  const handleMouseUp = () => setIsPaused(false);
 
   return (
     <section className="results-section">
@@ -49,6 +57,10 @@ export default function ResultsCarousel() {
           className="results-carousel"
           role="list"
           aria-label="Featured services"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          onMouseDown={handleMouseDown}
+          onMouseUp={handleMouseUp}
         >
           {loopCards.map((card, index) => (
             <div key={`${card.title}-${index}`} className="results-card-item" role="listitem">

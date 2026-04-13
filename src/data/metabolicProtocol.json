@@ -1,0 +1,18 @@
+{
+  "badge": "PRECISION MEDICINE",
+  "heading": "Metabolic Optimization Protocol",
+  "description": "Our advanced protocols combine cutting-edge pharmaceutical interventions with comprehensive metabolic monitoring to optimize body composition, energy systems, and performance markers.",
+  "features": [
+    "Targeted metabolic enhancement through evidence-based protocols",
+    "Continuous biomarker tracking and optimization",
+    "Physician-guided dosing and adjustment protocols"
+  ],
+  "cta": {
+    "label": "Explore Protocols",
+    "href": "#protocols"
+  },
+  "image": {
+    "src": "/images/landing/container.png",
+    "alt": "Metabolic Optimization Visual"
+  }
+}

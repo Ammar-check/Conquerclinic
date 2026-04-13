@@ -1,0 +1,12 @@
+{
+  "badge": {
+    "dot": true,
+    "label": "NOT FOR EVERYONE"
+  },
+  "heading": "Ready to Optimize?",
+  "subheading": "Apply now for a comprehensive performance assessment.",
+  "cta": {
+    "label": "Apply for Optimization",
+    "href": "#apply"
+  }
+}

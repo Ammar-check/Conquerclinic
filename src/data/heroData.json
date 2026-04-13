@@ -1,0 +1,16 @@
+{
+  "badge": {
+    "dot": true,
+    "text": "NOT DESIGNED FOR AVERAGE RESULTS"
+  },
+  "subBadge": "Limited Patient Intake",
+  "headline": {
+    "line1": "This Isn't Telemedicine.",
+    "line2": "This Is Optimization."
+  },
+  "description": "Clinical protocols built for performance, longevity, and measurable results.",
+  "cta": {
+    "label": "Apply for Optimization",
+    "href": "#apply"
+  }
+}

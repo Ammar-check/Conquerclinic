@@ -1621,3 +1621,1057 @@ body {
         padding-top: 14px;
     }
 }
+
+/* ═══════════════════════════════════════════
+   HeroSection.css
+   Matches Figma design: dark bg, gold accents,
+   Inter typography. Fully responsive.
+   ═══════════════════════════════════════════ */
+
+/* ── Section wrapper ── */
+.landing-page .hero-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    overflow: hidden;
+}
+
+/* ── Background image ── */
+.landing-page .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url("/images/landing/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    /* Subtle gold-tinted gradient overlay matching Figma */
+    background-color: rgba(201, 165, 90, 0.03);
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ── Container sitting above bg ── */
+.landing-page .hero-container {
+    position: relative;
+    z-index: 1;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+/* ══════════════════════════════
+   Badge strip
+   ══════════════════════════════ */
+.landing-page .hero-badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2.5rem;
+}
+
+.landing-page .hero-badge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #0f0f0f;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    padding: 0.5rem 1.25rem;
+}
+
+.landing-page .hero-badge-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #c9a55a;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.landing-page .hero-badge-text {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8125rem;   /* 13px */
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+}
+
+.landing-page .hero-sub-badge {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;    /* 14px */
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    margin: 0;
+}
+
+/* ══════════════════════════════
+   Headline
+   ══════════════════════════════ */
+.landing-page .hero-headline {
+    margin-bottom: 1.75rem;
+}
+
+.landing-page .hero-headline-white,
+.landing-page .hero-headline-gold {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+.landing-page .hero-headline-white {
+    color: #ffffff;
+    font-size: clamp(2.25rem, 5.5vw, 4.5rem);  /* scales 36px → 72px */
+    margin-bottom: 0.15em;
+}
+
+.landing-page .hero-headline-gold {
+    color: #c9a55a;
+    font-size: clamp(2.25rem, 5.5vw, 4.5rem);
+}
+
+/* ══════════════════════════════
+   Description
+   ══════════════════════════════ */
+.landing-page .hero-description {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1rem, 2vw, 1.5rem);  /* 16px → 24px */
+    font-weight: 400;
+    line-height: 1.55;
+    max-width: 640px;
+    margin: 0 auto 2.5rem;
+}
+
+/* ══════════════════════════════
+   CTA Button
+   ══════════════════════════════ */
+.landing-page .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #c9a55a;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;          /* 16-18px */
+    font-weight: 500;
+    line-height: 1;
+    padding: 0.85rem 1.75rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.landing-page .hero-cta:hover {
+    background: #b8923f;
+    color: #000000;
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.landing-page .hero-cta:active {
+    transform: translateY(0);
+}
+
+.landing-page .hero-cta-arrow {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.landing-page .hero-cta:hover .hero-cta-arrow {
+    transform: translateX(3px);
+}
+
+/* ══════════════════════════════
+   Responsive overrides
+   ══════════════════════════════ */
+
+/* Tablet */
+@media (max-width: 991px) {
+    .landing-page .hero-container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .landing-page .hero-badge-text {
+        font-size: 0.75rem;
+        letter-spacing: 0.04em;
+    }
+
+    .landing-page .hero-badges {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .landing-page .hero-container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .landing-page .hero-badge-pill {
+        padding: 0.45rem 1rem;
+    }
+
+    .landing-page .hero-badge-text {
+        font-size: 0.6875rem; /* 11px */
+        white-space: normal;
+        text-align: left;
+    }
+
+    .landing-page .hero-description {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .landing-page .hero-cta {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ═══════════════════════════════════════════
+   ChoosePathSection.css
+   Covers both the section wrapper and the
+   reusable PathCard sub-component.
+   ═══════════════════════════════════════════ */
+
+/* ══════════════════════════════
+   Section wrapper
+   ══════════════════════════════ */
+.choose-path-section {
+    background-color: #0f0f0f;
+    padding: 5rem 0;
+}
+
+.choose-path__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+}
+
+/* Outer border wrapping both cards */
+.choose-path__grid {
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+}
+
+/* ══════════════════════════════
+   PathCard
+   ══════════════════════════════ */
+.path-card {
+    position: relative;
+    background: #0f0f0f;
+    padding: 4rem 4rem 4rem 5rem; /* left padding accounts for accent bar */
+    min-height: 440px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Divider between cards — right border on left card only */
+.path-card--border-right {
+    border-right: 1.5px solid rgba(255, 255, 255, 0.10);
+}
+
+/* Gold left accent bar */
+.path-card__accent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #c9a55a;
+}
+
+/* Inner content block */
+.path-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+}
+
+/* ── Label (e.g. FOR MEN) ── */
+.path-card__label {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.25rem;
+}
+
+/* ── Big title (e.g. MAN CONQUER) ── */
+.path-card__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 2rem;
+}
+
+/* ── Feature list ── */
+.path-card__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.path-card__feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+.path-card__feature-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #c9a55a;
+    flex-shrink: 0;
+}
+
+/* ── CTA button ── */
+.path-card__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease;
+    align-self: flex-start;
+}
+
+.path-card__cta:hover {
+    background: #c9a55a;
+    color: #000000;
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.path-card__cta:active {
+    transform: translateY(0);
+}
+
+/* ══════════════════════════════
+   Responsive overrides
+   ══════════════════════════════ */
+
+/* Stack cards vertically on mobile */
+@media (max-width: 767px) {
+    .choose-path-section {
+        padding: 3.5rem 0;
+    }
+
+    .path-card {
+        padding: 3rem 2rem 3rem 3rem;
+        min-height: unset;
+    }
+
+    /* On mobile, show bottom border instead of right border */
+    .path-card--border-right {
+        border-right: none;
+        border-bottom: 1.5px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .path-card__title {
+        font-size: 2rem;
+    }
+
+    .path-card__cta {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .path-card {
+        padding: 2.5rem 1.5rem 2.5rem 2.5rem;
+    }
+}
+
+/* ═══════════════════════════════════════════
+   OptimizationSection.css
+   Covers both the section wrapper and the
+   reusable OptimizationCard sub-component.
+   ═══════════════════════════════════════════ */
+
+/* ══════════════════════════════
+   Section wrapper
+   ══════════════════════════════ */
+.optimization-section {
+    background: rgba(26, 26, 26, 0.30);
+    background-color: #111111; /* fallback so rgba is visible */
+    padding: 5rem 0;
+}
+
+.optimization__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+}
+
+.optimization__subtitle {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 560px;
+    margin: 0 auto 3rem;
+}
+
+/* ══════════════════════════════
+   OptimizationCard
+   ══════════════════════════════ */
+.opt-card {
+    background: #0f0f0f;
+    border-radius: 6px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.opt-card:hover {
+    border-color: rgba(201, 165, 90, 0.40);
+    transform: translateY(-2px);
+}
+
+/* ── Icon box ── */
+.opt-card__icon-wrap {
+    width: 48px;
+    height: 48px;
+    background: rgba(201, 165, 90, 0.10);
+    border: 1.5px solid #c9a55a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    flex-shrink: 0;
+}
+
+/*
+  Gold icon placeholder — replace with an <img> or inline SVG
+  by passing `card.icon` from JSON and rendering it inside OptimizationCard.
+*/
+.opt-card__icon-inner {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: #c9a55a;
+}
+
+/* ── Title ── */
+.opt-card__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.35;
+    margin: 0 0 1rem;
+}
+
+/* ── Description ── */
+.opt-card__description {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 auto; /* push CTA to bottom */
+    padding-bottom: 2rem;
+}
+
+/* ── CTA link ── */
+.opt-card__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease, gap 0.2s ease;
+    align-self: flex-start;
+}
+
+.opt-card__cta:hover {
+    color: #c9a55a;
+    gap: 12px;
+    text-decoration: none;
+}
+
+/* ══════════════════════════════
+   Responsive overrides
+   ══════════════════════════════ */
+@media (max-width: 991px) {
+    .optimization-section {
+        padding: 4rem 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .optimization-section {
+        padding: 3.5rem 0;
+    }
+
+    .optimization__subtitle {
+        margin-bottom: 2rem;
+    }
+
+    .opt-card {
+        padding: 1.75rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .opt-card__title {
+        font-size: 1.25rem;
+    }
+}
+
+/* ═══════════════════════════════════════════
+   ChooseLevelSection.css
+   Covers both the section wrapper and the
+   reusable TierCard sub-component.
+   ═══════════════════════════════════════════ */
+
+/* ══════════════════════════════
+   Section wrapper
+   ══════════════════════════════ */
+.choose-level-section {
+    background-color: #0f0f0f;
+    padding: 5rem 0;
+}
+
+.choose-level-section .container, .optimization-section .container, .choose-path-section .container {
+    margin-bottom: 4rem;
+}
+
+.choose-level__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+}
+
+.choose-level__subtitle {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 480px;
+    margin: 0 auto 3rem;
+}
+
+/* ══════════════════════════════
+   TierCard — base
+   ══════════════════════════════ */
+.tier-card {
+    position: relative;
+    background: #0f0f0f;
+    border-radius: 6px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    padding: 2.25rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: border-color 0.2s ease;
+    overflow: hidden;
+}
+
+/* ── Featured (Tier 02) override ── */
+.tier-card--featured {
+    border-color: #c9a55a;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.40);
+    /* Slightly taller — matches Figma's elevated card */
+    margin-top: -0.75rem;
+    margin-bottom: -0.75rem;
+    padding-bottom: 2.75rem;
+}
+
+/* ── Top accent bar ── */
+.tier-card__top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: #1a1a1a; /* dim bar for standard cards */
+}
+
+.tier-card--featured .tier-card__top-bar {
+    background: #c9a55a; /* gold bar for featured */
+}
+
+/* ── RECOMMENDED badge ── */
+.tier-card__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #c9a55a;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 0.6875rem;   /* 11px */
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 0.3rem 0.75rem;
+    line-height: 1.4;
+}
+
+/* ══════════════════════════════
+   Card header
+   ══════════════════════════════ */
+.tier-card__header {
+    margin-bottom: 2rem;
+}
+
+.tier-card__tier-label {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.25rem;
+}
+
+/* Gold tier label on featured card */
+.tier-card__tier-label--gold {
+    color: #c9a55a;
+}
+
+.tier-card__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 1.875rem;   /* 30px */
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+}
+
+.tier-card__access-label {
+    color: #a1a1a1;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ══════════════════════════════
+   Feature list
+   ══════════════════════════════ */
+.tier-card__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.tier-card__feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.tier-card__check {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+}
+
+/* ══════════════════════════════
+   CTA button
+   ══════════════════════════════ */
+.tier-card__cta {
+    display: block;
+    text-align: center;
+    padding: 0.625rem 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-decoration: none;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: #0f0f0f;
+    color: #ffffff;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.tier-card__cta:hover {
+    border-color: rgba(201, 165, 90, 0.50);
+    color: #c9a55a;
+    text-decoration: none;
+}
+
+/* Gold filled CTA for featured card */
+.tier-card__cta--featured {
+    background: #c9a55a;
+    color: #000000;
+    border-color: #c9a55a;
+}
+
+.tier-card__cta--featured:hover {
+    background: #b8923f;
+    border-color: #b8923f;
+    color: #000000;
+}
+
+/* ══════════════════════════════
+   Responsive overrides
+   ══════════════════════════════ */
+@media (max-width: 991px) {
+    .choose-level-section {
+        padding: 4rem 0;
+    }
+
+    /* Reset featured elevation on tablet/mobile — no room to overlap */
+    .tier-card--featured {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .choose-level-section {
+        padding: 3.5rem 0;
+    }
+
+    .tier-card__title {
+        font-size: 1.5rem;
+    }
+
+    .tier-card__cta {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .tier-card {
+        padding: 2rem 1.5rem 1.75rem;
+    }
+}
+
+/* ─── Brand tokens (extend / override in a global :root if needed) ─── */
+:root {
+    --gold:        #C9A55A;
+    --gold-dim:    rgba(201, 165, 90, 0.30);
+    --gold-border: rgba(201, 165, 90, 0.30);
+    --bg-section:  rgba(26, 26, 26, 0.30);
+    --text-muted-custom: #A1A1A1;
+    --font-primary: 'Inter', sans-serif;
+}
+
+/* ─── Section wrapper ─── */
+.metabolic-section {
+    margin-bottom: 4rem;
+    background: var(--bg-section);
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ─── Left content column ─── */
+.metabolic-content {
+    padding: 4rem 2rem;
+}
+
+.metabolic-inner {
+    padding-left: 4rem;
+    max-width: 608px;
+    width: 100%;
+    margin: 0 auto;          /* centre on small screens */
+}
+
+/* Badge */
+.metabolic-badge {
+    font-family: var(--font-primary);
+    font-size: 0.875rem;     /* 14px */
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    line-height: 1.43;
+}
+
+/* Heading */
+.metabolic-heading {
+    font-family: var(--font-primary);
+    font-size: clamp(2rem, 4vw, 3rem);  /* 48px → fluid */
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+/* Description */
+.metabolic-description {
+    font-family: var(--font-primary);
+    font-size: 1.125rem;     /* 18px */
+    font-weight: 400;
+    line-height: 1.556;
+    color: var(--text-muted-custom);
+    margin-bottom: 2rem;
+}
+
+/* ─── Feature list ─── */
+.metabolic-features {
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    /* gap & mb set inline via Bootstrap utils */
+}
+
+.feature-icon {
+    margin-top: 2px;         /* optical alignment with text baseline */
+}
+
+.feature-text {
+    font-family: var(--font-primary);
+    font-size: 1rem;         /* 16px */
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+/* ─── CTA button ─── */
+.metabolic-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--gold);
+    color: #000000;
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.43;
+    text-decoration: none;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.metabolic-cta:hover {
+    background-color: #b8904a;
+    color: #000000;
+    opacity: 0.92;
+}
+
+.cta-arrow {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.metabolic-cta:hover .cta-arrow {
+    transform: translateX(3px);
+}
+
+/* ─── Right image column ─── */
+.metabolic-image-col {
+    position: relative;
+    min-height: 340px;
+}
+
+.metabolic-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 340px;
+    border: 1.52px solid var(--gold-border);
+}
+
+.metabolic-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gradient overlay from Figma: top-left gold tint → transparent */
+.metabolic-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--gold-dim) 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+}
+
+/* ─── Responsive adjustments ─── */
+
+/* Stack image below on md and smaller */
+@media (max-width: 991.98px) {
+    .metabolic-inner{
+        padding: 0 3rem;
+    }
+    .metabolic-content {
+        padding: 3rem 1.5rem;
+    }
+
+    .metabolic-image-col {
+        min-height: 280px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .metabolic-inner{
+        padding: 0 1rem;
+    }
+    .metabolic-content {
+        padding: 2.5rem 1rem;
+    }
+
+    .metabolic-heading {
+        font-size: 2rem;
+    }
+
+    .metabolic-description {
+        font-size: 1rem;
+    }
+}
+
+/* src/components/sections/ReadyToOptimize/ReadyToOptimize.css */
+
+/* ─── Section wrapper ─── */
+.rto-section {
+    padding: 5rem 1rem;
+    background: transparent;  /* sits on page background like Figma */
+}
+
+.rto-inner {
+    max-width: 896px;
+    margin: 0 auto;
+}
+
+/* ─── Badge pill ─── */
+.rto-badge {
+    background: #0F0F0F;
+    outline: 1.52px solid rgba(255, 255, 255, 0.10);
+    padding: 0.5rem 1rem 0.5rem 0.75rem;
+    /* no border-radius — sharp rect matching Figma */
+}
+
+.rto-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #C9A55A;
+    flex-shrink: 0;
+}
+
+.rto-badge-label {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 0.875rem;       /* 14px */
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.025em;
+    color: #A1A1A1;
+}
+
+/* ─── Heading ─── */
+.rto-heading {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(2rem, 5vw, 3rem);   /* 48px fluid */
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+/* ─── Subheading ─── */
+.rto-subheading {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 1.25rem;        /* 20px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: #A1A1A1;
+    margin-bottom: 2.5rem;
+}
+
+/* ─── CTA button ─── */
+.rto-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.25rem;
+    background-color: #C9A55A;
+    color: #000000;
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 1.125rem;       /* 18px */
+    font-weight: 500;
+    line-height: 1.556;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.rto-cta:hover {
+    background-color: #b8904a;
+    color: #000000;
+}
+
+.rto-cta .cta-arrow {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.rto-cta:hover .cta-arrow {
+    transform: translateX(3px);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 575.98px) {
+    .rto-section {
+        padding: 3.5rem 1rem;
+    }
+
+    .rto-subheading {
+        font-size: 1.0625rem;
+    }
+
+    .rto-cta {
+        font-size: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+}

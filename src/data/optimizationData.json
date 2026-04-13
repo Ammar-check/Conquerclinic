@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "What Are You Optimizing?",
+  "subtitle": "Select your optimization path based on your performance goals",
+  "cards": [
+    {
+      "id": "hormonal",
+      "title": "Hormonal Optimization",
+      "description": "Precision hormone protocols designed to restore peak vitality, drive, and physical performance.",
+      "cta": { "label": "Learn More", "href": "#hormonal" }
+    },
+    {
+      "id": "body-composition",
+      "title": "Body Composition",
+      "description": "Metabolic optimization protocols targeting sustainable fat loss and muscle retention.",
+      "cta": { "label": "Learn More", "href": "#body-composition" }
+    },
+    {
+      "id": "performance",
+      "title": "Performance Restoration",
+      "description": "Clinical interventions to restore and enhance physical capability and confidence.",
+      "cta": { "label": "Learn More", "href": "#performance" }
+    }
+  ]
+}

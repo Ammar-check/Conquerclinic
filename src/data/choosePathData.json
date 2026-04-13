@@ -1,0 +1,19 @@
+{
+  "sectionTitle": "Choose Your Path",
+  "paths": [
+    {
+      "id": "men",
+      "label": "FOR MEN",
+      "title": "MAN CONQUER",
+      "features": ["Performance", "Strength", "Control"],
+      "cta": { "label": "Enter", "href": "#men" }
+    },
+    {
+      "id": "women",
+      "label": "FOR WOMEN",
+      "title": "LADY CONQUER",
+      "features": ["Balance", "Confidence", "Longevity"],
+      "cta": { "label": "Enter", "href": "#women" }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "sectionTitle": "Choose Your Level",
+  "subtitle": "Structured pathways to performance optimization",
+  "tiers": [
+    {
+      "id": "foundation",
+      "tier": "TIER 01",
+      "title": "Foundation",
+      "accessLabel": "Basic access",
+      "featured": false,
+      "features": [
+        "Initial consultation & assessment",
+        "Basic lab work analysis",
+        "Standard protocol development",
+        "Quarterly follow-ups"
+      ],
+      "cta": { "label": "Apply", "href": "#foundation" }
+    },
+    {
+      "id": "performance",
+      "tier": "TIER 02",
+      "title": "Performance",
+      "accessLabel": "Monthly protocol",
+      "featured": true,
+      "badge": "RECOMMENDED",
+      "features": [
+        "Comprehensive optimization assessment",
+        "Advanced biomarker testing",
+        "Personalized protocol management",
+        "Monthly monitoring & adjustments",
+        "Priority support access"
+      ],
+      "cta": { "label": "Apply", "href": "#performance" }
+    },
+    {
+      "id": "elite",
+      "tier": "TIER 03",
+      "title": "Elite",
+      "accessLabel": "Concierge / High-ticket",
+      "featured": false,
+      "features": [
+        "White-glove concierge service",
+        "Cutting-edge optimization protocols",
+        "24/7 direct physician access",
+        "Weekly optimization reviews",
+        "Exclusive treatment access"
+      ],
+      "cta": { "label": "Apply", "href": "#elite" }
+    }
+  ]
+}

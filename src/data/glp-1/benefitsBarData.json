@@ -1,0 +1,19 @@
+{
+  "benefits": [
+    {
+      "id": "mood-libido",
+      "title": "Elevate Mood & Libido",
+      "description": "Supports healthy testosterone levels to enhance mood, energy, and sexual wellness."
+    },
+    {
+      "id": "mental-health",
+      "title": "Enhance Mental Health",
+      "description": "Alleviates symptoms of depression, anxiety, and mental fog."
+    },
+    {
+      "id": "long-term-health",
+      "title": "Support Long-Term Health",
+      "description": "Helps maintain muscle mass, bone density, and metabolic function for healthy aging."
+    }
+  ]
+}

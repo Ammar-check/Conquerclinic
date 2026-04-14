@@ -443,7 +443,6 @@ body {
     font-style: normal;
     line-height: 100%;
     letter-spacing: 0;
-    text-align: center;
 }
 
 .faq-icon {
@@ -2570,8 +2569,6 @@ body {
     }
 }
 
-/* src/components/sections/ReadyToOptimize/ReadyToOptimize.css */
-
 /* ─── Section wrapper ─── */
 .rto-section {
     padding: 5rem 1rem;
@@ -2673,5 +2670,1179 @@ body {
         font-size: 1rem;
         width: 100%;
         justify-content: center;
+    }
+}
+
+.bg-body-custom {
+    background-color: #141414;
+}
+
+/* ═══════════════════════════════════════════
+   ProductShowcaseSection.css
+   Covers the section, image column, product
+   card, and StarRating sub-component.
+   ═══════════════════════════════════════════ */
+
+/* ══════════════════════════════
+   Section wrapper
+   ══════════════════════════════ */
+.product-showcase-section {
+    position: relative;
+    background-color: #1a1817;
+    overflow: hidden;
+    padding: 5rem 0;
+}
+
+/* Radial dark vignette — matches Figma gradient */
+.product-showcase__vignette {
+    position: absolute;
+    width: 80vw;
+    height: 80vw;
+    max-width: 900px;
+    max-height: 900px;
+    left: -8%;
+    top: -5%;
+    background: radial-gradient(
+            ellipse 70% 70% at 50% 50%,
+            rgba(0, 0, 0, 0.85) 30%,
+            rgba(0, 0, 0, 0) 74%
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+.product-showcase__container {
+    position: relative;
+    z-index: 1;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ══════════════════════════════
+   Image column
+   ══════════════════════════════ */
+.product-showcase__image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.product-showcase__image-wrap {
+    position: relative;
+    display: inline-block;
+    max-width: 560px;
+    width: 100%;
+}
+
+.product-showcase__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* ── Product image label overlays ── */
+.product-showcase__image-labels {
+    position: absolute;
+    bottom: 12%;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    pointer-events: none;
+}
+
+.pil {
+    display: block;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #2e2d2d;
+    white-space: nowrap;
+}
+
+.pil--brand {
+    font-size: clamp(0.75rem, 1.2vw, 1rem);
+    font-weight: 400;
+    font-family: "Bebas Neue", "Inter", sans-serif;
+}
+
+.pil--type {
+    font-size: clamp(0.7rem, 1.1vw, 0.95rem);
+    font-weight: 400;
+    color: #686767;
+    font-family: "Beiruti", "Inter", sans-serif;
+}
+
+.pil--variant,
+.pil--sub-variant {
+    font-size: clamp(0.65rem, 1vw, 0.875rem);
+    font-weight: 400;
+    font-family: "Beiruti", "Inter", sans-serif;
+}
+
+/* ══════════════════════════════
+   Product card column
+   ══════════════════════════════ */
+.product-showcase__card-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 2.25rem 2.5rem;
+    max-width: 560px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ── Meta row: stars + HSA ── */
+.product-card__meta-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.product-card__hsa {
+    background: #e6f5f1;
+    color: #c9a55a;
+    font-family: "Inter", sans-serif;
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    line-height: 1.2;
+}
+
+/* ── Tags row: category + requirement ── */
+.product-card__tags-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.product-card__category {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.product-card__req-badge {
+    background: #eeeeee;
+    color: #474747;
+    font-family: "Inter", sans-serif;
+    font-size: 0.625rem;
+    font-weight: 400;
+    padding: 0.25rem 0.625rem;
+    border-radius: 50px;
+    line-height: 1.4;
+}
+
+/* ── Title ── */
+.product-card__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0;
+}
+
+/* ── Description ── */
+.product-card__description {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* ── CTAs ── */
+.product-card__ctas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.product-card__cta {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.product-card__cta:hover {
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+.product-card__cta--primary {
+    background: #ffffff;
+    color: #333333;
+}
+
+.product-card__cta--primary:hover {
+    background: #f0f0f0;
+    color: #333333;
+}
+
+.product-card__cta--secondary {
+    background: #ffffff;
+    color: #333333;
+    opacity: 0.65;
+}
+
+.product-card__cta--secondary:hover {
+    opacity: 0.85;
+    color: #333333;
+}
+
+/* ── Safety link ── */
+.product-card__safety-link {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.625rem;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.product-card__safety-link:hover {
+    color: #c9a55a;
+    text-decoration: underline;
+}
+
+/* ── Fine print ── */
+.product-card__fine-print {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.75;
+}
+
+.product-card__fine-print-link {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: inherit;
+}
+
+.product-card__fine-print-link:hover {
+    color: #c9a55a;
+}
+
+/* ══════════════════════════════
+   StarRating sub-component
+   ══════════════════════════════ */
+.star-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.star-rating__count {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.star-rating__stars {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.star-rating__star {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+}
+
+.star-rating__score {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.625rem;
+    font-weight: 500;
+}
+
+/* ══════════════════════════════
+   Responsive overrides
+   ══════════════════════════════ */
+@media (max-width: 991px) {
+    .product-showcase-section {
+        padding: 4rem 0;
+    }
+
+    .product-showcase__image-col,
+    .product-showcase__card-col {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-showcase-section {
+        padding: 3rem 0;
+    }
+
+    .product-showcase__container {
+        padding: 0 1rem;
+    }
+
+    .product-card {
+        padding: 1.75rem 1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .product-card__cta {
+        padding: 0.875rem;
+    }
+
+    .product-card__title {
+        font-size: 1.375rem;
+    }
+
+    .product-showcase__container {
+         margin-top: 4rem;
+    }
+}
+
+/* ═══════════════════════════════════════════
+   BenefitsBar.css
+   Covers the section wrapper, column dividers,
+   and the inline BenefitItem sub-component.
+   ═══════════════════════════════════════════ */
+
+/* ══════════════════════════════
+   Section wrapper
+   ══════════════════════════════ */
+.benefits-bar {
+    background-color: #2c2b2b;
+    padding: 3.5rem 0;
+}
+
+/* ══════════════════════════════
+   Column + divider
+   ══════════════════════════════ */
+.benefits-bar__col {
+    position: relative;
+}
+
+/* Vertical divider rendered as ::after on non-last columns */
+.benefits-bar__col--divided::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* ══════════════════════════════
+   BenefitItem
+   ══════════════════════════════ */
+.benefit-item {
+    text-align: center;
+    padding: 0.5rem 2rem;
+}
+
+.benefit-item__title {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.8125rem, 1.2vw, 0.875rem);
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 0.5rem;
+}
+
+.benefit-item__description {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.75rem, 1.1vw, 0.8125rem);
+    font-weight: 400;
+    line-height: 1.65;
+    margin: 0;
+    opacity: 0.85;
+}
+
+/* ══════════════════════════════
+   Responsive overrides
+   ══════════════════════════════ */
+
+/* On tablet/mobile: hide vertical dividers, add bottom border instead */
+@media (max-width: 767px) {
+    .benefits-bar {
+        padding: 2.5rem 0;
+    }
+
+    .benefits-bar__col--divided::after {
+        display: none;
+    }
+
+    .benefits-bar__col--divided {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        padding-bottom: 1.75rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .benefit-item {
+        padding: 0 1rem;
+    }
+}
+
+/* ─── Section wrapper ─── */
+.pricing-section {
+    background-color: #141414;
+    width: 100%;
+}
+
+.pricing-container {
+    padding: 80px 76px 60px;
+}
+
+/* ─── Left column ─── */
+.pricing-left {
+    padding-right: 2rem;
+}
+
+/* Sticky so it stays in view while scrolling the card grid on larger screens */
+.pricing-left__inner {
+    position: sticky;
+    top: 100px;
+    padding-bottom: 2rem;
+}
+
+.pricing-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.5rem, 2.5vw, 1.875rem); /* 30px */
+    font-weight: 700;
+    line-height: 1.33;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-description {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1rem, 1.8vw, 2rem);        /* fluid toward 32px */
+    font-weight: 400;
+    line-height: 1.25;
+    color: #737373;
+    margin-bottom: 0;
+}
+
+/* ─── Right column ─── */
+.pricing-right {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+/* Each horizontal pair of cards */
+.med-grid-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;          /* wrap to single column on sm */
+}
+
+/* ─── MedicationCard ─── */
+.med-card {
+    flex: 1 1 260px;          /* grow/shrink, minimum 260px */
+    max-width: 312px;
+    background: #F7F7F7;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header area */
+.med-card__header {
+    padding: 24px 16px 0;
+}
+
+.med-card__name {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;     /* ~15px */
+    font-weight: 500;
+    line-height: 1.1;
+    color: #363636;
+    margin-bottom: 0.5rem;
+}
+
+.med-card__desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;       /* 12px */
+    font-weight: 400;
+    line-height: 1.83;
+    color: #787878;
+    margin-bottom: 0;
+}
+
+/* Image */
+.med-card__img-wrap {
+    padding: 16px 16px 0;
+}
+
+.med-card__img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Pricing rows */
+.med-card__pricing {
+    margin: 0 16px;
+    padding-top: 16px;
+    border-top: 1px solid #D9D9D9;
+    margin-top: 16px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.med-card__pricing-row {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.med-card__form {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6625rem;     /* ~10.6px */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    line-height: 1.53;
+    color: #444444;
+    min-width: 100px;         /* aligns price column */
+}
+
+.med-card__price {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.675rem;      /* ~10.8px */
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    line-height: 1.5;
+    color: #363636;
+}
+
+/* ─── Bottom divider ─── */
+.pricing-divider {
+    width: 100%;
+    height: 1px;
+    background: #BBBBBB;
+    margin-top: 60px;
+}
+
+/* ─── Responsive ─── */
+
+/* md: loosen padding */
+@media (max-width: 991.98px) {
+    .pricing-container {
+        padding: 60px 40px 48px;
+    }
+
+    .pricing-left {
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .pricing-left__inner {
+        position: static;
+    }
+
+    .pricing-description {
+        font-size: 1.125rem;
+    }
+
+    .med-grid-row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .pricing-container {
+        padding: 48px 20px 40px;
+    }
+
+    .med-card {
+        max-width: 100%;
+    }
+
+    .med-grid-row {
+        gap: 20px;
+    }
+}
+
+/* ─── Section wrapper ─── */
+.hrt-stats-section {
+    background-color: #141414;
+    padding: 4rem 0 0;
+    position: relative;
+}
+
+/* ─── Headline ─── */
+.hrt-stats__headline {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(1.1rem, 2vw, 1.43rem);   /* ~22.9px at full width */
+    font-weight: 400;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 1.25rem;
+}
+
+/* ─── Sub-headline ─── */
+.hrt-stats__subheadline {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(0.875rem, 1.2vw, 0.944rem);  /* ~15.1px */
+    font-weight: 400;
+    line-height: 1.59;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+/* ─── Circles row ─── */
+.hrt-stats__circles-row {
+    margin-bottom: 3.5rem;
+}
+
+/* ─── StatCircle wrapper ─── */
+.stat-circle-wrapper {
+    gap: 1.25rem;
+}
+
+/* ─── Circle shell ─── */
+.stat-circle {
+    position: relative;
+    width: 294px;
+    height: 294px;
+    flex-shrink: 0;
+}
+
+/* Base / track ring — grey */
+.stat-circle__track {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 6px solid #BBBBBB;
+}
+
+/* Accent ring — coloured (matches Figma overlay) */
+.stat-circle__accent {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 6px solid var(--accent, #BACDFF);
+    /* Clip to only top-left arc so the grey shows through on the rest.
+       Rotate so the accent arc starts at the top. */
+    clip-path: inset(0 50% 0 0);   /* half circle — adjust per design intent */
+}
+
+/* Inner centred content */
+.stat-circle__inner {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 0.125rem;
+}
+
+/* Big number */
+.stat-circle__value {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(3rem, 5vw, 4.075rem);   /* ~65px */
+    font-weight: 400;
+    line-height: 1;
+    color: #ffffff;
+}
+
+/* % superscript */
+.stat-circle__percent {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111111;
+    align-self: flex-start;
+    margin-top: 0.5rem;
+}
+
+/* Label under circle */
+.stat-circle__label {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(0.875rem, 1.2vw, 0.9438rem);  /* ~15.1px */
+    font-weight: 400;
+    line-height: 1.625;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+/* ─── Bottom divider ─── */
+.hrt-stats__divider {
+    height: 1px;
+    background: #BBBBBB;
+    margin: 80px 76px 60px;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 991.98px) {
+    .stat-circle {
+        width: 240px;
+        height: 240px;
+    }
+
+    .hrt-stats__divider {
+        margin: 60px 40px 48px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hrt-stats-section {
+        padding: 2.5rem 0 0;
+    }
+
+    .stat-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .stat-circle__value {
+        font-size: 3rem;
+    }
+
+    .hrt-stats__divider {
+        margin: 48px 20px 40px;
+    }
+}
+
+/* ─── Section wrapper ─── */
+.transparent-pricing-section {
+    background-color: #141414;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ─── Left content column ─── */
+.transparent-pricing-content {
+    padding: 5rem 3rem 5rem 1rem;
+}
+
+.transparent-pricing-inner {
+    max-width: 440px;
+    width: 100%;
+}
+
+/* ─── Heading ─── */
+.transparent-pricing-heading {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(1.5rem, 2.5vw, 1.863rem);  /* ~29.8px */
+    font-weight: 400;
+    line-height: 1.34;
+    color: #363636;
+    margin-bottom: 1.5rem;
+}
+
+/* ─── Description ─── */
+.transparent-pricing-description {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(0.875rem, 1.2vw, 0.956rem);  /* ~15.3px */
+    font-weight: 400;
+    line-height: 1.438;
+    color: #737373;
+    margin-bottom: 1.25rem;
+}
+
+/* ─── "Here's what's included" label ─── */
+.transparent-pricing-included__label {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 0.9375rem;   /* 15px */
+    font-weight: 400;
+    line-height: 1.467;
+    color: #737373;
+    margin-bottom: 0.75rem;
+}
+
+/* ─── Included list ─── */
+.transparent-pricing-included__list {
+    margin-bottom: 2rem;
+}
+
+.transparent-pricing-included__item {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 0.956rem;   /* ~15.3px */
+    font-weight: 400;
+    line-height: 1.5;
+    color: #737373;
+    padding: 0.25rem 0;
+}
+
+.transparent-pricing-included__bullet {
+    font-size: 1rem;
+    color: #737373;
+    line-height: 1;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.transparent-pricing-included__text {
+    color: #737373;
+}
+
+/* ─── CTA button ─── */
+.transparent-pricing-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 2.5rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    color: #363636;
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 0.763rem;   /* ~12.2px */
+    font-weight: 400;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.transparent-pricing-cta:hover {
+    background-color: #363636;
+    color: #ffffff;
+}
+
+/* ─── Right image column ─── */
+.transparent-pricing-image-col {
+    position: relative;
+    min-height: 420px;
+}
+
+.transparent-pricing-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.transparent-pricing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+/* Dark overlay matching Figma rgba(0,0,0,0.20) */
+.transparent-pricing-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 991.98px) {
+    .transparent-pricing-content {
+        padding: 3rem 1.5rem;
+    }
+
+    .transparent-pricing-inner {
+        max-width: 100%;
+    }
+
+    .transparent-pricing-image-col {
+        min-height: 320px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .transparent-pricing-content {
+        padding: 2.5rem 1rem;
+    }
+
+    .transparent-pricing-heading {
+        font-size: 1.5rem;
+    }
+
+    .transparent-pricing-image-col {
+        min-height: 260px;
+    }
+}
+
+/* =============================================
+   WhatIsPerimenopause Section Styles
+   ============================================= */
+
+.perimenopause-section {
+    background-color: #141414;
+    padding: 80px 0 72px;
+}
+
+/* Heading */
+.perimenopause-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.5rem, 3vw, 1.9rem);
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+/* Description */
+.perimenopause-description {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.875rem, 1.5vw, 0.9375rem);
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.65;
+    max-width: 540px;
+    margin: 0 auto 48px;
+}
+
+/* Cards grid wrapper */
+.symptom-cards-grid {
+    row-gap: 16px;
+}
+
+/* Individual card */
+.symptom-card {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    padding: 20px;
+    height: 88px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.symptom-card:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+/* Icon wrapper — gold/lavender blend circle */
+.symptom-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    border-radius: 50%;
+    background: rgba(201, 165, 90, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.symptom-icon-wrapper::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: rgba(186, 205, 255, 0.5);
+    mix-blend-mode: screen;
+}
+
+.symptom-icon-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card label */
+.symptom-label {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+    font-weight: 500;
+    color: #363636;
+    line-height: 1.2;
+}
+
+/* Arrow box */
+.symptom-arrow {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =============================================
+   Responsive overrides
+   ============================================= */
+
+@media (max-width: 767.98px) {
+    .perimenopause-section {
+        padding: 56px 0 56px;
+    }
+
+    .perimenopause-description {
+        margin-bottom: 32px;
+    }
+
+    .symptom-card {
+        height: auto;
+        min-height: 72px;
+        padding: 16px;
+    }
+}
+
+/* =============================================
+   MenopauseStats Section Styles
+   ============================================= */
+
+.menopause-stats-section {
+    background-color: #141414;
+    padding: 80px 0 72px;
+}
+
+/* Description paragraph */
+.menopause-stats-description {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.1rem, 2.4vw, 1.9rem);
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.65;
+    max-width: 940px;
+    margin: 0 auto 56px;
+}
+
+/* Stat block wrapper */
+.menopause-stat-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Number + suffix row */
+.menopause-stat-figure {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1;
+    gap: 2px;
+}
+
+.menopause-stat-number {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(5rem, 14vw, 9rem);
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.menopause-stat-suffix {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(3rem, 8vw, 6.25rem);
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1;
+    /* nudge suffix to sit at the top of the number, matching Figma baseline */
+    padding-top: 0.15em;
+}
+
+/* Stat label */
+.menopause-stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1.0625rem);
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.55;
+    text-align: center;
+}
+
+/* =============================================
+   Responsive overrides
+   ============================================= */
+
+@media (max-width: 767.98px) {
+    .menopause-stats-section {
+        padding: 56px 0;
+    }
+
+    .menopause-stats-description {
+        margin-bottom: 40px;
+    }
+}
+
+/* =============================================
+   YouMightLike Section Styles
+   ============================================= */
+
+.you-might-like-section {
+    background-color: #141414;
+    padding: 80px 0 72px;
+}
+
+/* Section heading */
+.you-might-like-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 48px;
+}
+
+/* Cards row gap */
+.you-might-like-grid {
+    row-gap: 32px;
+}
+
+/* =============================================
+   Responsive overrides
+   ============================================= */
+
+@media (max-width: 767.98px) {
+    .you-might-like-section {
+        padding: 56px 0;
+    }
+
+    .you-might-like-heading {
+        margin-bottom: 32px;
+        text-align: center;
     }
 }

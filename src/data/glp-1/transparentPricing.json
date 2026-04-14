@@ -1,0 +1,18 @@
+{
+  "heading": "We're all in—transparent pricing at $50/month",
+  "description": "HRT requires ongoing care. Dosing and application methods evolve with your journey. For $50/month (billed quarterly), all follow-up labs and clinician visits are included. Medications are billed separately and are delivered to your door.",
+  "includedLabel": "Here's what's included:",
+  "includedItems": [
+    "Synchronous Clinician Visits",
+    "Regular Hormone Labs",
+    "Coach & Care Team Check-ins"
+  ],
+  "cta": {
+    "label": "Get Started",
+    "href": "#get-started"
+  },
+  "image": {
+    "src": "/images/glp-1/women-smiling.png",
+    "alt": "Pricing visual"
+  }
+}

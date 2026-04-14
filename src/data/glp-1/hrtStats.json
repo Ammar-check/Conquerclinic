@@ -1,0 +1,24 @@
+{
+  "headline": "40% of women report a negative impact from menopause on their romantic relationships, and 27% say it has affected their overall well-being.",
+  "subheadline": "But, a survey of Joi patients on HRT for at least six months shows exciting improvements.",
+  "stats": [
+    {
+      "id": 1,
+      "value": 53,
+      "label": "saw increased energy levels",
+      "accentColor": "#BACDFF"
+    },
+    {
+      "id": 2,
+      "value": 37,
+      "label": "experienced better sleep",
+      "accentColor": "#BACDFF"
+    },
+    {
+      "id": 3,
+      "value": 35,
+      "label": "reported higher libido",
+      "accentColor": "#BACDFF"
+    }
+  ]
+}

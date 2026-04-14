@@ -1,0 +1,60 @@
+{
+  "heading": "No hidden fees, ever.",
+  "description": "HRT is an ongoing process. Dosing and application evolve with your journey. For $50/month (billed quarterly), all labs and clinician visits are included. Medications are billed separately per your treatment plan. Everything ships and bills quarterly. Cancel anytime after the first 3 months.",
+  "divider": true,
+  "medications": [
+    {
+      "id": "testosterone",
+      "name": "Testosterone",
+      "description": "Plays a key role in maintaining muscle mass, bone density, and a healthy libido.",
+      "image": {
+        "src": "/images/glp-1/testosterone.png",
+        "alt": "Testosterone medication"
+      },
+      "options": [
+        { "form": "Injection", "price": "$59/mo" },
+        { "form": "Cream",    "price": "$69/mo" }
+      ]
+    },
+    {
+      "id": "vaginal-estrogen",
+      "name": "Vaginal Estrogen",
+      "description": "Alleviates symptoms of vaginal atrophy, such as dryness, itching, and discomfort during intercourse.",
+      "image": {
+        "src": "/images/glp-1/vaginal-estrogen.png",
+        "alt": "Vaginal Estrogen medication"
+      },
+      "options": [
+        { "form": "Cream",       "price": "$69/mo" },
+        { "form": "Suppository", "price": "$89/mo" }
+      ]
+    },
+    {
+      "id": "progesterone",
+      "name": "Progesterone",
+      "description": "Influences mood, sleep, and overall well-being by balancing the effects of estrogen.",
+      "image": {
+        "src": "/images/glp-1/progesterone.png",
+        "alt": "Progesterone medication"
+      },
+      "options": [
+        { "form": "Capsule", "price": "$54/mo" },
+        { "form": "Cream",   "price": "$69/mo" }
+      ]
+    },
+    {
+      "id": "systemic-estrogen",
+      "name": "Systemic Estrogen",
+      "description": "Supports heart, brain, and bone health while helping to regulate stress.",
+      "image": {
+        "src": "/images/glp-1/systemic-estrogen.png",
+        "alt": "Systemic Estrogen medication"
+      },
+      "options": [
+        { "form": "Capsule", "price": "$49/mo" },
+        { "form": "Cream",   "price": "$69/mo" },
+        { "form": "Patch",   "price": "$89/mo" }
+      ]
+    }
+  ]
+}

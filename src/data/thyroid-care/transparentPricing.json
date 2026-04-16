@@ -1,0 +1,17 @@
+{
+  "heading": "Reliable care, transparent price—$99/month",
+  "description": "Ongoing care is just $99/month, billed quarterly, with no membership or hidden fees. You can cancel anytime—no strings attached. This includes:",
+  "includedLabel": "",
+  "includedItems": [
+    "Ongoing advanced lab panels (71 biomarkers)",
+    "Regular clinician follow-ups"
+  ],
+  "cta": {
+    "label": "Get Started",
+    "href": "#get-started"
+  },
+  "image": {
+    "src": "/images/thyroid-care/thyroid-pharmacy.png",
+    "alt": "Thyroid care prescription delivery visual"
+  }
+}

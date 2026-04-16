@@ -1,0 +1,19 @@
+{
+  "benefits": [
+    {
+      "id": "clinically-proven-support",
+      "title": "Clinically Proven Support",
+      "description": "Designed to support weight management and metabolic health."
+    },
+    {
+      "id": "appetite-metabolic-optimization",
+      "title": "Appetite & Metabolic Optimization",
+      "description": "Helps regulate appetite, improve metabolic function, and promote sustained weight loss."
+    },
+    {
+      "id": "personalized-guidance",
+      "title": "Personalized Guidance",
+      "description": "Ongoing support from a dedicated health coach to help optimize your treatment."
+    }
+  ]
+}

@@ -8,6 +8,11 @@ import WhatIsPerimenopause from "@/components/pages/glp-1/WhatIsPerimenopause";
 import MenopauseStats from "@/components/pages/glp-1/MenopauseStats";
 import Faq from "@/components/pages/home/Faq";
 import YouMightLike from "@/components/pages/glp-1/YouMightLike";
+import productShowcaseData from "@/data/glp-1/productShowcaseData.json";
+import benefitsBarData from "@/data/glp-1/benefitsBarData.json";
+import transparentPricingData from "@/data/glp-1/transparentPricing.json";
+import youMightLikeData from "@/data/glp-1/youMightLike.json";
+import menopauseStatData from "@/data/glp-1/menopauseStats.json";
 
 export default function Homepage() {
   return (
@@ -15,15 +20,15 @@ export default function Homepage() {
       <Navbar />
       <main>
         <div className="bg-body-custom">
-            <ProductShowcaseSection />
-            <BenefitsBar />
+            <ProductShowcaseSection productShowcaseData={productShowcaseData} />
+            <BenefitsBar benefitsBarData={benefitsBarData}/>
             <Pricing />
             <HRTStats />
-            <TransparentPricing />
+            <TransparentPricing transparentPricingData={transparentPricingData}/>
             <WhatIsPerimenopause />
-            <MenopauseStats />
+            <MenopauseStats menopauseStatData={menopauseStatData} />
             <Faq />
-            <YouMightLike />
+            <YouMightLike youMightLikeData={youMightLikeData} />
         </div>
       </main>
     </>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import StarRating from "@/components/resuabale/StarRating";
-import productShowcaseData from "@/data/glp-1/productShowcaseData.json";
 
 /**
  * ProductShowcaseSection
@@ -12,7 +11,7 @@ import productShowcaseData from "@/data/glp-1/productShowcaseData.json";
  * Reusable sub-component: StarRating (ui/)
  * Data source: src/data/productShowcaseData.json
  */
-const ProductShowcaseSection = () => {
+const ProductShowcaseSection = ({ productShowcaseData }) => {
     const { product, card } = productShowcaseData;
 
     return (
@@ -45,7 +44,9 @@ const ProductShowcaseSection = () => {
                             {/* Row 2: category + requirement badge */}
                             <div className="product-card__tags-row">
                                 <span className="product-card__category">{card.category}</span>
-                                <span className="product-card__req-badge">{card.requirementBadge}</span>
+                                {card.requirementBadge && (
+                                    <span className="product-card__req-badge">{card.requirementBadge}</span>
+                                )}
                             </div>
 
                             {/* Product title */}
@@ -59,9 +60,11 @@ const ProductShowcaseSection = () => {
                                 <a href={card.primaryCta.href} className="product-card__cta product-card__cta--primary">
                                     {card.primaryCta.label}
                                 </a>
-                                <a href={card.secondaryCta.href} className="product-card__cta product-card__cta--secondary">
-                                    {card.secondaryCta.label}
-                                </a>
+                                {card.secondaryCta?.label && (
+                                    <a href={card.secondaryCta.href} className="product-card__cta product-card__cta--secondary">
+                                        {card.secondaryCta.label}
+                                    </a>
+                                )}
                             </div>
 
                             {/* Safety link */}

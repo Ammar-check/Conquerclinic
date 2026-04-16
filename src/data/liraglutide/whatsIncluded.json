@@ -1,0 +1,41 @@
+{
+  "heading": "What's included?",
+  "items": [
+    {
+      "id": 1,
+      "iconId": "clinicians",
+      "title": "Board-Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": 2,
+      "iconId": "coaching",
+      "title": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": 3,
+      "iconId": "lifestyle",
+      "title": "Lifestyle & Nutrition Support",
+      "description": "Holistic recommendations for diet, exercise, and lifestyle modifications."
+    },
+    {
+      "id": 4,
+      "iconId": "convenience",
+      "title": "Convenience of Care",
+      "description": "Hassle-free treatment with medications delivered straight to your door."
+    },
+    {
+      "id": 5,
+      "iconId": "messaging",
+      "title": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": 6,
+      "iconId": "community",
+      "title": "Community",
+      "description": "Support from others on the same journey—feeling better, together."
+    }
+  ]
+}

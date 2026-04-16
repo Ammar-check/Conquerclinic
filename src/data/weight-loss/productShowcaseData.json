@@ -1,0 +1,31 @@
+{
+  "product": {
+    "image": "/images/glp-1/product.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+    "reviews": {
+      "count": "1,290",
+      "rating": "4.6"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Weight Loss",
+    "requirementBadge": "",
+    "title": "Zepbound® Weight Loss Program",
+    "description": "Zepbound® (tirzepatide injection) is the newest FDA-approved GLP-1 medication, targeting both GLP-1 and GIP to help you achieve your weight loss and health goals.",
+    "primaryCta": {
+      "label": "Add to Cart - $297",
+      "href": "#add-to-cart"
+    },
+    "secondaryCta": {
+      "label": "",
+      "href": ""
+    },
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "Medication is not included in the Zepbound® Weight Loss Program. Payment for medication is made through Lily Direct. Pricin ...",
+    "finePrintLink": "Read more"
+  }
+}

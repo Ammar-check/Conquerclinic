@@ -1,0 +1,20 @@
+{
+  "heading": "Cravings, meet your match",
+  "description": "Stop fighting the weight battle alone. Liraglutide is here to help you take control of your body with real, lasting results.",
+  "includedLabel": "",
+  "includedItems": [
+    "Promotes weight loss",
+    "Helps lower BMI",
+    "Regulates insulin levels",
+    "Supports lower blood pressure",
+    "Reduces waist size"
+  ],
+  "cta": {
+    "label": "Get started",
+    "href": "#get-started"
+  },
+  "image": {
+    "src": "/images/liraglutide/liraglutide.png",
+    "alt": "Liraglutide treatment"
+  }
+}

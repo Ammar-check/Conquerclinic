@@ -1,0 +1,19 @@
+{
+  "benefits": [
+    {
+      "id": "restore-energy-metabolism",
+      "title": "Restore Energy & Metabolism",
+      "description": "Boost energy levels, regulate metabolism, and improve weight management."
+    },
+    {
+      "id": "enhance-mood",
+      "title": "Enhance Mood",
+      "description": "Helps reduce brain fog, anxiety, and mood swings."
+    },
+    {
+      "id": "support-overall-well-being",
+      "title": "Support Overall Well-Being",
+      "description": "Improves hair, skin, and digestive health."
+    }
+  ]
+}

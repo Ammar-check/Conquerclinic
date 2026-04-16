@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import benefitsBarData from "@/data/glp-1/benefitsBarData.json";
 
 /**
  * BenefitItem — inline reusable sub-component.
@@ -23,7 +22,7 @@ const BenefitItem = ({ title, description }) => (
  *
  * Data source: src/data/benefitsBarData.json
  */
-const BenefitsBar = () => {
+const BenefitsBar = ({ benefitsBarData }) => {
     const { benefits } = benefitsBarData;
 
     return (

@@ -17,6 +17,7 @@
 
 body {
     font-family: "Beausite Fit Trial", "Inter", sans-serif;
+    background: #0A0A0A;
 }
 
 /* =========================
@@ -936,7 +937,7 @@ body {
 .results-description {
     margin: 12px 0 34px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.65);
+    color: #fff;
     font-size: 15px;
     line-height: 1.35;
 }
@@ -1378,7 +1379,7 @@ body {
 .experts-slide-indicator {
     font-family: "Inter", sans-serif;
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.65);
+    color: #fff;
     font-weight: 500;
 }
 
@@ -1393,7 +1394,7 @@ body {
 
 .experts-role {
     margin: 0 0 14px;
-    color: rgba(255, 255, 255, 0.55);
+    color: #fff;
     font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 1.25;
@@ -1404,7 +1405,7 @@ body {
 
 .experts-bio {
     margin: 0;
-    color: rgba(255, 255, 255, 0.72);
+    color: #fff;
     max-width: 480px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
@@ -1474,7 +1475,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.35;
-    color: rgba(255, 255, 255, 0.62);
+    color: #fff;
 }
 
 .care-tabs-bar {
@@ -1499,7 +1500,7 @@ body {
     border: none;
     border-right: 1px solid #2d2d2d;
     background: #121212;
-    color: rgba(255, 255, 255, 0.42);
+    color: #fff;
     cursor: pointer;
     transition: background 0.2s ease, color 0.2s ease;
 }
@@ -1540,7 +1541,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.35;
-    color: rgba(255, 255, 255, 0.72);
+    color: #fff;
     padding: 14px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.22);
 }
@@ -1563,7 +1564,7 @@ body {
     text-transform: uppercase;
     line-height: 1.2;
     padding: 12px 28px;
-    color: rgba(255, 255, 255, 0.75);
+    color: #fff;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.45);
     cursor: pointer;
@@ -1950,6 +1951,8 @@ body {
 .path-card__cta {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
     gap: 8px;
     background: #ffffff;
     color: #000000;
@@ -2121,7 +2124,7 @@ body {
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s ease, gap 0.2s ease;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .opt-card__cta:hover {
@@ -2405,7 +2408,7 @@ body {
 /* ─── Section wrapper ─── */
 .metabolic-section {
     margin-bottom: 4rem;
-    background: var(--bg-section);
+    background: #1a1a1a;
     width: 100%;
     overflow: hidden;
 }

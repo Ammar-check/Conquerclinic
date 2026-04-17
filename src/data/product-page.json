@@ -22,7 +22,7 @@
       "name": "GLP-1 Starter Kit",
       "subtitle": "Physician-guided plan",
       "price": "$149/mo",
-      "image": "/images/product-page/Background.png",
+      "image": "/images/product-page/Background.jpeg",
       "badge": "Best Seller"
     },
     {
@@ -32,7 +32,7 @@
       "name": "Sildenafil",
       "subtitle": "Fast and discreet delivery",
       "price": "$19/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p3",
@@ -41,7 +41,7 @@
       "name": "Minoxidil Solution",
       "subtitle": "Daily topical formula",
       "price": "$24/mo",
-      "image": "/images/product-page/Background.png",
+      "image": "/images/product-page/Background.jpeg",
       "badge": "Best Seller"
     },
     {
@@ -51,7 +51,7 @@
       "name": "Escitalopram",
       "subtitle": "Online clinician support",
       "price": "$29/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p5",
@@ -60,7 +60,7 @@
       "name": "Metabolic Reset",
       "subtitle": "Personalized medication options",
       "price": "$129/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p6",
@@ -69,7 +69,7 @@
       "name": "Tadalafil",
       "subtitle": "Long-lasting support",
       "price": "$27/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p7",
@@ -78,7 +78,7 @@
       "name": "Comprehensive Blood Panel",
       "subtitle": "In-depth biomarkers & insights",
       "price": "$89",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p8",
@@ -87,7 +87,7 @@
       "name": "TRT Evaluation Pack",
       "subtitle": "Hormone profile + specialist review",
       "price": "$119",
-      "image": "/images/product-page/Background.png",
+      "image": "/images/product-page/Background.jpeg",
       "badge": "Best Seller"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Longevity Essentials",
       "subtitle": "Preventive protocol starter",
       "price": "$69/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p10",
@@ -106,7 +106,7 @@
       "name": "Clear Skin Program",
       "subtitle": "Customized treatment pathway",
       "price": "$39/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p11",
@@ -115,7 +115,7 @@
       "name": "Daily Performance Stack",
       "subtitle": "Science-backed daily formula",
       "price": "$34/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "p12",
@@ -124,7 +124,7 @@
       "name": "Metabolic Support+",
       "subtitle": "App + medication + coaching",
       "price": "$159/mo",
-      "image": "/images/product-page/Background.png",
+      "image": "/images/product-page/Background.jpeg",
       "badge": "Best Seller"
     }
   ],

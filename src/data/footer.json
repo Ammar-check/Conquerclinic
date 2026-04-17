@@ -22,7 +22,7 @@
       "links": [
         "Weight Loss Oral Medication Kits",
         "GLP-1 Injections",
-        "Sildenafil",
+        "Sildenafil®",
         "Cialis",
         "Tadalafil",
         "Minoxidil Solution",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "title": "Company",
+      "title": "Hims",
       "links": [
         "About Us",
         "Good Health (It's our blog)",
@@ -53,7 +53,12 @@
       ]
     }
   ],
-  "socials": ["f", "x", "ig", "t"],
+  "socials": [
+    { "id": 1, "src": "/icons/facebook.png", "alt": "facebook" },
+    { "id": 2, "src": "/icons/x.png", "alt": "x" },
+    { "id": 3, "src": "/icons/instagram.png", "alt": "instagram" },
+    { "id": 4, "src": "/icons/tiktok.png", "alt": "tiktok" }
+  ],
   "legalLinks": [
     "Terms & Conditions",
     "Privacy Policy",

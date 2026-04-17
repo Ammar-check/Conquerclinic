@@ -22,7 +22,7 @@
       "name": "TRT Essentials",
       "subtitle": "Clinician-led optimization plan",
       "price": "$129/mo",
-      "image": "/images/product-page/Background.png",
+      "image": "/images/product-page/Background.jpeg",
       "badge": "Best Seller"
     },
     {
@@ -32,7 +32,7 @@
       "name": "Sildenafil",
       "subtitle": "Discreet daily support",
       "price": "$19/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "mp3",
@@ -41,7 +41,7 @@
       "name": "Tadalafil",
       "subtitle": "Long-duration performance support",
       "price": "$27/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "mp4",
@@ -50,7 +50,7 @@
       "name": "Hair Restore Formula",
       "subtitle": "Topical + oral protocol",
       "price": "$34/mo",
-      "image": "/images/product-page/Background.png",
+      "image": "/images/product-page/Background.jpeg",
       "badge": "Best Seller"
     },
     {
@@ -60,7 +60,7 @@
       "name": "Metabolic Lean Program",
       "subtitle": "Fat-loss support with coaching",
       "price": "$149/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "mp6",
@@ -69,7 +69,7 @@
       "name": "Vitality Stack",
       "subtitle": "Daily strength and energy support",
       "price": "$39/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "mp7",
@@ -78,7 +78,7 @@
       "name": "Men's Full Panel",
       "subtitle": "Comprehensive biomarker analysis",
       "price": "$99",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     },
     {
       "id": "mp8",
@@ -87,7 +87,7 @@
       "name": "Longevity Performance Plan",
       "subtitle": "Preventive + recovery protocol",
       "price": "$79/mo",
-      "image": "/images/product-page/Background.png"
+      "image": "/images/product-page/Background.jpeg"
     }
   ],
   "stories": {

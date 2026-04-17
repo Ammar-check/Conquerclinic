@@ -11,7 +11,7 @@ const FeatureItem = ({ text }) => {
               y="5"
               width="13.32"
               height="9.16"
-              stroke="#C9A55A"
+              stroke=""
               strokeWidth="1.67"
               fill="none"
           />

@@ -1,0 +1,56 @@
+{
+  "slug": "sexual-health",
+  "hero": {
+    "heading": "Sexual Health",
+    "backgroundImage": "/images/sexualHealth/sexual-health.jpg"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "sh1",
+      "slug": "sexual-health",
+      "category": "weight-loss",
+      "name": "(!) Scream Cream",
+      "subtitle": "Focused formula designed with intimate care in mind.",
+      "price": "$37/mo",
+      "image": "/images/sexualHealth/sh-prod-1.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "sh2",
+      "slug": "sexual-health",
+      "category": "weight-loss",
+      "name": "Oxytocin Nasal Spray ",
+      "subtitle": "Formulated for those mindful moments of closeness and calm.",
+      "price": "$159/mo",
+      "image": "/images/sexualHealth/sh-prod-2.png"
+    },
+    {
+      "id": "sh3",
+      "slug": "sexual-health",
+      "category": "weight-loss",
+      "name": "Sexual Performance",
+      "subtitle": "Support for connection and physical intimacy.",
+      "price": "Starting at $74.00",
+      "image": "/images/sexualHealth/sh-prod-3.png"
+    },
+    {
+      "id": "sh4",
+      "slug": "sexual-health",
+      "category": "weight-loss",
+      "name": "vFit® Gold+ Device",
+      "subtitle": "Non-invasive light and heat device for intimate wellness.",
+      "price": "$395 + shipping",
+      "image": "/images/sexualHealth/sh-prod-4.png"
+    }
+]
+}

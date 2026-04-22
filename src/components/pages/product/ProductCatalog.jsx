@@ -4,10 +4,14 @@ import { useMemo, useState } from "react";
 import ProductCard from "@/components/pages/product/ProductCard";
 
 export default function ProductCatalog({ data }) {
-  const [activeFilter, setActiveFilter] = useState(data.filters[0]?.id || "all");
+  const defaultFilter = data.filters.some(f => f.id === data.slug)
+  ? data.slug
+  : "all";
+
+  const [activeFilter, setActiveFilter] = useState(defaultFilter);
 
   const filteredProducts = useMemo(() => {
-    if (activeFilter === "all") {
+    if (activeFilter === "all" || activeFilter === data.slug) {
       return data.products.filter((product) => product.slug === data.slug);
     }
 

@@ -1,0 +1,129 @@
+{
+  "product": {
+    "image": "/images/screamCream/scream-cream.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Only Women Shop",
+    "title": "(!) Scream Cream",
+    "description": "(Sildenafil 2%/Theophylline 3%/Pentoxifylline 2%/L-Arginine 6%)",
+    "description2": "A topical cream designed to enhance sexual wellness in women by increasing blood flow and arousal. (!) boosts desire, improves natural lubrication, and heightens overall pleasure.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "CREAM SUBSCRIPTION",
+      "price": "$37/mo",
+      "description": "$111 for a 90-day supply",
+      "highlight": "Save 20% + Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#E8F1ED"
+    },
+    {
+      "id": "sub2",
+      "title": "PREMIUM CREAM",
+      "price": "$59/mo",
+      "description": "$177 for a 90-day supply",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+  ],
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Boost Arousal",
+      "description": "Formulated to enhance blood flow, promoting heightened sexual arousal."
+    },
+    {
+      "id": "b2",
+      "title": "Increase Lubrication",
+      "description": "Facilitates more comfortable and enjoyable intimate experiences."
+    },
+    {
+      "id": "b3",
+      "title": "Heighten Pleasure",
+      "description": "Enhances sensitivity, intensifying pleasure and overall satisfaction."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Ready for a little more excitement?",
+  "features": [
+    "Boost your confidence",
+    "Improve performance",
+    "Feel more energetic",
+    "Doctor-approved solutions"
+  ],
+  "button": {
+    "label": "Have Fun",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/screamCream/have-fun.jpg",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+}
+}

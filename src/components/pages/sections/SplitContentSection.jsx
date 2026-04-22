@@ -1,0 +1,49 @@
+"use client";
+
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+
+const SplitContentSection = ({ data }) => {
+  const { splitContent } = data;
+  const { title, features, button, image } = splitContent;
+
+  return (
+    <section className="split-section">
+      <Container>
+        <Row className="align-items-center g-4">
+
+          {/* Left: Text */}
+          <Col xs={12} lg={4}>
+            <div className="split-section__content">
+              <h2 className="split-section__title">{title}</h2>
+
+              <ul className="split-section__list">
+                {features.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+
+              <a href={button.href} className="split-section__btn">
+                {button.label}
+              </a>
+            </div>
+          </Col>
+
+          {/* Right: Image */}
+          <Col xs={12} lg={8}>
+            <div className="split-section__image-wrapper">
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="split-section__image"
+              />
+            </div>
+          </Col>
+
+        </Row>
+      </Container>
+    </section>
+  );
+};
+
+export default SplitContentSection;

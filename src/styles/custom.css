@@ -3026,12 +3026,19 @@ body {
     .product-card {
         padding: 1.75rem 1.5rem;
     }
+.product-showcase__image{
+     width: 80%;
+     margin-top: 50px;
+}
 }
 
 @media (max-width: 575px) {
     .product-card__cta {
         padding: 0.875rem;
     }
+    .product-showcase__image{
+     width: 90%;
+}
 
     .product-card__title {
         font-size: 1.375rem;
@@ -3848,4 +3855,367 @@ body {
         margin-bottom: 32px;
         text-align: center;
     }
+}
+
+
+
+/* ==================================
+weight loss page section
+================================== */
+
+.weight-loss-btns button{
+    border-radius: 30px;
+    padding: 5px 16px;
+    background: #fff;
+    margin: 50px 10px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.weight-loss-btns button:nth-child(2){
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* =====================================
+product showcase resuable ComponentTransfer
+====================================== */
+
+.product-card__trust{
+     display: flex;
+     align-items: baseline;
+     margin-left: -120px;
+     gap: 3px;
+}
+
+.product-card__star{
+    width: 24px;
+    height: 24px;
+}
+
+/* Container */
+.cream-subscriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Card */
+.cream-sub {
+  padding: 16px 20px;
+  border-radius: 4px;
+  background: #E8F1ED; /* adjust if needed */
+}
+
+
+
+/* Title row */
+.cream-sub__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  color: #363636;
+  margin-bottom: 20px;
+}
+
+/* Left side (circle + text) */
+.cream-sub__title .text {
+  flex: 1;
+}
+
+/* Circle */
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.circle.black {
+  background: #000;
+}
+
+.circle.white {
+  background: #fff;
+  border: 1px solid #949494; /* visible on light bg */
+}
+
+/* Price */
+.price {
+  font-weight: 400;
+  white-space: nowrap;
+  color:#363636;;
+}
+
+/* Description row */
+.cream-sub__desc {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  opacity: 0.8;
+  color: #6C757D;
+  text-align: center;
+}
+
+/* Highlight text */
+.highlight {
+  font-weight: 400;
+  background: #DAE9E4;
+  border: 1px solid #DEE2E6;
+  color: #176F4F;
+  line-height: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Button */
+.cream-sub__btn {
+  width: 100%;
+  padding: 30px 14px;
+  margin-top: 30px;
+  background: #363636;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cream-sub__btn:hover {
+  opacity: 0.9;
+}
+
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .cream-sub__title {
+    font-size: 16px;
+  }
+
+  .cream-sub__desc {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (max-width:480px) {
+    /* .product-card__meta-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } */
+     .product-card__trust{
+     margin-left: 0px;
+}
+}
+
+@media (max-width:380px) {
+    .cream-sub__title {
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .cream-sub__btn {
+  padding: 15px 14px;
+}
+}
+
+@media (max-width:320px) {
+    .cream-sub__title {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/* ====================================
+split content section reusable component 
+==================================== */
+
+/* Section */
+.split-section {
+  padding: 60px 0;
+  background: #333333;
+  color: #fff;
+}
+
+/* Content */
+.split-section__content {
+  max-width: 400px;
+}
+
+/* Title */
+.split-section__title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+/* List */
+.split-section__list {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.split-section__list li {
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+/* Button */
+.split-section__btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 18px;
+  background: #fff;
+  color: #000;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+/* Image */
+.split-section__image-wrapper {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.split-section__image {
+  width: 100%;
+
+  border-radius: 8px;
+  height: 600px;
+  object-fit: cover;
+
+}
+
+/* 📱 Tablet */
+@media (max-width: 992px) {
+  .split-section__title {
+    font-size: 16px;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .split-section {
+    padding: 40px 0;
+  }
+
+  .split-section__content {
+    max-width: 100%;
+  }
+
+  .split-section__title {
+    font-size: 16px;
+  }
+
+  .split-section__image {
+    max-width: 100%;
+    height: 450px;
+  }
+  
+}
+
+@media (max-width:480px) {
+    .split-section {
+    padding: 40px 20px;
+  }
+  .split-section__image {
+    max-width: 100%;
+    height: 350px;
+  }
+}
+
+
+
+/* ==============================
+what's include section reusable component 
+===================================== */
+
+/* Section */
+.includes-section {
+  background: #2c2b2b;
+  padding: 60px 0;
+  color: #fff;
+}
+
+/* Title */
+.includes-section__title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+/* Card */
+.includes-card {
+  background: transparent;
+  text-align: left;
+}
+
+/* Icon wrapper */
+.includes-card__icon {
+  width: 48px;
+  height: 48px;
+  background: #C9A55A;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+/* Heading */
+.includes-card__heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 6px;
+}
+
+/* Description */
+.includes-card__desc {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 22px;
+}
+
+/* 📱 Tablet */
+@media (max-width: 992px) {
+  .includes-section__title {
+    font-size: 28px;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .includes-section {
+    padding: 40px 0;
+  }
+
+  .includes-section__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width:568px) {
+    .includes-card {
+  text-align: center;
+}
+.includes-card__icon {
+  margin: 10px auto;
+}
 }

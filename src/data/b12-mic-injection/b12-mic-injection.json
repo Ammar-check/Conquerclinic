@@ -4,8 +4,7 @@
     "imageAlt": "Conquer MD compounded GLP-1 injectable product"
   },
   "card": {
-    "adToCart":"Add to Cart",
-    
+      "adToCart":"ADD TO CART",
     "reviews": {
       "count": "1,305",
       "rating": "4.6",
@@ -13,10 +12,9 @@
       "trust": "Trustpilot"
     },
     "hsaFsa": "HSA/FSA",
-    "category": "Only Women Shop",
-    "title": "(!) Scream Cream",
-    "description": "(Sildenafil 2%/Theophylline 3%/Pentoxifylline 2%/L-Arginine 6%)",
-    "description2": "A topical cream designed to enhance sexual wellness in women by increasing blood flow and arousal. (!) boosts desire, improves natural lubrication, and heightens overall pleasure.",
+    "category": "Longevity",
+    "title": "B12 + MIC Injection",
+    "description": "Designed to support metabolism, enhance energy levels, and promote fat utilization. This formula helps your body break down fats more efficiently and convert food into energy, supporting weight management. By supporting liver function—key to fat metabolism—it promotes healthy weight management and sustained energy.",
     "primaryCta": {
       "label": "Start with a lab",
       "href": "#start-lab"
@@ -28,21 +26,22 @@
     "subscriptions": [
     {
       "id": "sub1",
-      "title": "CREAM SUBSCRIPTION",
-      "price": "$37/mo",
-      "description": "$111 for a 90-day supply",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$51/mo",
+      "description": "$559 for 12-week supply",
       "highlight": "Save 20% + Free Shipping",
       "circleColor": "black",
       "bgColor": "#E8F1ED"
     },
     {
       "id": "sub2",
-      "title": "PREMIUM CREAM",
-      "price": "$59/mo",
-      "description": "$177 for a 90-day supply",
+      "title": "ONE TIME PURCHASE",
+      "price": "$64/mo",
+      "description": "$149 for 70-days supply",
       "circleColor": "white",
       "bgColor": "#F8F9FA"
     }
+       
   ],
     "safetyLink": {
       "label": "Important Safety Information",
@@ -51,38 +50,43 @@
     "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
     "finePrintLink": "Read more"
   },
+
+
   "benefits": [
     {
       "id": "b1",
-      "title": "Boost Arousal",
-      "description": "Formulated to enhance blood flow, promoting heightened sexual arousal."
+      "title": "Boost Energy Levels",
+      "description": "Naturally increases energy and combats fatigue."
     },
     {
       "id": "b2",
-      "title": "Increase Lubrication",
-      "description": "Facilitates more comfortable and enjoyable intimate experiences."
+      "title": "Support Weight Management",
+      "description": "Optimizes fat metabolism and aids in breaking own stubborn fat stores."
     },
     {
       "id": "b3",
-      "title": "Heighten Pleasure",
-      "description": "Enhances sensitivity, intensifying pleasure and overall satisfaction."
+      "title": "Enhance Mental Clarity",
+      "description": "Provides cognitive support by improving focus and reducing brain fog."
     }
   ],
 
   "splitContent":{
-  "title": "Ready for a little more excitement?",
+  "title": "The boost your body needs",
   "features": [
-    "Increases blood flow",
-    "Enhances responsiveness",
-    "Delivers a more intense and satisfying intimate experience",
-    "A targeted, effective solution"
+    "B12 is an essential nutrient that supports overall health and wellness from the inside out.",
+    "Aids in fat metabolism and supports liver health",
+    "Boosts metabolism, improving digestion of fats, proteins, and carbs",
+    "Provides an energy boost",
+    "Enhances mood, memory, and cognitive function",
+    "Supports healthy cholesterol levels and cardiovascular function",
+    "Promotes healthy skin, nails, and hair growth"
   ],
   "button": {
-    "label": "Have Fun",
+    "label": "GET STARTED",
     "href": "#"
   },
   "image": {
-    "src": "/images/screamCream/have-fun.jpg",
+    "src": "/images/mic-injection/mic-img.jpg",
     "alt": "Excitement section image"
   }
 },
@@ -129,8 +133,8 @@
   ]
 },
 "quotes":{
-  "quote": "I’m amazed by the results! This product has truly enhanced my experience in ways I didn’t expect. The boost in arousal was immediate. I love that it’s so easy to apply and doesn’t leave any mess. Highly recommend this for any woman looking to elevate her intimate experiences!",
-  "author": " Kate B."
+  "quote": "“Conquer has changed my life! Finally, seeing energy I hadn’t seen in years has been amazing! I am so thankful for the Conquer team and feel better than I have felt since before having children.”",
+  "author": " Haley Kelly"
 },
 
 
@@ -138,20 +142,28 @@
   "title": "Have Questions? We're Here to Help",
   "items": [
     {
-      "question": "How long do the effects of (!) Scream Cream last?",
+      "question": "How is B12 administered?",
       "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
     },
     {
-      "question": "What are instructions for use?",
+      "question": "How long until I feel the effects of B12?",
       "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
     },
     {
-      "question": "Do you accept insurance?",
+      "question": "What are the possible side effects of B12 + MIC?",
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
-      "question": "Can I use my HSA or FSA?",
+      "question": "How long is it recommended to take B12?",
       "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
     },
     {
       "question": "Who is my health coach?",
@@ -159,7 +171,7 @@
     },
     {
       "question": "I have another question for you.",
-      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
     }
   ]
 },

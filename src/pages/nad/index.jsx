@@ -6,11 +6,11 @@ import IncludesSection from "@/components/pages/sections/IncludesSection";
 import ProductShowCaseCream from "@/components/pages/sections/ProductShowCaseCream";
 import QuoteSection from "@/components/pages/sections/QuoteSection";
 import SplitContentSection from "@/components/pages/sections/SplitContentSection";
-import screamCreamData from "@/data/scream-cream/scream-cream.json"
+import nadData from "@/data/nad/nad.json"
 
 
 
-export default function ScreamCream(){
+export default function NAD(){
 
 
     return(
@@ -18,13 +18,13 @@ export default function ScreamCream(){
          <Navbar/>
 
          <main>
-            <ProductShowCaseCream data={screamCreamData} />
-            <BenefitsBar data={screamCreamData}/>
-            <SplitContentSection data={screamCreamData} />
-            <IncludesSection data={screamCreamData} />
-            <QuoteSection data={screamCreamData.quotes} />
-            <FaqSection data={screamCreamData.faqs} />
-            <YouMightLike youMightLikeData={screamCreamData.mightLike} />
+            <ProductShowCaseCream data={nadData} />
+            <BenefitsBar data={nadData}/>
+            <SplitContentSection data={nadData} />
+            <IncludesSection data={nadData} />
+            <QuoteSection data={nadData.quotes} />
+            <FaqSection data={nadData.faqs} />
+            <YouMightLike youMightLikeData={nadData.mightLike} />
          </main>
         </>
     )

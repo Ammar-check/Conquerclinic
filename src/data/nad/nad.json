@@ -4,8 +4,7 @@
     "imageAlt": "Conquer MD compounded GLP-1 injectable product"
   },
   "card": {
-    "adToCart":"Add to Cart",
-    
+      "adToCart":"ADD TO CART",
     "reviews": {
       "count": "1,305",
       "rating": "4.6",
@@ -13,10 +12,9 @@
       "trust": "Trustpilot"
     },
     "hsaFsa": "HSA/FSA",
-    "category": "Only Women Shop",
-    "title": "(!) Scream Cream",
-    "description": "(Sildenafil 2%/Theophylline 3%/Pentoxifylline 2%/L-Arginine 6%)",
-    "description2": "A topical cream designed to enhance sexual wellness in women by increasing blood flow and arousal. (!) boosts desire, improves natural lubrication, and heightens overall pleasure.",
+    "category": "Longevity",
+    "title": "NAD+",
+    "description": "NAD+ (nicotinamide adenine dinucleotide) is a vital coenzyme found in every cell and involved in essential metabolic processes. NAD+ plays a central role in converting nutrients into energy, supporting cellular repair, and maintaining overall metabolic function. Natural levels of NAD+ have been observed to decline with age.",
     "primaryCta": {
       "label": "Start with a lab",
       "href": "#start-lab"
@@ -28,21 +26,22 @@
     "subscriptions": [
     {
       "id": "sub1",
-      "title": "CREAM SUBSCRIPTION",
-      "price": "$37/mo",
-      "description": "$111 for a 90-day supply",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$150/mo",
+      "description": "$150 for a month supply",
       "highlight": "Save 20% + Free Shipping",
       "circleColor": "black",
       "bgColor": "#E8F1ED"
     },
     {
       "id": "sub2",
-      "title": "PREMIUM CREAM",
-      "price": "$59/mo",
-      "description": "$177 for a 90-day supply",
+      "title": "One Time Purchase",
+      "price": "$187/mo",
+      "description": "$187 for a month supply",
       "circleColor": "white",
       "bgColor": "#F8F9FA"
     }
+       
   ],
     "safetyLink": {
       "label": "Important Safety Information",
@@ -51,38 +50,43 @@
     "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
     "finePrintLink": "Read more"
   },
+
+
   "benefits": [
     {
       "id": "b1",
-      "title": "Boost Arousal",
-      "description": "Formulated to enhance blood flow, promoting heightened sexual arousal."
+      "title": "Supports Healthy Aging",
+      "description": "Involved in pathways related to DNA repair, mitochondrial function, and cellular resilience."
     },
     {
       "id": "b2",
-      "title": "Increase Lubrication",
-      "description": "Facilitates more comfortable and enjoyable intimate experiences."
+      "title": "Supports Brain Health",
+      "description": "Studied for its role in neuronal signaling, cognitive pathways, and metabolic activity in the brain."
     },
     {
       "id": "b3",
-      "title": "Heighten Pleasure",
-      "description": "Enhances sensitivity, intensifying pleasure and overall satisfaction."
+      "title": "Cellular Energy Support",
+      "description": "Plays a role in mitochondrial energy production and cellular metabolism."
     }
   ],
 
   "splitContent":{
-  "title": "Ready for a little more excitement?",
+  "title": "A Key Player in Cellular Health",
   "features": [
-    "Increases blood flow",
-    "Enhances responsiveness",
-    "Delivers a more intense and satisfying intimate experience",
-    "A targeted, effective solution"
+    "NAD+ is a vital coenzyme that plays a key role in energy production, metabolism, and cellular repair.",
+    "Involved in energy production",
+    "Cofactor for DNA repair",
+    "Aids in immune system balance and liver function",
+    "Supports cognitive health",
+    "Protects against oxidative stress",
+    "May slow down the aging process"
   ],
   "button": {
-    "label": "Have Fun",
+    "label": "GET STARTED",
     "href": "#"
   },
   "image": {
-    "src": "/images/screamCream/have-fun.jpg",
+    "src": "/images/weight-loss/weight-loss.png",
     "alt": "Excitement section image"
   }
 },
@@ -129,8 +133,8 @@
   ]
 },
 "quotes":{
-  "quote": "I’m amazed by the results! This product has truly enhanced my experience in ways I didn’t expect. The boost in arousal was immediate. I love that it’s so easy to apply and doesn’t leave any mess. Highly recommend this for any woman looking to elevate her intimate experiences!",
-  "author": " Kate B."
+  "quote": "“Conquer has absolutely changed my life. I came to them feeling completely unwell and confused as to why I wasn’t getting answers from my regular doctors. I wanted more health and energy and struggled for so long to believe that was possible. Since starting with Conquer 3 months ago – taking their supplement protocols, injections like B12, NAD, and GLP1 for my wellness, plus the small lifestyle changes they suggested, I have had COMPLETE shifts in my life. My marriage is happier than ever, my energy is more substantial, and my relationship with my body for the first time feels healthy – something I have NEVER had.”",
+  "author": " Lauren Eliz Love"
 },
 
 
@@ -138,23 +142,23 @@
   "title": "Have Questions? We're Here to Help",
   "items": [
     {
-      "question": "How long do the effects of (!) Scream Cream last?",
+      "question": "What is NAD+?",
       "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
     },
     {
-      "question": "What are instructions for use?",
+      "question": "How is NAD+ administered?",
       "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
     },
     {
-      "question": "Do you accept insurance?",
+      "question": "How long until I feel the benefits of NAD+?",
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
-      "question": "Can I use my HSA or FSA?",
+      "question": "Do you accept insurance?",
       "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
     },
     {
-      "question": "Who is my health coach?",
+      "question": "Can I use my HSA or FSA?",
       "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
     },
     {

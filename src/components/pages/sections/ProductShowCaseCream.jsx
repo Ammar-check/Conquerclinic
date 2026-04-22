@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import StarRating from "@/components/resuabale/StarRating";
 
-
 const ProductShowCaseCream = ({ data }) => {
   const { product, card } = data;
 
@@ -56,38 +55,48 @@ const ProductShowCaseCream = ({ data }) => {
 
               {/* CTAs */}
               <div className="product-card__ctas">
-               
-               <div className="cream-subscriptions">
-  {data.card.subscriptions.map((item) => (
-    <div key={item.id} className="cream-sub" style={{background:item.bgColor}}>
+                {/* ✅ Guard: don't render if no data */}
+                {data?.card?.subscriptions?.length && (
+                  <div className="cream-subscriptions">
+                    {data.card.subscriptions.map((item) => (
+                      <div
+                        key={item.id}
+                        className="cream-sub"
+                        style={{ background: item.bgColor }}
+                      >
+                        <h1 className="cream-sub__title">
+                          <span className={`circle ${item.circleColor}`}></span>
 
-      <h1 className="cream-sub__title">
-        <span className={`circle ${item.circleColor}`}></span>
+                          <span className="text">{item.title}</span>
 
-        <span className="text">
-          {item.title}
-        </span>
+                          <span className="price">{item.price}</span>
+                        </h1>
 
-        <span className="price">
-          {item.price}
-        </span>
-      </h1>
+                        <p className="cream-sub__desc">
+                          <span>{item.description}</span>
 
-      <p className="cream-sub__desc">
-        <span>{item.description}</span>
-        {item.highlight && (
-          <span className="highlight">{item.highlight}</span>
-        )}
+                          {item.highlight && (
+                            <span className="highlight">{item.highlight}</span>
+                          )}
+                        </p>
+                      </div>
+                    ))}
+
+                    {/* CTA Button (also safe) */}
+                    {data?.card?.adToCart && (
+                      <button className="cream-sub__btn">
+                        {data.card.adToCart}
+                      </button>
+                    )}
+                  </div>
+                )}
+
+                {/* ✅ Extra Price */}
+    {data?.card?.extraPrice && (
+      <p className="cream-sub__extra-price">
+        {data.card.extraPrice}
       </p>
-
-    </div>
-  ))}
-  {/* CTA Button */}
-          <button className="cream-sub__btn">
-            Add to Cart
-          </button>
-</div>
-                
+    )}
               </div>
 
               {/* Safety link */}

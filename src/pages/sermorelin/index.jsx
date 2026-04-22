@@ -6,11 +6,11 @@ import IncludesSection from "@/components/pages/sections/IncludesSection";
 import ProductShowCaseCream from "@/components/pages/sections/ProductShowCaseCream";
 import QuoteSection from "@/components/pages/sections/QuoteSection";
 import SplitContentSection from "@/components/pages/sections/SplitContentSection";
-import screamCreamData from "@/data/scream-cream/scream-cream.json"
+import sermorelinData from "@/data/sermorelin/sermorelin.json"
 
 
 
-export default function ScreamCream(){
+export default function Sermorelin(){
 
 
     return(
@@ -18,13 +18,13 @@ export default function ScreamCream(){
          <Navbar/>
 
          <main>
-            <ProductShowCaseCream data={screamCreamData} />
-            <BenefitsBar data={screamCreamData}/>
-            <SplitContentSection data={screamCreamData} />
-            <IncludesSection data={screamCreamData} />
-            <QuoteSection data={screamCreamData.quotes} />
-            <FaqSection data={screamCreamData.faqs} />
-            <YouMightLike youMightLikeData={screamCreamData.mightLike} />
+            <ProductShowCaseCream data={sermorelinData} />
+            <BenefitsBar data={sermorelinData}/>
+            <SplitContentSection data={sermorelinData} />
+            <IncludesSection data={sermorelinData} />
+            <QuoteSection data={sermorelinData.quotes} />
+            <FaqSection data={sermorelinData.faqs} />
+            <YouMightLike youMightLikeData={sermorelinData.mightLike} />
          </main>
         </>
     )

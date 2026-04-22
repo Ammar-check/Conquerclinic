@@ -4,8 +4,7 @@
     "imageAlt": "Conquer MD compounded GLP-1 injectable product"
   },
   "card": {
-    "adToCart":"Add to Cart",
-    
+      "adToCart":"GET STARTED WITH TREATMENT",
     "reviews": {
       "count": "1,305",
       "rating": "4.6",
@@ -13,10 +12,9 @@
       "trust": "Trustpilot"
     },
     "hsaFsa": "HSA/FSA",
-    "category": "Only Women Shop",
-    "title": "(!) Scream Cream",
-    "description": "(Sildenafil 2%/Theophylline 3%/Pentoxifylline 2%/L-Arginine 6%)",
-    "description2": "A topical cream designed to enhance sexual wellness in women by increasing blood flow and arousal. (!) boosts desire, improves natural lubrication, and heightens overall pleasure.",
+    "category": "Longevity",
+    "title": "Sermorelin",
+    "description": "wp:paragraph → This compounded growth hormone (GH) plays a role in body composition, recovery, sleep patterns, and cellular function. As we age, GH levels may decline, which can influence factors such as muscle mass, fat distribution, and energy. Sermorelin is a peptide that mimics the body’s natural GH-releasing mechanisms. By encouraging your body's own growth hormone production, Sermorelin provides the advantages of increased HGH levels.",
     "primaryCta": {
       "label": "Start with a lab",
       "href": "#start-lab"
@@ -28,21 +26,22 @@
     "subscriptions": [
     {
       "id": "sub1",
-      "title": "CREAM SUBSCRIPTION",
-      "price": "$37/mo",
-      "description": "$111 for a 90-day supply",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$186.33/mo",
+      "description": "$559 for 12-week supply",
       "highlight": "Save 20% + Free Shipping",
       "circleColor": "black",
       "bgColor": "#E8F1ED"
     },
     {
       "id": "sub2",
-      "title": "PREMIUM CREAM",
-      "price": "$59/mo",
-      "description": "$177 for a 90-day supply",
+      "title": "ONE TIME PURCHASE",
+      "price": "$233/mo",
+      "description": "$699 for 12-week supply",
       "circleColor": "white",
       "bgColor": "#F8F9FA"
     }
+       
   ],
     "safetyLink": {
       "label": "Important Safety Information",
@@ -51,38 +50,42 @@
     "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
     "finePrintLink": "Read more"
   },
+
+
   "benefits": [
     {
       "id": "b1",
-      "title": "Boost Arousal",
-      "description": "Formulated to enhance blood flow, promoting heightened sexual arousal."
+      "title": "Healthy Aging",
+      "description": "Growth hormone is involved in processes that support muscle tone, skin structure, and bone maintenance over time."
     },
     {
       "id": "b2",
-      "title": "Increase Lubrication",
-      "description": "Facilitates more comfortable and enjoyable intimate experiences."
+      "title": "Natural Growth Hormone",
+      "description": "Sermorelin is a growth hormone–releasing peptide that works by signaling the body’s natural GH production pathways."
     },
     {
       "id": "b3",
-      "title": "Heighten Pleasure",
-      "description": "Enhances sensitivity, intensifying pleasure and overall satisfaction."
+      "title": "Sleep & Recovery",
+      "description": "Growth hormone plays a role in the regulation of sleep patterns and the body’s natural recovery functions."
     }
   ],
 
   "splitContent":{
-  "title": "Ready for a little more excitement?",
+  "title": "Science-Led. Purposefully Designed",
   "features": [
-    "Increases blood flow",
-    "Enhances responsiveness",
-    "Delivers a more intense and satisfying intimate experience",
-    "A targeted, effective solution"
+    "Sermorelin is a growth hormone–releasing peptide. Peptides are short chains of amino acids, the basic building blocks of proteins, often used to support short and long term health benefits.",
+    "Supports natural growth hormone pathways",
+    "May aid recovery and muscle maintenance",
+    "Could promote healthy body composition",
+    "May support restful sleep",
+    "Aids the body in cellular repair"
   ],
   "button": {
-    "label": "Have Fun",
+    "label": "GET STARTED",
     "href": "#"
   },
   "image": {
-    "src": "/images/screamCream/have-fun.jpg",
+    "src": "/images/Sermorelin/sermo.jpg",
     "alt": "Excitement section image"
   }
 },
@@ -129,8 +132,8 @@
   ]
 },
 "quotes":{
-  "quote": "I’m amazed by the results! This product has truly enhanced my experience in ways I didn’t expect. The boost in arousal was immediate. I love that it’s so easy to apply and doesn’t leave any mess. Highly recommend this for any woman looking to elevate her intimate experiences!",
-  "author": " Kate B."
+  "quote": "“Since I have been using Sermorelin, I have felt a difference in my energy and strength, along with my sleep. It has also helped with the aches in my hands and hips joints. One added bonus, I get constantly receive compliments on how young I look (I’m 53 years old)”",
+  "author": " Arcangela G."
 },
 
 
@@ -138,28 +141,24 @@
   "title": "Have Questions? We're Here to Help",
   "items": [
     {
-      "question": "How long do the effects of (!) Scream Cream last?",
+      "question": "What benefits should I expect to see (and when) from Sermorelin?",
       "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
     },
     {
-      "question": "What are instructions for use?",
+      "question": "Do you accept insurance?",
       "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
     },
     {
-      "question": "Do you accept insurance?",
+      "question": "Can I use my HSA or FSA?",
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
-      "question": "Can I use my HSA or FSA?",
+      "question": "Who is my health coach?",
       "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
     },
     {
-      "question": "Who is my health coach?",
-      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
-    },
-    {
       "question": "I have another question for you.",
-      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
     }
   ]
 },

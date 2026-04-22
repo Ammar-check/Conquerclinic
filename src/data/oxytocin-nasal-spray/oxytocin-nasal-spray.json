@@ -4,8 +4,7 @@
     "imageAlt": "Conquer MD compounded GLP-1 injectable product"
   },
   "card": {
-    "adToCart":"Add to Cart",
-    
+      "adToCart":"Get Started with Treatment",
     "reviews": {
       "count": "1,305",
       "rating": "4.6",
@@ -13,10 +12,9 @@
       "trust": "Trustpilot"
     },
     "hsaFsa": "HSA/FSA",
-    "category": "Only Women Shop",
-    "title": "(!) Scream Cream",
-    "description": "(Sildenafil 2%/Theophylline 3%/Pentoxifylline 2%/L-Arginine 6%)",
-    "description2": "A topical cream designed to enhance sexual wellness in women by increasing blood flow and arousal. (!) boosts desire, improves natural lubrication, and heightens overall pleasure.",
+    "category": "Sexual Health",
+    "title": "Oxytocin Nasal Spray ",
+    "description": "Often referred to as the ‘love drug,’ oxytocin is a hormone released by the pituitary gland that functions as a chemical messenger in the brain. It is associated with social interactions, emotional bonding, and connection, and has a role in stress response and cortisol regulation.",
     "primaryCta": {
       "label": "Start with a lab",
       "href": "#start-lab"
@@ -28,21 +26,22 @@
     "subscriptions": [
     {
       "id": "sub1",
-      "title": "CREAM SUBSCRIPTION",
-      "price": "$37/mo",
-      "description": "$111 for a 90-day supply",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$159/mo",
+      "description": "$159 for a month supply",
       "highlight": "Save 20% + Free Shipping",
       "circleColor": "black",
       "bgColor": "#E8F1ED"
     },
     {
       "id": "sub2",
-      "title": "PREMIUM CREAM",
-      "price": "$59/mo",
-      "description": "$177 for a 90-day supply",
+      "title": "One Time Purchase",
+      "price": "$199/mo",
+      "description": "$199 for a month supply",
       "circleColor": "white",
       "bgColor": "#F8F9FA"
     }
+       
   ],
     "safetyLink": {
       "label": "Important Safety Information",
@@ -51,38 +50,40 @@
     "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
     "finePrintLink": "Read more"
   },
+
+
   "benefits": [
     {
       "id": "b1",
-      "title": "Boost Arousal",
-      "description": "Formulated to enhance blood flow, promoting heightened sexual arousal."
+      "title": "Easy to Use",
+      "description": "A simple nasal spray for effortless support—no injections or pills required."
     },
     {
       "id": "b2",
-      "title": "Increase Lubrication",
-      "description": "Facilitates more comfortable and enjoyable intimate experiences."
+      "title": "Fast-Acting & Effective",
+      "description": "Absorbs quickly through the nasal spray for rapid effects on mood, bonding, and intimacy."
     },
     {
       "id": "b3",
-      "title": "Heighten Pleasure",
-      "description": "Enhances sensitivity, intensifying pleasure and overall satisfaction."
+      "title": "Enhances Connection",
+      "description": "Supports emotional bonding, stress reduction, and sexual health."
     }
   ],
 
   "splitContent":{
-  "title": "Ready for a little more excitement?",
+  "title": "Oxytocin boosts trust and connection in relationships, making you feel closer to those around you. Plus, it can improve your sleep by helping you relax.",
   "features": [
-    "Increases blood flow",
-    "Enhances responsiveness",
-    "Delivers a more intense and satisfying intimate experience",
-    "A targeted, effective solution"
+    "Improves stress response",
+    "Helps balance cortisol",
+    "Enhances mood",
+    "Promotes bonding"
   ],
   "button": {
-    "label": "Have Fun",
+    "label": "GET STARTED",
     "href": "#"
   },
   "image": {
-    "src": "/images/screamCream/have-fun.jpg",
+    "src": "/images/weightLoss/weight-loss.jpg",
     "alt": "Excitement section image"
   }
 },
@@ -129,8 +130,8 @@
   ]
 },
 "quotes":{
-  "quote": "I’m amazed by the results! This product has truly enhanced my experience in ways I didn’t expect. The boost in arousal was immediate. I love that it’s so easy to apply and doesn’t leave any mess. Highly recommend this for any woman looking to elevate her intimate experiences!",
-  "author": " Kate B."
+  "quote": "“I have absolutely enjoyed using Conquers services. The process was so easy and convenient with my busy schedule. And now I feel like a rockstar after dialing in all my markers. I recommend them to everyone!”",
+  "author": " Janna Breslin"
 },
 
 
@@ -138,24 +139,28 @@
   "title": "Have Questions? We're Here to Help",
   "items": [
     {
-      "question": "How long do the effects of (!) Scream Cream last?",
+      "question": "What is oxytocin?",
       "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
     },
     {
-      "question": "What are instructions for use?",
+      "question": "How long does it take to be effective and the length of effect?",
       "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
     },
     {
-      "question": "Do you accept insurance?",
+      "question": "Are there potential side effects?",
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
-      "question": "Can I use my HSA or FSA?",
+      "question": "Do you accept insurance?",
       "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
     },
     {
-      "question": "Who is my health coach?",
+      "question": "Can I use my HSA or FSA?",
       "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
     },
     {
       "question": "I have another question for you.",

@@ -1,0 +1,41 @@
+{
+  "heading": "What's included?",
+  "items": [
+    {
+      "id": 1,
+      "iconId": "clinicians",
+      "title": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care with provider wait times average 2.4 days."
+    },
+    {
+      "id": 2,
+      "iconId": "labs",
+      "title": "Advanced Labs",
+      "description": "Ongoing advanced labs, which includes 72 biomarkers in total."
+    },
+    {
+      "id": 3,
+      "iconId": "coaching",
+      "title": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": 4,
+      "iconId": "rx",
+      "title": "RX Management",
+      "description": "We manage your refills and will make dosing changes as needed."
+    },
+    {
+      "id": 5,
+      "iconId": "convenience",
+      "title": "Convenience of Care",
+      "description": "Our providers send in a 90 day prescription to your preferred pharmacy for pickup."
+    },
+    {
+      "id": 6,
+      "iconId": "community",
+      "title": "Community",
+      "description": "Support from others on the same journey—feeling better, together."
+    }
+  ]
+}

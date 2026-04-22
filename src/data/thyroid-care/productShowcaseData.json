@@ -1,0 +1,31 @@
+{
+  "product": {
+    "image": "/images/glp-1/product.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+    "reviews": {
+      "count": "1,290",
+      "rating": "4.6"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Hormone Health",
+    "requirementBadge": "Lab + clinician visit required",
+    "title": "Thyroid Care",
+    "description": "Your thyroid is a small but powerful gland that regulates metabolism, energy, mood, and overall body function by producing hormones that control how your body uses energy—impacting everything from weight and digestion to heart rate and body temperature.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "All prescriptions require a consultation with a licensed provider, either asynchronously or synchronously. If the provider d...",
+    "finePrintLink": "Read more"
+  }
+}

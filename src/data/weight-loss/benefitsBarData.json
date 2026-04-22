@@ -1,0 +1,19 @@
+{
+  "benefits": [
+    {
+      "id": "clinically-proven-results",
+      "title": "Clinically Proven Results",
+      "description": "Zepbound® is FDA-approved for effective weight management and metabolic health."
+    },
+    {
+      "id": "appetite-metabolic-support",
+      "title": "Appetite & Metabolic Support",
+      "description": "Helps regulate appetite and improve metabolic function for sustained weight loss."
+    },
+    {
+      "id": "personalized-care",
+      "title": "Personalized Care",
+      "description": "Have a dedicated health coach to guide you through every step of your treatment journey."
+    }
+  ]
+}

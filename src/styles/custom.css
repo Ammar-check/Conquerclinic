@@ -3486,7 +3486,7 @@ body {
     font-size: clamp(1.5rem, 2.5vw, 1.863rem);  /* ~29.8px */
     font-weight: 400;
     line-height: 1.34;
-    color: #363636;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
@@ -3496,7 +3496,7 @@ body {
     font-size: clamp(0.875rem, 1.2vw, 0.956rem);  /* ~15.3px */
     font-weight: 400;
     line-height: 1.438;
-    color: #737373;
+    color: #ffffff;
     margin-bottom: 1.25rem;
 }
 
@@ -3506,7 +3506,7 @@ body {
     font-size: 0.9375rem;   /* 15px */
     font-weight: 400;
     line-height: 1.467;
-    color: #737373;
+    color: #ffffff;
     margin-bottom: 0.75rem;
 }
 
@@ -3520,20 +3520,20 @@ body {
     font-size: 0.956rem;   /* ~15.3px */
     font-weight: 400;
     line-height: 1.5;
-    color: #737373;
+    color: #ffffff;
     padding: 0.25rem 0;
 }
 
 .transparent-pricing-included__bullet {
     font-size: 1rem;
-    color: #737373;
+    color: #ffffff;
     line-height: 1;
     flex-shrink: 0;
     user-select: none;
 }
 
 .transparent-pricing-included__text {
-    color: #737373;
+    color: #ffffff;
 }
 
 /* ─── CTA button ─── */
@@ -3802,6 +3802,7 @@ body {
     color: #ffffff;
     line-height: 1.55;
     text-align: center;
+    max-width: 440px;
 }
 
 /* =============================================
@@ -3818,6 +3819,32 @@ body {
     }
 }
 
+.weightloss-stats-wrapper {
+    background-color: #141414;
+    padding-bottom: 48px;
+}
+
+.weightloss-stats-footnote {
+    max-width: 1150px;
+    margin: 48px auto 0;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.weightloss-stats-footnote p {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.7rem, 1vw, 0.75rem);
+    line-height: 1.5;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+/* Mobile tweaks */
+@media (max-width: 767.98px) {
+    .weightloss-stats-footnote {
+        margin-top: 32px;
+    }
+}
 /* =============================================
    YouMightLike Section Styles
    ============================================= */
@@ -4218,4 +4245,195 @@ what's include section reusable component
 .includes-card__icon {
   margin: 10px auto;
 }
+/* ─── Section wrapper ─── */
+.whats-included-section {
+    background: #2C2B2B;
+    padding: 6rem 0 5rem;
+    width: 100%;
+}
+
+/* ─── Heading ─── */
+.whats-included__heading {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(1.5rem, 2.5vw, 1.906rem);   /* ~30.5px */
+    font-weight: 400;
+    line-height: 1.31;
+    color: #ffffff;
+    margin-bottom: 3.5rem;
+}
+
+/* ─── Grid row ─── */
+.whats-included__grid {
+    /* Bootstrap Row handles gutters via g-* classes */
+}
+
+/* ─── Card ─── */
+.included-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Gold circle icon badge */
+.included-card__icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--gold, #C9A55A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+}
+
+/* Title */
+.included-card__title {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(1rem, 1.3vw, 1.075rem);   /* ~17.2px */
+    font-weight: 400;
+    line-height: 1.512;
+    color: #ffffff;
+    margin-bottom: 0.625rem;
+}
+
+/* Description */
+.included-card__desc {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(0.875rem, 1.1vw, 0.956rem);  /* ~15.1px */
+    font-weight: 400;
+    line-height: 1.467;
+    color: #ffffff;
+    margin: 0;
+    opacity: 0.85;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 991.98px) {
+    .whats-included-section {
+        padding: 4rem 0 3.5rem;
+    }
+
+    .whats-included__heading {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .whats-included-section {
+        padding: 3rem 0 2.5rem;
+    }
+
+    .whats-included__heading {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* ─── Section wrapper ─── */
+.testimonial-section {
+    background: #2C2B2B;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+/* ─── Card ─── */
+.testimonial-card {
+    background: #2C2B2B;
+    border-radius: 10px;
+    padding: 5rem 0 3.5rem;
+    text-align: center;
+}
+
+/* ─── Fade container ─── */
+.testimonial-card__content {
+    transition: opacity 0.35s ease;
+    opacity: 1;
+}
+
+.testimonial-card__content.is-fading {
+    opacity: 0;
+}
+
+/* ─── Quote ─── */
+.testimonial-card__quote {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(1.1rem, 2vw, 1.525rem);
+    font-weight: 500;
+    line-height: 1.561;
+    color: #ffffff;
+    margin: 0 0 2rem;
+    border: none;
+    padding: 0;
+}
+
+/* ─── Author ─── */
+.testimonial-card__author {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(1.1rem, 2vw, 1.631rem);
+    font-weight: 500;
+    line-height: 1.461;
+    color: #ffffff;
+    margin: 0 0 2.5rem;
+    text-align: center;
+}
+
+/* ─── Dot indicators ─── */
+.testimonial-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 0.5rem;
+}
+
+.testimonial-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.30);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.testimonial-dot.is-active {
+    background: var(--gold, #C9A55A);
+    transform: scale(1.35);
+}
+
+.testimonial-dot:hover:not(.is-active) {
+    background: rgba(255, 255, 255, 0.60);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 991.98px) {
+    .testimonial-card {
+        padding: 3.5rem 1rem 2.5rem;
+    }
+
+    .testimonial-card__quote {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .testimonial-card {
+        padding: 2.5rem 0.5rem 2rem;
+    }
+
+    .testimonial-card__quote {
+        font-size: 1.05rem;
+    }
+
+    .testimonial-card__author {
+        font-size: 1.1rem;
+    }
+}
+
+.section-block {
+    margin-top: 4rem;
 }

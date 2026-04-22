@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import ProductCard from "@/components/pages/product/ProductCard";
-import data from "@/data/glp-1/youMightLike.json";
 
 /**
  * YouMightLike
@@ -9,8 +8,8 @@ import data from "@/data/glp-1/youMightLike.json";
  * Renders a heading + 3-column product card grid.
  * Reuses the existing <ProductCard /> component — no new card UI created here.
  */
-const YouMightLike = () => {
-    const { heading, products } = data;
+const YouMightLike = ({ youMightLikeData }) => {
+    const { heading, products } = youMightLikeData;
 
     return (
         <section className="you-might-like-section" aria-labelledby="you-might-like-heading">

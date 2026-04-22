@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import data from "@/data/glp-1/menopauseStats.json";
 
 /**
  * MenopauseStats
@@ -11,8 +10,8 @@ import data from "@/data/glp-1/menopauseStats.json";
  * Layout is fully centred on all breakpoints — no reusable sub-component
  * needed here as there is only one stat figure in this section.
  */
-const MenopauseStats = () => {
-    const { description, stat } = data;
+const MenopauseStats = ({menopauseStatData}) => {
+    const { description, stat } = menopauseStatData;
 
     return (
         <section className="menopause-stats-section" aria-label="Menopause statistics">

@@ -1,15 +1,16 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import IncludedItem from '@/components/resuabale/IncludedItem';
-import data from '@/data/glp-1/transparentPricing.json';
 
-const TransparentPricing = () => {
+const TransparentPricing = ({transparentPricingData}) => {
+    const data = transparentPricingData;
+
     return (
         <section className="transparent-pricing-section">
             <Container className="px-0">
                 <Row className="g-0 align-items-stretch">
 
                     {/* LEFT: Text content */}
-                    <Col xs={12} lg={6} className="transparent-pricing-content d-flex align-items-center">
+                    <Col xs={12} lg={5} className="transparent-pricing-content d-flex align-items-center">
                         <div className="transparent-pricing-inner">
 
                             {/* Heading */}
@@ -37,7 +38,7 @@ const TransparentPricing = () => {
                     </Col>
 
                     {/* RIGHT: Image */}
-                    <Col xs={12} lg={6} className="transparent-pricing-image-col">
+                    <Col xs={12} lg={7} className="transparent-pricing-image-col">
                         <div className="transparent-pricing-image-wrapper">
                             <img
                                 src={data.image.src}

@@ -1,0 +1,240 @@
+{
+  "product": {
+    "image": "/images/pain-cream/pain-cream-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Longevity",
+    "title": "PAIN CREAM",
+    "description":"(Ketoprofen/Baclofen/Menthol/NAD+/L-Carnitine 10%/2%/2%/0.5%/1%)",
+    "description2":"Our athlete-safe compounded pain cream is designed to provide rapid, localized relief right where you need it most. This compounded cream combines ketoprofen, baclofen, menthol, NAD+, and L-carnitine in a topical formula. Designed to provide localized support for sore muscles and joints, offering a cooling effect from menthol and gentle comfort from its blended ingredients. Together, these ingredients work to help you stay active and recover with confidence.",
+         "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$149/mo",
+      "description": "$149 for 30-days supply",
+      "highlight": "Save 17% + Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#E8F1ED"
+    },
+    {
+      "id": "sub2",
+      "title": "One Time Purchase",
+      "price": "$179/mo",
+      "description": "$179 for 30-days supply",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Targeted application",
+      "description": "Designed for localized use where it’s needed most."
+    },
+    {
+      "id": "b2",
+      "title": "Multi-ingredient blend",
+      "description": "Combines an NSAID, muscle relaxant, and topical anesthetic in one cream."
+      },
+    {
+      "id": "b3",
+      "title": "Compounded for active living",
+      "description": "Developed with safety and performance in mind."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Pain Relief, Redefined",
+  "subTitle": "Ideal for sore joints, muscle aches, and overuse injuries. This topical provides targeted support whether you’re recovering from activity or managing daily discomfort.",
+  "features": [
+    "Combines anti-inflammatory, muscle relaxant, and numbing agents",
+    "Helps calm localized tension and stiffness",
+    "Designed for fast-acting, targeted application",
+    "May ease discomfort from overuse or strain",
+    "Supports mobility and daily comfort"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/pain-cream/pain-cream-img.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+"quotes":{
+  "quote": "“Shortly after starting VIP I felt clarity in my head, my stomach bloating was reduced, inflammation was noticeably reduced, and I’ve been sleeping better. I won’t go without my VIP spray!”",
+  "author": " Suzanne Laughlin"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What benefits should I expect to see (and when) using the Pain Cream?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "What states can you NOT send pain cream to?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "What are the potential side effects of using Pain Cream?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you take FSA/HSA?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Do you take insurance?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+},
+
+"ingredients": {
+  "heading": "Ingredients",
+  "symptomCards": [
+    {
+      "id": "1",
+      "label": "Ketoprofen (10%)",
+      "icon": "/images/pain-cream/icons/icon-1.svg",
+      "iconAlt": "Ketoprofen icon"
+    },
+    {
+      "id": "2",
+      "label": "NAD+ (0.5%)",
+      "icon": "/images/pain-cream/icons/icon-2.svg",
+      "iconAlt": "NAD icon"
+    },
+    {
+      "id": "3",
+      "label": "Baclofen (2%)",
+      "icon": "/images/pain-cream/icons/icon-3.svg",
+      "iconAlt": "Baclofen icon"
+    },
+    {
+      "id": "4",
+      "label": "Menthol (2%)",
+      "icon": "/images/pain-cream/icons/icon-4.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "4",
+      "label": "L-Carnitine (1%)",
+      "icon": "/images/pain-cream/icons/icon-1.svg",
+      "iconAlt": "Menthol icon"
+    }
+  ]
+}
+
+}

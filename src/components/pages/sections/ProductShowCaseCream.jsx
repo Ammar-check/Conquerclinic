@@ -44,6 +44,7 @@ const ProductShowCaseCream = ({ data }) => {
               {/* Row 2: category + requirement badge */}
               <div className="product-card__tags-row">
                 <span className="product-card__category">{card.category}</span>
+                {card.category2 && (<span className="product-card__category product-card__category-2">{card.category2}</span>)}
               </div>
 
               {/* Product title */}
@@ -82,12 +83,6 @@ const ProductShowCaseCream = ({ data }) => {
                       </div>
                     ))}
 
-                    {/* CTA Button (also safe) */}
-                    {data?.card?.adToCart && (
-                      <button className="cream-sub__btn">
-                        {data.card.adToCart}
-                      </button>
-                    )}
                   </div>
                 )}
 
@@ -97,6 +92,19 @@ const ProductShowCaseCream = ({ data }) => {
         {data.card.extraPrice}
       </p>
     )}
+
+    {/* CTA Button (also safe) */}
+                    {data?.card?.lab && (
+                      <button className="cream-sub__btn" style={{background:"#fff",color:"#000",marginBottom:"-30px"}}>
+                        {data.card.lab}
+                      </button>
+                    )}
+                    {data?.card?.adToCart && (
+                      <button className="cream-sub__btn">
+                        {data.card.adToCart}
+                      </button>
+                    )}
+
               </div>
 
               {/* Safety link */}

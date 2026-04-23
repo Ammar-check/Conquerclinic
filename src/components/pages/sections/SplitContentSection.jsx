@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const SplitContentSection = ({ data }) => {
   const { splitContent } = data;
-  const { title, features, button, image } = splitContent;
+  const { title,subTitle, features, button, image } = splitContent;
 
   return (
     <section className="split-section">
@@ -16,6 +16,7 @@ const SplitContentSection = ({ data }) => {
           <Col xs={12} lg={4}>
             <div className="split-section__content">
               <h2 className="split-section__title">{title}</h2>
+              <h3 className="split-section__subTitle">{subTitle}</h3>
 
               <ul className="split-section__list">
                 {features.map((item, index) => (

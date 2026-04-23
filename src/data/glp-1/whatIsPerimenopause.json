@@ -1,26 +1,32 @@
 {
-  "heading": "What is Perimenopause?",
+  "ingredients":{
+   "heading": "What is Perimenopause?",
   "description": "Perimenopause and the early years of menopause—whether you have symptoms or not—are a crucial window for your long-term health. This is a time when small imbalances can grow into bigger issues if left unaddressed.",
   "symptomCards": [
     {
-      "id": "emotional",
+      "id": "1",
       "label": "Emotional symptoms",
-      "iconAlt": "Emotional symptoms icon"
+      "icon": "/images/glp-1/icons/icon-1.svg",
+      "iconAlt": "Ketoprofen icon"
     },
     {
-      "id": "physical",
+      "id": "2",
       "label": "Physical symptoms",
-      "iconAlt": "Physical symptoms icon"
+      "icon": "/images/glp-1/icons/icon-2.svg",
+      "iconAlt": "NAD icon"
     },
     {
-      "id": "hormonal",
+      "id": "3",
       "label": "Hormonal symptoms",
-      "iconAlt": "Hormonal symptoms icon"
+      "icon": "/images/glp-1/icons/icon-3.svg",
+      "iconAlt": "Baclofen icon"
     },
     {
-      "id": "sleep",
+      "id": "4",
       "label": "Sleep & energy symptoms",
-      "iconAlt": "Sleep and energy symptoms icon"
+      "icon": "/images/glp-1/icons/icon-4.svg",
+      "iconAlt": "Menthol icon"
     }
   ]
+}
 }

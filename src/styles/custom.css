@@ -705,8 +705,8 @@ body {
 }
 
 .product-card-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     transition: transform 0.45s ease, filter 0.45s ease;
 }
@@ -2843,6 +2843,13 @@ body {
     font-size: 0.75rem;
     font-weight: 400;
 }
+.product-card__category-2{
+    background-color: #EEEEEE;
+    color: #000;
+    line-height: 14px;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
 
 .product-card__req-badge {
     background: #eeeeee;
@@ -3627,7 +3634,7 @@ body {
    ============================================= */
 
 .perimenopause-section {
-    background-color: #141414;
+    background-color: #333333;
     padding: 80px 0 72px;
 }
 
@@ -3678,7 +3685,7 @@ body {
     height: 48px;
     min-width: 48px;
     border-radius: 50%;
-    background: rgba(201, 165, 90, 0.5);
+    background: #dbc9a4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3913,14 +3920,15 @@ product showcase resuable ComponentTransfer
 
 .product-card__trust{
      display: flex;
-     align-items: baseline;
-     margin-left: -120px;
+     align-items: center;
+     margin-left: -70px;
      gap: 3px;
 }
 
 .product-card__star{
     width: 24px;
     height: 24px;
+    margin-top: -12px;
 }
 
 /* Container */
@@ -4078,7 +4086,14 @@ split content section reusable component
 
 /* Title */
 .split-section__title {
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+.split-section__subTitle{
+     font-size: 16px;
   font-weight: 400;
   margin-bottom: 16px;
   line-height: 22px;

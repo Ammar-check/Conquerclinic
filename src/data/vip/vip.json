@@ -1,0 +1,212 @@
+{
+  "product": {
+    "image": "/images/vip/vip-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Longevity",
+    "title": "VIP",
+    "description":"Vasoactive Intestinal Peptide (VIP) is a naturally occurring peptide that plays a key role in immune regulation and maintaining a balanced inflammatory response, supporting gut and overall health.",
+     "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$159/mo",
+      "description": "$159 for a month supply",
+      "highlight": "Save 20% + Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#E8F1ED"
+    },
+    {
+      "id": "sub2",
+      "title": "One Time Purchase",
+      "price": "$199/mo",
+      "description": "$199 for a month supply",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Supports Immune Balance",
+      "description": "Helps regulate cytokine activity, contributing to a balanced inflammatory response."
+    },
+    {
+      "id": "b2",
+      "title": "Promotes a Healthy Sleep Cycle",
+      "description": "Plays a role in maintaining the body’s internal clock, supporting a steady sleep cycle."
+      },
+    {
+      "id": "b3",
+      "title": "Encourages Circulation & Recovery",
+      "description": "Supports smooth muscle relaxation, aiding blood flow, digestion, and overall recovery."
+    }
+  ],
+
+  "splitContent":{
+  "title": "The VIP treatment your body deserves",
+  "subTitle": "VIP is composed of 28 amino acid residues and is known to have numerous effects on development, growth, and the function of neuronal, epithelial, and endocrine cells.",
+  "features": [
+    "Supports immune function",
+    "Reduces inflammation",
+    "Optimizes gut health",
+    "Supports joint health and mobility.",
+    "Balances stress response",
+    "Supports cognitive function"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/vip/vip-img.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+"quotes":{
+  "quote": "“Shortly after starting VIP I felt clarity in my head, my stomach bloating was reduced, inflammation was noticeably reduced, and I’ve been sleeping better. I won’t go without my VIP spray!”",
+  "author": " Suzanne Laughlin"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is VIP?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How is VIP administered?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Are there any side effects of VIP?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Can VIP be used with other treatments?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

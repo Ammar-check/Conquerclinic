@@ -1,0 +1,50 @@
+{
+  "comparisonTable": {
+    "brandName": "Conquer Clinic",
+    "competitors": ["Function Health", "Rhythm", "Oura/Whoop"],
+    "features": [
+      {
+        "id": 1,
+        "label": "30 Minute Clinician Consult, Not Just Data",
+        "brand": true,
+        "competitors": [true, true, true]
+      },
+      {
+        "id": 2,
+        "label": "Personalized Lab Panels (56, 71, 110 Biomarkers)",
+        "brand": true,
+        "competitors": [true, true, true]
+      },
+      {
+        "id": 3,
+        "label": "Hormone Therapy & Prescription Care",
+        "brand": true,
+        "competitors": [true, true, true]
+      },
+      {
+        "id": 4,
+        "label": "Weight-Loss & Peptide Therapy",
+        "brand": true,
+        "competitors": [true, true, true]
+      },
+      {
+        "id": 5,
+        "label": "Thyroid Specialists",
+        "brand": true,
+        "competitors": [true, true, true]
+      },
+      {
+        "id": 6,
+        "label": "Personalized Smart Supplements",
+        "brand": true,
+        "competitors": [true, true, true]
+      },
+      {
+        "id": 7,
+        "label": "Ongoing Treatment Plans",
+        "brand": true,
+        "competitors": [true, true, true]
+      }
+    ]
+  }
+}

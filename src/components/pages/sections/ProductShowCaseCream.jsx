@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import StarRating from "@/components/resuabale/StarRating";
+import Image from "next/image";
+import { ArrowRight } from "react-bootstrap-icons";
 
 const ProductShowCaseCream = ({ data }) => {
   const { product, card } = data;
@@ -52,6 +54,15 @@ const ProductShowCaseCream = ({ data }) => {
 
               {/* Description */}
               <p className="product-card__description">{card.description}</p>
+
+                {data?.card?.desFeatures && (
+                  <ul className="split-section__list">
+                {card.desFeatures.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+                )}
+
               <p className="product-card__description">{card.description2}</p>
 
               {/* CTAs */}
@@ -86,6 +97,36 @@ const ProductShowCaseCream = ({ data }) => {
                   </div>
                 )}
 
+
+
+                {data?.card?.tested2?.length > 0 && (
+  data.card.tested2.map((item) => (
+    <div key={item.id} className="cream-sub tested-sub">
+      
+      <Image
+        src={item.icon}
+        width={32}
+        height={24}
+        alt="tested icon"
+      />
+
+      <div style={{ marginTop: "10px" }}>
+        
+        <h1 className="tested-sub__h1">
+          {item.h1}
+        </h1>
+
+        <p className="tested-sub__p">
+          {item.p}
+        </p>
+
+        <span className="tested-sub__type">{item.type}</span>
+
+      </div>
+    </div>
+  ))
+)}
+
                 {/* ✅ Extra Price */}
     {data?.card?.extraPrice && (
       <p className="cream-sub__extra-price">
@@ -104,16 +145,30 @@ const ProductShowCaseCream = ({ data }) => {
                         {data.card.adToCart}
                       </button>
                     )}
+                    {data?.card?.tested && (
+                      <div className="cream-sub tested-sub">
+                         <Image src={data.card.tested.icon} width={32} height={24} alt="tested icon" />
+                         <div style={{marginTop:"10px"}}>
+                            <h1 className="tested-sub__h1">{data.card.tested.h1} <span style={{background:"#DEE2EC",padding:"5px",borderRadius:'4px'}}>{data.card.tested.date}</span></h1>
+                            <p className="tested-sub__p">{data.card.tested.p} <a href=""><ArrowRight color="#2B2B2B" size={18} /></a></p>
+                         </div>
+                      </div>
+                    )}
 
               </div>
 
               {/* Safety link */}
-              <a
+              {card?.safetyLink && (
+                 <a
                 href={card.safetyLink.href}
                 className="product-card__safety-link"
               >
                 {card.safetyLink.label}
               </a>
+              )
+
+              }
+              
 
               {/* Fine print */}
               <p className="product-card__fine-print">

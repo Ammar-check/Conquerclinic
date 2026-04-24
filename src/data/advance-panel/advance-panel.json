@@ -27,24 +27,24 @@
     {
       "id": "sub1",
       "title": "SINGLE LAB",
-      "price": "$149",
+      "price": "$399.00",
       "description": "Essential hormone insights (56 biomarkers).",
       "circleColor": "black",
-      "bgColor": "#E8F1ED"
+      "bgColor": "#F6F0E1"
     },
     {
       "id": "sub2",
       "title": "LAB TWO PACKS",
-      "price": "$298",
+      "price": "$798.00",
       "description": "Perfect for bi-annual hormone tracking.",
       "highlight": "Most Common",
       "circleColor": "white",
-      "bgColor": "#F6F0E1"
+      "bgColor": "#F8F9FA"
     },
     {
       "id": "sub3",
       "title": "LAB FOUR PACK",
-      "price": "$596",
+      "price": "$1596.00",
       "description": "Ideal for comprehensive, year-round monitoring.",
       "circleColor": "white",
       "bgColor": "#F8F9FA"
@@ -52,10 +52,10 @@
        
   ],
     "safetyLink": {
-      "label": "Important Safety Information",
+      "label": "30-minute clinician consultation included",
       "href": "#safety"
     },
-    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrint": "If you live in NY, NJ, or RI, and your address is serviceable, we will offer a mobile phlebotomy option for an additional $99 for traditional blood dr... Read more",
     "finePrintLink": "Read more"
   },
 
@@ -63,18 +63,18 @@
   "benefits": [
     {
       "id": "b1",
-      "title": "Personalized Wellness",
-      "description": "Delivers actionable data to support customized health strategies."
+      "title": "Personalized Health Optimization",
+      "description": "Delivers actionable insights to support treatment plans tailored to your unique needs."
     },
     {
       "id": "b2",
-      "title": "Proactive Health Monitoring",
-      "description": "Detects hormonal shifts early, helping to prevent future complications."
+      "title": "Most Recommended by Providers",
+      "description": "Provides a detailed view of your metabolic and hormonal health."
       },
     {
       "id": "b3",
-      "title": "Optimized for Tracking Hormone Therapy",
-      "description": "The ideal lab panel for tracking hormone therapy progress and adjustments."
+      "title": "Early Detection & Prevention",
+      "description": "Helps identify hormonal and metabolic imbalances before they become larger issues."
     }
   ],
 
@@ -141,10 +141,6 @@
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
-      "question": "What can I expect from Conquer Clinic?",
-      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
-    },
-    {
       "question": "Should I stop supplements or medications before my lab draw?",
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
@@ -153,7 +149,7 @@
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
-      "question": "I have labs from another clinician, can I use them?",
+      "question": "Where can I find my biological age after my labs are complete?",
       "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
     },
     {
@@ -209,7 +205,7 @@
 },
 
 "ingredients": {
-  "heading": "Hormone lab panel offers a streamlined analysis of 56 key biomarkers",
+  "heading": "Advanced lab panel offers an in-depth analysis of 71 key biomarkers",
   "symptomCards": [
     {
       "id": "1",
@@ -269,6 +265,12 @@
       "id": "10",
       "label": "Menstrual Health",
       "icon": "/images/complete-hormone/icons/icon-10.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "11",
+      "label": "Thyroid Health",
+      "icon": "/images/complete-hormone/icons/icon-11.svg",
       "iconAlt": "Menthol icon"
     }
   ]

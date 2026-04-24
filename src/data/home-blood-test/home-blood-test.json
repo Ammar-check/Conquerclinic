@@ -1,0 +1,138 @@
+{
+  "product": {
+    "image": "/images/home-blood-test/blood-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Diagnostic Labs",
+    "title": "At-Home Hormone Test Kit",
+    "description":"Take control of how you feel",
+    "desFeatures":[
+        "Discover what’s driving your fatigue, weight gain, or low libido",
+        "Review your results with a licensed clinician – not a chatbot",
+        "Get actionable steps to optimize energy, hormones, and libido"
+    ],
+    "description2":"$129 (one-time) includes your test kit, lab analysis, and 30-minute clinician consultation.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    
+    "finePrint": "Choosing hormone therapy? This lab panel is required before starting treatment.",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "icon":"/images/home-blood-test/blood-img-1.png",
+      "title": "Needle-Free Convenience",
+      "description": "Offers a more comfortable alternative to traditional blood draws—no needles or phlebotomy required."
+    },
+    {
+      "id": "b2",
+      "icon":"/images/home-blood-test/blood-img-2.png",
+      "title": "At-Home Simplicity",
+      "description": "Collects high-quality blood samples from the comfort of home, making lab testing more accessible and flexible."
+      },
+    {
+      "id": "b3",
+      "icon":"/images/home-blood-test/blood-img-3.png",
+      "title": "Clinically Backed Comfort",
+      "description": "Designed to reduce discomfort compared to traditional methods like finger sticks or venipuncture, improving the overall lab experience."
+    }
+  ],
+
+"quotes":{
+    "image":"/images/home-blood-test/quote-bg-img.png",
+  "quote": "“This device made blood collection quick, painless, and easy to do from home. It’s a game-changer for anyone who wants convenient, stress-free bloodwork.”",
+    "author": "Lanae M., Head of Clinical and Product Innovation"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "Does it hurt to collect blood with the device?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How long will it take to get results?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Does the service cause any pain or discomfort?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "What happens after I get my results?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "How does this device work?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Is this a needle-free blood collection system?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "How many times can each device be used?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

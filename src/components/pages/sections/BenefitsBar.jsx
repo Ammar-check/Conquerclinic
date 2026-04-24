@@ -1,8 +1,10 @@
+import Image from "next/image";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const BenefitItem = ({ title, description }) => (
+const BenefitItem = ({icon, title, description }) => (
   <div className="benefit-item">
+    {icon && (<div className="benefit-item__imgWrapper"><Image className="benefit-item__img" src={icon} width={24} height={24} alt="benefits icon" /></div>)}
     <h3 className="benefit-item__title">{title}</h3>
     <p className="benefit-item__description">{description}</p>
   </div>
@@ -29,6 +31,7 @@ const BenefitsBar = ({ data }) => {
               <BenefitItem
                 title={benefit.title}
                 description={benefit.description}
+                icon={benefit.icon}
               />
             </Col>
           ))}

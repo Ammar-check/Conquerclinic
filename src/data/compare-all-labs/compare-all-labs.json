@@ -1,0 +1,74 @@
+{
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "Where do I get my blood drawn?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "What is the best way to prepare for my lab test?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Should I stop supplements or medications before my lab draw?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How long until my lab results are ready?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Where can I find my biological age after my labs are complete?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Do you take FSA/HSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Do you take insurance?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

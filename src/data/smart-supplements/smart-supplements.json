@@ -1,0 +1,178 @@
+{
+  "product": {
+    "image": "/images/smart-suppliments/smart-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+       "extraPrice":"60-minute clinician consultation included | $149/MO",
+     "tested2": [
+  {
+    "id": 1,
+    "icon": "/images/smart-suppliments/icons/icon.svg",
+    "h1": "Take the quiz",
+    "p": "Fastest way to get started.",
+    "type":"Fastest"
+  },
+  {
+    "id": 2,
+    "icon": "/images/smart-suppliments/icons/icon-2.svg",
+    "h1": "Build your own pack",
+    "p": "Full control. Choose your daily stack.",
+    "type":"Most Custom"
+  },
+  {
+    "id": 3,
+    "icon": "/images/smart-suppliments/icons/icon-3.svg",
+    "h1": "Start with a lab",
+    "p": "Most accurate, tailored to your markers.",
+    "type":"Most Advance"
+  }
+],
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Supplements",
+    "title": "Smart Supplements",
+    "description":"You can choose the path that works best for you: take the quiz to receive a personalized recommendation, build your own pack with the ingredients you prefer, or follow the gold standard by starting with lab testing so we can customize ingredients and dosages to your unique results and goals.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },    
+    "finePrint": "Cancel anytime. No charge until after lab work is completed. These statements have not been evaluated by the Food and Drug Administration. This produc... Read more",
+    "finePrintLink": "Read more"
+  },
+
+
+"benefits": [
+    {
+      "id": "b1",
+      "icon":"/images/smart-suppliments/img-1.png",
+      "title": "Precision, Personalized",
+      "description": "Leave one-size-fits-all behind—your supplements are tailored to your unique needs."
+    },
+    {
+      "id": "b2",
+      "icon":"/images/smart-suppliments/img-2.png",
+      "title": "Seamless Convenience",
+      "description": "A simplified daily routine designed to support real, sustainable results."
+      },
+    {
+      "id": "b3",
+      "icon":"/images/smart-suppliments/img-3.png",
+      "title": "Evolving With You",
+      "description": "As your body changes, your supplements can too—easily adjust your pack each month."
+    }
+  ],
+
+"quotes":{
+  "quote": "“I’ve tried many different supplements and wellness products over the years, but Conquer stands out as one of the best. Their products are effective, high-quality, and made with natural ingredients. I appreciate that they take a holistic approach to women’s health and well-being.”",
+   "author": "Jessica Valentine"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "Is it truly customized off of my biomarkers?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How often are the packs delivered?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I change what’s in my pack?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "How many supplements can I have in my pack?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "When should I get my labs done to reassess my supplements?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "What is precision medicine and 'smart' supplements?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "How does the subscription work?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "How long does the process usually take?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "What will I find in my daily smart supplements?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Which biomarkers and labs do you offer?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

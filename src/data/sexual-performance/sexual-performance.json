@@ -1,0 +1,179 @@
+{
+  "product": {
+    "image": "/images/sexual-performance/sexual-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+     "tested":{
+        "icon":"/icons/tick.svg",
+       "h1":"Tested by Light Labs in",
+       "date":"JUL 2025",
+       "p":"21 substances tested for quality"
+     },
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Supplements",
+    "title": "Sexual Performance",
+    "description":"This thoughtfully formulated blend combines adaptogenic herbs and amino acids to support healthy circulation and energy—key foundations of sexual wellness. Featuring ingredients like maca, ginseng, and L-citrulline, it provides targeted support to help you feel more connected, energized, and in tune with your body during intimate moments.",
+             "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "Monthly Subscription",
+      "price": "$74/mo",
+      "description": "$74 for a 1-month supply",
+       "highlight": "Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#F6F0E1"
+    },
+    {
+      "id": "sub2",
+      "title": "Semi-Annual Subscription",
+      "price": "$66/mo",
+      "description": "$396 for a 6-month supply",
+      "highlight": "Save 10% + Free Shipping",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    },
+    {
+      "id": "sub3",
+      "title": "Annual Subscription",
+      "price": "$59/mo",
+      "description": "$708 for a 12-month supply",
+      "highlight": "Save 20% + Free Shipping",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    
+    "finePrint": "Cancel your subscription anytime. *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagn...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Supports Healthy Blood Flow",
+      "description": "Formulated with L-arginine and L-citrulline, amino acids that help support circulation—an essential factor in physical performance."
+    },
+    {
+      "id": "b2",
+      "title": "Botanical Blend Backed by Tradition",
+      "description": "Features adaptogens like maca, ginseng, and tribulus—herbs traditionally used to support energy and physical function."
+      },
+    {
+      "id": "b3",
+      "title": "Comprehensive, Multi-Pathway Approach",
+      "description": "Combines nutrients and botanicals that support key systems involved in performance, including circulation, energy metabolism, and hormonal balance."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Feel more in tune— physically and emotionally.",
+  "subTitle": "This adaptogenic and amino acid blend was created with key ingredients traditionally used to support circulation, energy, and physical connection.",
+        "features": [
+    "Includes botanicals like maca and ginseng, long used in traditional wellness",
+    "Supports healthy energy and blood flow pathways",
+    "Features amino acids that complement overall vitality",
+    "With vitamin C for foundational support"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/weightLoss/weight-loss.jpg",
+    "alt": "Excitement section image"
+  }
+},
+
+"quotes":{
+  "quote": "“Their supplements are natural, effective, and affordable. Since incorporating these products into my routine, I’ve noticed a significant improvement in my energy levels, skin appearance, and overall well-being.”",
+   "author": " Jessica G."
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is the best way and time to take the Sexual Performance supplement?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Can I take Sexual Performance with other supplements or medications?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I see the testing for purity, heavy metals, or the Certificate of Analysis (COA) for this product?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "What can I expect from Conquer Clinic?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

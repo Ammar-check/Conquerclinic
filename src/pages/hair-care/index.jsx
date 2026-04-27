@@ -3,17 +3,16 @@ import YouMightLike from "@/components/pages/glp-1/YouMightLike";
 import BenefitsBar from "@/components/pages/sections/BenefitsBar";
 import FaqSection from "@/components/pages/sections/FaqSection";
 import IncludesSection from "@/components/pages/sections/IncludesSection";
-import PanelSection from "@/components/pages/sections/PanelSection";
 import ProductShowCaseCream from "@/components/pages/sections/ProductShowCaseCream";
 import QuoteSection from "@/components/pages/sections/QuoteSection";
 import ReviewsSection from "@/components/pages/sections/ReviewsSection";
 import SplitContentSection from "@/components/pages/sections/SplitContentSection";
-import beyondData from "@/data/beyond-the-labs/beyond-the-labs.json"
+import hairCareData from "@/data/hair-care/hair-care.json"
 import reviewsData from "@/data/reviews-data.json";
 
 
 
-export default function BeyondTheLabs(){
+export default function HairCare(){
 const { overallRating, maxRating, totalReviews, platform, reviews } =
     reviewsData.reviewsSection;
 
@@ -22,11 +21,12 @@ const { overallRating, maxRating, totalReviews, platform, reviews } =
          <Navbar/>
 
          <main>
-            {/* <IncludesSection data={beyondData} /> */}
-            <PanelSection data={beyondData} />
-            <QuoteSection data={beyondData.quotes} />
-            <FaqSection data={beyondData.faqs} />
-            <YouMightLike youMightLikeData={beyondData.mightLike} />
+            <ProductShowCaseCream data={hairCareData} />
+            <BenefitsBar data={hairCareData}/>
+            <SplitContentSection data={hairCareData} />
+            <QuoteSection data={hairCareData.quotes} />
+            <FaqSection data={hairCareData.faqs} />
+            <YouMightLike youMightLikeData={hairCareData.mightLike} />
             <ReviewsSection
                       overallRating={overallRating}
                       maxRating={maxRating}

@@ -1,4 +1,106 @@
 {
+   "panelSection":{
+    "heading": "TEST SMARTER—LABS THAT MATCH YOUR GOALS",
+  "description": "Get the data you need to optimize your health and performance. Explore our lab options.",
+  
+  "panelCard":[
+    {
+    "id":1,
+    "icon":"/images/compare-all-labs/symbol.png",
+    "heading":" Time with clinician: 30 minutes",
+    "image":"/images/compare-all-labs/prod-img-1.png",
+    "tag":"Most economical",
+    "mainHeading":"Complete Panel",
+    "features":[
+    "56 biomarkers",
+    "30-min clinician visit included"
+    ],
+    "btns":[
+        {
+            "id":1,
+            "content":"Buy Now - $149",
+            "variant": "#363636",
+            "textVariant":"#fff"
+        },
+        {
+            "id":2,
+            "content":"View Biomarkers",
+            "variant": "#ffff",
+            "textVariant":"#000"
+        }
+    ]
+},
+{
+    "id":2,
+    "icon":"/images/compare-all-labs/symbol.png",
+    "heading":" Time with clinician: 30 minutes",
+    "image":"/images/compare-all-labs/prod-img-2.png",
+    "tag":"Most Popular",
+    "mainHeading":"Advance Panel",
+    "features":[
+    "71 biomarkers",
+    "30-min clinician visit included",
+    "Full thyroid panel",
+    "Biological age"
+    ],
+    "btns":[
+        {
+            "id":1,
+            "content":"Buy Now - $399",
+            "variant": "#363636",
+            "textVariant":"#fff"
+        },
+        {
+            "id":2,
+            "content":"View Biomarkers",
+            "variant": "#ffff",
+            "textVariant":"#000"
+        }
+    ]
+},
+{
+    "id":3,
+    "icon":"/images/compare-all-labs/symbol.png",
+    "heading":" Time with clinician: 30 minutes",
+    "image":"/images/compare-all-labs/prod-img-3.png",
+    "tag":"Most Comprehensive",
+    "mainHeading":"Comprehensive Panel",
+    "features":[
+    "110 biomarkers",
+    "60-min clinician visit included",
+    "Full thyroid panel",
+    "Biological age"
+    ],
+    "btns":[
+        {
+            "id":1,
+            "content":"Buy Now - $699",
+            "variant": "#363636",
+            "textVariant":"#fff"
+        },
+        {
+            "id":2,
+            "content":"View Biomarkers",
+            "variant": "#ffff",
+            "textVariant":"#000"
+        }
+    ]
+}
+  
+],
+   
+
+"bottomSection": {
+    "heading": "Our Approach",
+    "text": [
+      "At Conquer Clinic, we’re on a mission to disrupt the outdated, reactive healthcare model. We believe people deserve more than vague advice and one-size-fits-all treatments. That’s why we’ve built a deeply personalized path to optimal health.",
+      "It begins with a comprehensive blood test to uncover what’s really going on inside your body. From there, you get a consult with a licensed clinician—because real answers should come from real people who know how to help you feel your best.",
+      "We don’t just hand you lab results and wish you luck. We deliver custom treatment plans built around your goals—whether it’ hormone balance, enhanced energy, better sleep, sharper focus, or long-term vitality. Think: precision medicine meets concierge care.",
+      "With science-backed protocols, expert support, and real-time tracking, Conquer Clinic gives you the power to take charge of your health—and actually feel the difference."
+    ]
+  }
+
+},
 
 "faqs":{
   "title": "Have Questions? We're Here to Help",

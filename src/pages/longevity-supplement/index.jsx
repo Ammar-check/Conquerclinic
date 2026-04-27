@@ -12,7 +12,7 @@ import reviewsData from "@/data/reviews-data.json";
 
 
 
-export default function GlpAssist(){
+export default function LongevitySupplement(){
 const { overallRating, maxRating, totalReviews, platform, reviews } =
     reviewsData.reviewsSection;
 
@@ -24,7 +24,6 @@ const { overallRating, maxRating, totalReviews, platform, reviews } =
             <ProductShowCaseCream data={longevityData} />
             <BenefitsBar data={longevityData}/>
             <SplitContentSection data={longevityData} />
-            <IncludesSection data={longevityData} />
             <QuoteSection data={longevityData.quotes} />
             <FaqSection data={longevityData.faqs} />
             <YouMightLike youMightLikeData={longevityData.mightLike} />

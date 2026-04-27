@@ -1,0 +1,218 @@
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: transparent;
+  position: fixed;
+  z-index: 100;
+
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+  
+}
+.navLinks:hover .mainLink{
+    color: black;
+}
+
+.navLinks:hover .logo{
+    color: black;
+}
+
+.navItem {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+.navItem::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background: #000;
+    transition: width 0.3s ease;
+}
+
+.navItem:hover::after{
+    width: 100%;
+    color: black;
+}
+
+/* MEGA MENU */
+.megaMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+   
+  width: 100vw;
+  height: 100vh;
+  background: #f8f8f8;
+  padding: 40px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  z-index: -1;
+}
+
+.megaInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  height: 100%;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* content inside */
+.megaContent {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+/* RIGHT */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  cursor: pointer;
+}
+.iconWrapper{
+    
+    position: relative;
+}
+.iconWrapper::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background: #000;
+    transition: width 0.3s ease;
+}
+.iconWrapper:hover::after{
+    width: 100%;
+}
+
+
+.ctaBtn {
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  background: #8EC5FF;
+  color: #000;
+  border: none;
+}
+
+.leftSec h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.allBtn {
+  padding: 10px 20px;
+  background: #1E2939;
+  width: 100%;
+  color: white;
+}
+
+.middleSec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.middleSec a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.middleSec a:hover {
+  color: black;
+}
+
+.rightSec {
+  overflow: hidden;
+}
+
+.productRow {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+/* hide scrollbar (optional clean UI) */
+.productRow::-webkit-scrollbar {
+  display: none;
+}
+
+.productCard {
+  min-width: 180px;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.productCard img {
+  width: 100%;
+  height: auto;
+}
+
+.productCard p {
+  margin: 10px 0 5px;
+}
+
+.productCard span {
+  font-weight: bold;
+}
+
+.megaMenu {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.megaTitle{
+    font-size: 60px;
+    font-weight: 500;
+    color: #0A0A0A;
+}

@@ -1,0 +1,127 @@
+.panelSec {
+    background: #333333;
+    padding: 120px 20px; /* responsive padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* HEADING */
+.heading {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 900px;
+}
+
+/* DESCRIPTION */
+.desc {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    max-width: 700px;
+    text-align: center;
+}
+
+/* CARD GRID */
+.cardSec {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* BOTTOM SECTION */
+.bottomSec {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+.bottomHeading {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.txt {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ========================= */
+/* RESPONSIVENESS */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .cardSec {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .panelSec {
+        padding: 120px 15px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .cardSec {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .bottomHeading {
+        font-size: 18px;
+    }
+
+    .txt {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:576px) {
+    .cardSec {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .panelSec{
+        padding: 140px 15px;
+    }
+    .heading {
+        font-size: 26px;
+    }
+
+    .desc {
+        font-size: 15px;
+    }
+}

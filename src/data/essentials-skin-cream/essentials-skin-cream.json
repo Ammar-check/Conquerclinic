@@ -1,0 +1,169 @@
+{
+  "product": {
+    "image": "/images/luxe-skin-cream/luxe-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Only Women Shop",
+    "title": "Essentials Skin Cream",
+    "description":"(0.3% Estriol)",
+    "description2":"An estriol-based prescription skin cream that plumps the skin, restores elasticity, shrinks pores, boosts collagen, & improves dryness and dullness.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "Subscribe & Save",
+      "price": "$49/mo",
+      "description": "$98 for a 2-month supply",
+       "highlight": "Save 20% + Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#F6F0E1"
+    },
+    {
+      "id": "sub2",
+      "title": "One Time Purchase",
+      "price": "$59/mo",
+      "description": "$118 for a 2-month supply",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+  "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    
+    "finePrint": "All prescriptions require a consultation with a licensed provider, either asynchronously or synchronously. If the provider determines the medication i... ",
+        "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Hydrate & Revitalize",
+      "description": "Deeply nourishes and moisturizes the skin, promoting a smooth and radiant complexion."
+    },
+    {
+      "id": "b2",
+      "title": "Anti-Aging",
+      "description": "Combats fine lines, wrinkles, and dullness with ingredients that support collagen production."
+      },
+    {
+      "id": "b3",
+      "title": "Protect and Repair",
+      "description": "Shields skin from environmental damage while promoting cellular repair."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Skin that keeps up with you",
+  "subTitle": "Estrogen-based prescription face cream curated specifically for perimenopausal and menopausal women.",
+        "features": [
+    "Boosts collagen",
+    "Shrinks pores",
+    "Plumps the skin",
+    "Improves dullness",
+    "Restores elasticity"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/longevity/longevity.jpg",
+    "alt": "Excitement section image"
+  }
+},
+
+"quotes":{
+  "quote": "“The Joi skincare line is fantastic! Their products are gentle and effective, and I have noticed a significant improvement in the appearance of my skin since using them.”",
+     "author": " Ashley Richards"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "How do I apply?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "When should I apply my cream—morning or night?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can this cream be used with other skincare products like serums, oils, or boosters?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "Can I apply the cream to my throat and eye area?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

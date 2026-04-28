@@ -15,6 +15,7 @@
     },
     "hsaFsa": "HSA/FSA",
     "category": "Longevity",
+    "category2": "Lab + clinician visit required",
     "title": "Rapamycin (Sirolimus)",
     "description":"Rapamycin is a promising therapy for promoting healthspan by modulating the mTOR complex I pathway, which plays a key role in cellular aging. When taken in small doses over time, Rapamycin may aid in cellular function, slowing the accumulation of senescent cells and promoting longevity.",
     "primaryCta": {

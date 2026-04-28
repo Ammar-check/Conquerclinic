@@ -171,6 +171,85 @@
       "image": "/images/glp-1/main-product.png"
     }
   ]
-}
+},
+"biomarkerTable": {
+    "headers": [
+      {
+        "title": "Biomarkers"
+      },
+      {
+        "title": "Basic Panel",
+        "image": "/images/compare-all-labs/prod-img-1.png",
+        "subtitle": "Most Economical"
+      },
+      {
+        "title": "Advanced Panel",
+        "image": "/images/compare-all-labs/prod-img-2.png",
+        "subtitle": "Most Popular"
+      },
+      {
+        "title": "Complete Panel",
+        "image": "/images/compare-all-labs/prod-img-3.png",
+        "subtitle": "Most Comprehensive"
+      }
+    ],
+    "rows": [
+      {
+        "icon": "/icons/heart.svg",
+        "title": "Cholesterol",
+        "values": [true, true, true]
+      },
+      {
+        "icon": "/icons/blood.svg",
+        "title": "Blood Sugar",
+        "values": [true, true, true]
+      },
+      {
+        "icon": "/icons/liver.svg",
+        "title": "Liver Function",
+        "values": [false, true, true]
+      },
+      {
+        "icon": "/icons/kidney.svg",
+        "title": "Kidney Function",
+        "values": [false, true, true]
+      },
+      {
+        "icon": "/icons/hormone.svg",
+        "title": "Hormones",
+        "values": [false, false, true]
+      },
+      {
+        "icon": "/icons/vitamin.svg",
+        "title": "Vitamin Levels",
+        "values": [false, true, true]
+      },
+      {
+        "icon": "/icons/thyroid.svg",
+        "title": "Thyroid",
+        "values": [false, true, true]
+      },
+      {
+        "icon": "/icons/iron.svg",
+        "title": "Iron Levels",
+        "values": [true, true, true]
+      },
+      {
+        "icon": "/icons/testosterone.svg",
+        "title": "Testosterone",
+        "values": [false, false, true]
+      },
+      {
+        "icon": "/icons/inflammation.svg",
+        "title": "Inflammation",
+        "values": [false, true, true]
+      },
+      {
+        "icon": "/icons/calcium.svg",
+        "title": "Calcium",
+        "values": [true, true, true]
+      }
+    ]
+  }
 
 }

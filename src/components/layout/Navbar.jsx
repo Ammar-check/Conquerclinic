@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from "react";
@@ -8,15 +7,116 @@ import Image from "next/image";
 
 import styles from "./Navbar.module.css";
 import navbarData from "@/data/navbar.json";
+import { ChevronLeft } from "react-bootstrap-icons";
 
 const Navbar = () => {
   const { logo, navItems, icons, button } = navbarData;
 
   const [activeMenu, setActiveMenu] = useState(null);
+  const [activeCategory, setActiveCategory] = useState(null);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(null); // men / women
+  const [mobileSubMenu, setMobileSubMenu] = useState(null); // category
 
   return (
     <header className={styles.navbar}>
       <Container className={styles.navContainer}>
+
+        {/* ==================== mobile navbar ==================== */}
+        {isMobileOpen && (
+          <div className={styles.mobileMenu}>
+            {/* Top Bar */}
+            <div className={styles.mobileTop}>
+              <span onClick={() => setIsMobileOpen(false)}>✕</span>
+            </div>
+
+            {/* Buttons */}
+            <button className={styles.mobileBtn}>Login</button>
+            <button className={styles.mobileBtnPrimary}>{button}</button>
+
+            {/* LEVEL 1 (Men / Women) */}
+            {!mobileMenu &&
+              navItems.map((item, i) => (
+                <div
+                  key={i}
+                  className={styles.mobileItem}
+                  onClick={() => setMobileMenu(item)}
+                >
+                  {item.label}
+                </div>
+              ))}
+
+            {/* LEVEL 2 (Categories) */}
+            {mobileMenu && !mobileSubMenu && (
+              <>
+                <div
+                  className={styles.backBtn}
+                  onClick={() => setMobileMenu(null)}
+                >
+                  ← Back
+                </div>
+
+                {mobileMenu.megaMenu.categories.map((cat, i) => (
+                  <div
+                    key={i}
+                    className={styles.mobileItem}
+                    onClick={() => {
+                      if (cat.children) {
+                        setMobileSubMenu(cat);
+                      } else {
+                        window.location.href = cat.href;
+                      }
+                    }}
+                  >
+                    {cat.label}
+                  </div>
+                ))}
+              </>
+            )}
+
+            {/* LEVEL 3 (Sub Categories) */}
+            {mobileSubMenu && (
+              <>
+                <div
+                  className={styles.backBtn}
+                  onClick={() => setMobileSubMenu(null)}
+                >
+                  ← Back
+                </div>
+
+                {mobileSubMenu.children.map((sub, i) => (
+                  <a key={i} href={sub.href} className={styles.mobileItem}>
+                    {sub.label}
+                  </a>
+                ))}
+              </>
+            )}
+
+               {/* RIGHT */}
+               {!mobileMenu &&
+              navItems.map((item, i) => (
+                      <div className={styles.rightSec}>
+                        <span className={styles.megaProdTitle}>
+                          {item.megaMenu.productTitle}
+                        </span>
+                        <div className={styles.productRow}>
+                          {item.megaMenu.products.map((prod, i) => (
+                            <div key={i} className={styles.productCard}>
+                              <img src={prod.image} alt={prod.name} />
+                              <h1 className={styles.popularProdName}>
+                                {prod.name}
+                              </h1>
+                              <p className={styles.prodDesc}>{prod.desc}</p>
+                              <span className={styles.popularProdPrice}>
+                                {prod.price}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                        
+                      </div>  ))}
+          </div>
+        )}
 
         {/* LEFT SIDE */}
         <div className={styles.left}>
@@ -38,42 +138,92 @@ const Navbar = () => {
 
                 {/* MEGA MENU */}
                 {activeMenu === index && item.megaMenu && (
-  <div className={styles.megaMenu}>
-    <div className={styles.megaInner}>
+                  <div className={styles.megaMenu}>
+                    <div className={styles.megaInner}>
+                      {/* LEFT */}
+                      <div className={styles.leftSec}>
+                        <h2 className={styles.megaTitle}>
+                          {item.megaMenu.title}
+                        </h2>
+                        <button className={styles.allBtn}>
+                          {item.megaMenu.cta}
+                        </button>
+                      </div>
 
-      {/* LEFT */}
-      <div className={styles.leftSec}>
-        <h2 className={styles.megaTitle}>{item.megaMenu.title}</h2>
-        <button className={styles.allBtn}>
-          {item.megaMenu.cta}
-        </button>
-      </div>
+                      {/* MIDDLE */}
+                      <div className={styles.middleSec}>
+                        {activeCategory && (
+                          <div
+                            className={styles.backBtn}
+                            onClick={() => setActiveCategory(null)}
+                          >
+                            <ChevronLeft />
+                            {activeCategory.label}
+                          </div>
+                        )}
 
-      {/* MIDDLE */}
-      <div className={styles.middleSec}>
-        {item.megaMenu.categories.map((cat, i) => (
-          <a key={i} href={cat.href}>
-            {cat.label}
-          </a>
-        ))}
-      </div>
+                        {/* ============== main nav menu  ============== */}
+                        {!activeCategory && (
+                          <span className={styles.megaProdTitle}>
+                            {item.megaMenu.categoryTitle}
+                          </span>
+                        )}
+                        {!activeCategory &&
+                          item.megaMenu.categories.map((cat, i) => (
+                            <div
+                              key={i}
+                              href={cat.href}
+                              className={styles.menuItem}
+                              onClick={() => {
+                                if (cat.children) {
+                                  setActiveCategory(cat);
+                                } else {
+                                  window.location.href = cat.href;
+                                }
+                              }}
+                            >
+                              {cat.label}
+                            </div>
+                          ))}
 
-      {/* RIGHT */}
-      <div className={styles.rightSec}>
-        <div className={styles.productRow}>
-          {item.megaMenu.products.map((prod, i) => (
-            <div key={i} className={styles.productCard}>
-              <img src={prod.image} alt={prod.name} />
-              <p>{prod.name}</p>
-              <span>{prod.price}</span>
-            </div>
-          ))}
-        </div>
-      </div>
+                        {/* ============= sub category ============= */}
+                        {activeCategory &&
+                          activeCategory.children.map((sub, i) => (
+                            <a
+                              key={i}
+                              className={styles.menuItem}
+                              href={sub.href}
+                            >
+                              {" "}
+                              {sub.label}
+                            </a>
+                          ))}
+                      </div>
 
-    </div>
-  </div>
-)}
+                      {/* RIGHT */}
+                      <div className={styles.rightSec}>
+                        <span className={styles.megaProdTitle}>
+                          {item.megaMenu.productTitle}
+                        </span>
+                        <div className={styles.productRow}>
+                          {item.megaMenu.products.map((prod, i) => (
+                            <div key={i} className={styles.productCard}>
+                              <img src={prod.image} alt={prod.name} />
+                              <h1 className={styles.popularProdName}>
+                                {prod.name}
+                              </h1>
+                              <p className={styles.prodDesc}>{prod.desc}</p>
+                              <span className={styles.popularProdPrice}>
+                                {prod.price}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </nav>
@@ -83,20 +233,25 @@ const Navbar = () => {
         <div className={styles.right}>
           {icons.map((icon, i) => (
             <div className={styles.iconWrapper}>
-            <Image
-              key={i}
-              src={icon}
-              alt="icon"
-              width={20}
-              height={20}
-              className={styles.icon}
-            />
+              <Image
+                key={i}
+                src={icon}
+                alt="icon"
+                width={20}
+                height={20}
+                className={styles.icon}
+              />
             </div>
           ))}
-
+  
           <button className={styles.ctaBtn}>{button}</button>
+          <div
+                          className={styles.mobileToggle}
+                          onClick={() => setIsMobileOpen(true)}
+                        >
+                          ☰
+                        </div>
         </div>
-
       </Container>
     </header>
   );

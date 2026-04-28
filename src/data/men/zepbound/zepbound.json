@@ -1,0 +1,196 @@
+{
+  "product": {
+    "image": "/images/men/thyroid-care/zepbound-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+      "lab":"START WITH A LAB",
+      "extraPrice":"12 capsules/bottle. $83/mo ($249 for a 3-month supply).",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Longevity",
+    "category2": "Lab + clinician visit required",
+    "title": "Thyroid Care",
+    "description":"Your thyroid is a small but powerful gland that regulates metabolism, energy, mood, and overall body function by producing hormones that control how your body uses energy— impacting everything from weight and digestion to heart rate and body temperature.",
+    "description2":"Emphasis → Get personalized thyroid care to achieve your optimal outcome for $99/mo, $297 billed quarterly.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Restore Energy & Metabolism",
+      "description": "Boost energy levels, regulate metabolism, and improve weight management."
+    },
+    {
+      "id": "b2",
+      "title": "Enhance Mood",
+      "description": "Helps reduce brain fog, anxiety, and mood swings."
+      },
+    {
+      "id": "b3",
+      "title": "Support Overall Well-Being",
+      "description": "Improves hair, skin, and digestive health."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Reliable care, transparent price—$99/month",
+  "subTitle": "Ongoing care is just $99/month, billed quarterly, with no membership or hidden fees. You can cancel anytime—no strings attached. This includes:",
+  "features": [
+    "Ongoing advanced lab panels (71 biomarkers)",
+    "Regular clinician follow-ups"
+  ],
+  "subTitle2":"We’ll send your thyroid prescriptions directly to your preferred local pharmacy, where you can use insurance or a GoodRx coupon.",
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/men/thyroid-care/tyroid-img.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What thyroid medications do you prescribe?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "What hormones help with thyroid balance?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Do I take my medication prior to my blood draw?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "What are the top signs of a thyroid imbalance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "How often will I need a thyroid lab to check my levels?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "How often do I do labs and clinician follow-ups?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

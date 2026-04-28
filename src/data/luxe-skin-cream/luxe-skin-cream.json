@@ -45,6 +45,11 @@
     }
        
   ],
+
+  "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
     
     "finePrint": "All prescriptions require a consultation with a licensed provider, either asynchronously or synchronously. If the provider determines the medication i... Read more",
         "finePrintLink": "Read more"

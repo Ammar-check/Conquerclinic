@@ -5,7 +5,8 @@
       "label": "Men",
       "megaMenu": {
         "title": "Men’s Health",
-        "cta": "All Products",
+        "cta": "ALL MEN'S HEALTH",
+        "categoryTitle":"Category",
         "categories": [
           { "label": "Hormone Health", "href": "/" },
           { "label": "Weight Loss", "href": "/" },
@@ -16,16 +17,37 @@
           { "label": "Skin Care", "href": "/" },
           { "label": "Fertility (coming soon)", "href": "/" }
         ],
+        "productTitle":"Popular Products",
         "products": [
           {
-            "name": "Product 1",
-            "image": "/images/p1.png",
-            "price": "$99"
+            "name": "Advanced Panel",
+            "desc":"Hormones, metabolism, & thyroid (71 biomarkers)",
+            "image": "/images/navbar/prod-1.png",
+            "price": "$399"
           },
           {
-            "name": "Product 2",
-            "image": "/images/p2.png",
-            "price": "$129"
+            "name": "Sermorelin",
+            "desc":"Peptide associated with growth hormone signaling.",
+            "image": "/images/navbar/prod-2.png",
+            "price": "$199/mo"
+          },
+          {
+            "name": "Complete Hormone",
+            "desc":"Covers 56 hormone-related biomarkers",
+            "image": "/images/navbar/prod-3.png",
+            "price": "$149"
+          },
+          {
+            "name": "Complete Hormone",
+            "desc":"Covers 56 hormone-related biomarkers",
+            "image": "/images/navbar/prod-3.png",
+            "price": "$149"
+          },
+          {
+            "name": "Complete Hormone",
+            "desc":"Covers 56 hormone-related biomarkers",
+            "image": "/images/navbar/prod-3.png",
+            "price": "$149"
           }
         ]
       }
@@ -33,27 +55,64 @@
     {
       "label": "women",
       "megaMenu": {
-        "title": "Women’s Health",
+        "title": "ALL WOMEN'S HEALTH",
         "cta": "All Products",
+        "categoryTitle":"Category",
         "categories": [
-          { "label": "Hormone Health", "href": "/" },
-          { "label": "Weight Loss", "href": "/" },
+          { 
+            "label": "Hormone Health",
+             "children": [
+                 {"label": "Weight Loss", "href": "/"},
+                 {"label": "Weight Loss", "href": "/"},
+                 {"label": "Weight Loss", "href": "/"},
+                 {"label": "Weight Loss", "href": "/"}
+             ] 
+            },
+          { "label": "Weight Loss", 
+            "children": [
+                 {"label": "Weight Loss", "href": "/"},
+                 {"label": "Weight Loss", "href": "/"},
+                 {"label": "Weight Loss", "href": "/"},
+                 {"label": "Weight Loss", "href": "/"}
+             ] 
+        },
           { "label": "Sexual Health", "href": "/" },
           { "label": "Longevity", "href": "/" },
           { "label": "Diagnostic Labs", "href": "/" },
           { "label": "Supplements", "href": "/" },
           { "label": "Fertility (coming soon)", "href": "/" }
         ],
+        "productTitle":"Popular Products",
         "products": [
           {
-            "name": "Product 1",
-            "image": "/images/p1.png",
-            "price": "$99"
+            "name": "Advanced Panel",
+            "desc":"Hormones, metabolism, & thyroid (71 biomarkers)",
+            "image": "/images/navbar/prod-1.png",
+            "price": "$399"
           },
           {
-            "name": "Product 2",
-            "image": "/images/p2.png",
-            "price": "$129"
+            "name": "Sermorelin",
+            "desc":"Peptide associated with growth hormone signaling.",
+            "image": "/images/navbar/prod-2.png",
+            "price": "$199/mo"
+          },
+          {
+            "name": "Complete Hormone",
+            "desc":"Covers 56 hormone-related biomarkers",
+            "image": "/images/navbar/prod-3.png",
+            "price": "$149"
+          },
+          {
+            "name": "Complete Hormone",
+            "desc":"Covers 56 hormone-related biomarkers",
+            "image": "/images/navbar/prod-3.png",
+            "price": "$149"
+          },
+          {
+            "name": "Complete Hormone",
+            "desc":"Covers 56 hormone-related biomarkers",
+            "image": "/images/navbar/prod-3.png",
+            "price": "$149"
           }
         ]
       }

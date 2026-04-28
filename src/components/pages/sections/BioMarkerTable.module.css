@@ -1,0 +1,59 @@
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: auto;
+  padding: 50px 80px;
+  background: #333333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.th, .td {
+    background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.td{
+    background-color: #EEEEEE;
+}
+
+.firstCol {
+  text-align: left;
+  background-color: #EEEEEE;
+  border-right: 1px solid #E5E5E5;
+}
+
+.bioCell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.tag{
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #176F4F;
+    border: 1px solid #B9D4CA61;
+    background: #DFEAE6C7;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 15px;
+}
+
+/* .tr:hover {
+  background: #f9f9f9;
+} */

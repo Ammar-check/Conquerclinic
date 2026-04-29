@@ -12,7 +12,7 @@ import reviewsData from "@/data/reviews-data.json";
 
 
 
-export default function Glutathione(){
+export default function Vip(){
 const { overallRating, maxRating, totalReviews, platform, reviews } =
     reviewsData.reviewsSection;
 

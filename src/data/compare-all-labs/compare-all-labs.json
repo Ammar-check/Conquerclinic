@@ -175,7 +175,7 @@
 "biomarkerTable": {
     "headers": [
       {
-        "title": "Biomarkers"
+        "title": " BIOMARKERS"
       },
       {
         "title": "Basic Panel",
@@ -195,61 +195,288 @@
     ],
     "rows": [
       {
-        "icon": "/icons/heart.svg",
-        "title": "Cholesterol",
-        "values": [true, true, true]
+        "icon": "/images/compare-all-labs/icons/icon-1.svg",
+        "title": "Metabolism & Weight Control",
+        "values": [2, 8, 11]
       },
       {
-        "icon": "/icons/blood.svg",
-        "title": "Blood Sugar",
-        "values": [true, true, true]
+        "icon": "/images/compare-all-labs/icons/icon-2.svg",
+        "title": "Oxygen Transfer & Blood Function",
+        "values": [10, 13, 19]
       },
       {
-        "icon": "/icons/liver.svg",
-        "title": "Liver Function",
-        "values": [false, true, true]
+        "icon": "/images/compare-all-labs/icons/icon-3.svg",
+        "title": "Bone & Muscle Health",
+        "values": [4, 4, 4]
       },
       {
-        "icon": "/icons/kidney.svg",
-        "title": "Kidney Function",
-        "values": [false, true, true]
+        "icon": "/images/compare-all-labs/icons/icon-4.svg",
+        "title": "Electrolyte & Fluid Balance",
+        "values": [5, 5, 7]
       },
       {
-        "icon": "/icons/hormone.svg",
-        "title": "Hormones",
-        "values": [false, false, true]
+        "icon": "/images/compare-all-labs/icons/icon-5.svg",
+        "title": "Kidney Health",
+        "values": [6, 6, 28]
       },
       {
-        "icon": "/icons/vitamin.svg",
-        "title": "Vitamin Levels",
-        "values": [false, true, true]
+        "icon": "/images/compare-all-labs/icons/icon-6.svg",
+        "title": "Cognition",
+        "values": [1, 2, 3]
       },
       {
-        "icon": "/icons/thyroid.svg",
-        "title": "Thyroid",
-        "values": [false, true, true]
-      },
-      {
-        "icon": "/icons/iron.svg",
-        "title": "Iron Levels",
-        "values": [true, true, true]
-      },
-      {
-        "icon": "/icons/testosterone.svg",
-        "title": "Testosterone",
-        "values": [false, false, true]
-      },
-      {
-        "icon": "/icons/inflammation.svg",
+        "icon": "/images/compare-all-labs/icons/icon-7.svg",
         "title": "Inflammation",
-        "values": [false, true, true]
+        "values": [14, 15, 18]
       },
       {
-        "icon": "/icons/calcium.svg",
-        "title": "Calcium",
-        "values": [true, true, true]
+        "icon": "/images/compare-all-labs/icons/icon-8.svg",
+        "title": "Strength & Endurance",
+        "values": [4, 5, 6]
+      },
+      {
+        "icon": "/images/compare-all-labs/icons/icon-9.svg",
+        "title": "Liver Function & Toxicity",
+        "values": [6, 6, 7]
+      },
+      {
+        "icon": "/images/compare-all-labs/icons/icon-10.svg",
+        "title": "Thyroid Health",
+        "values": [1, 5, 5]
+      },
+      {
+        "icon": "/images/compare-all-labs/icons/icon-11.svg",
+        "title": "Menstrual Health",
+        "values": [3, 3, 3]
       }
     ]
-  }
+  },
+
+  "ingredients":[
+    {
+  "heading": "Meet the Complete Panel",
+  "subHeading":"Cover all the essentials needed for hormone therapy. Analyzes 56 biomarkers. Includes a 30-min clinician visit.",
+  "image":"/images/compare-all-labs/prod-img-1.png",
+  "btn":"$149",
+  "symptomCards": [
+    {
+      "id": "1",
+      "label": "Metabolism & Weight Control",
+      "icon": "/images/complete-hormone/icons/icon-1.svg",
+      "iconAlt": "Ketoprofen icon"
+    },
+    {
+      "id": "2",
+      "label": "Oxygen Transfer & Blood Function",
+      "icon": "/images/complete-hormone/icons/icon-2.svg",
+      "iconAlt": "NAD icon"
+    },
+    {
+      "id": "3",
+      "label": "Bone & Muscle Health",
+      "icon": "/images/complete-hormone/icons/icon-3.svg",
+      "iconAlt": "Baclofen icon"
+    },
+    {
+      "id": "4",
+      "label": "Electrolyte & Fluid Balance",
+      "icon": "/images/complete-hormone/icons/icon-4.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "5",
+      "label": "Kidney Health",
+      "icon": "/images/complete-hormone/icons/icon-5.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "6",
+      "label": "Cognition",
+      "icon": "/images/complete-hormone/icons/icon-6.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "7",
+      "label": "Inflammation",
+      "icon": "/images/complete-hormone/icons/icon-7.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "8",
+      "label": "Strength & Endurance",
+      "icon": "/images/complete-hormone/icons/icon-8.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "9",
+      "label": "Liver Function & Toxicity",
+      "icon": "/images/complete-hormone/icons/icon-9.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "10",
+      "label": "Menstrual Health",
+      "icon": "/images/complete-hormone/icons/icon-10.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "11",
+      "label": "Thyroid Health",
+      "icon": "/images/complete-hormone/icons/icon-11.svg",
+      "iconAlt": "Menthol icon"
+    }
+  ]
+},
+{
+  "heading": "Meet the Advanced Panel",
+  "subHeading":"A detailed assessment of key hormonal, thyroid, and metabolic markers to help you optimize your health. Analyzes 71 biomarkers. Includes a 30-min clinician visit.",
+  "image":"/images/compare-all-labs/prod-img-2.png",
+  "btn":"$399",
+  "symptomCards": [
+    {
+      "id": "1",
+      "label": "Metabolism & Weight Control",
+      "icon": "/images/complete-hormone/icons/icon-1.svg",
+      "iconAlt": "Ketoprofen icon"
+    },
+    {
+      "id": "2",
+      "label": "Oxygen Transfer & Blood Function",
+      "icon": "/images/complete-hormone/icons/icon-2.svg",
+      "iconAlt": "NAD icon"
+    },
+    {
+      "id": "3",
+      "label": "Bone & Muscle Health",
+      "icon": "/images/complete-hormone/icons/icon-3.svg",
+      "iconAlt": "Baclofen icon"
+    },
+    {
+      "id": "4",
+      "label": "Electrolyte & Fluid Balance",
+      "icon": "/images/complete-hormone/icons/icon-4.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "5",
+      "label": "Kidney Health",
+      "icon": "/images/complete-hormone/icons/icon-5.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "6",
+      "label": "Cognition",
+      "icon": "/images/complete-hormone/icons/icon-6.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "7",
+      "label": "Inflammation",
+      "icon": "/images/complete-hormone/icons/icon-7.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "8",
+      "label": "Strength & Endurance",
+      "icon": "/images/complete-hormone/icons/icon-8.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "9",
+      "label": "Liver Function & Toxicity",
+      "icon": "/images/complete-hormone/icons/icon-9.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "10",
+      "label": "Menstrual Health",
+      "icon": "/images/complete-hormone/icons/icon-10.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "11",
+      "label": "Thyroid Health",
+      "icon": "/images/complete-hormone/icons/icon-11.svg",
+      "iconAlt": "Menthol icon"
+    }
+  ]
+},
+
+{
+  "heading": "Meet the Comprehensive Panel",
+  "subHeading":"The ultimate proactive lab panel for those committed to uncovering every detail of their health. Analyzes 110 biomarkers. Includes a 60-min clinician visit.",
+  "image":"/images/compare-all-labs/prod-img-3.png",
+  "btn":"$699",
+  "symptomCards": [
+    {
+      "id": "1",
+      "label": "Metabolism & Weight Control",
+      "icon": "/images/complete-hormone/icons/icon-1.svg",
+      "iconAlt": "Ketoprofen icon"
+    },
+    {
+      "id": "2",
+      "label": "Oxygen Transfer & Blood Function",
+      "icon": "/images/complete-hormone/icons/icon-2.svg",
+      "iconAlt": "NAD icon"
+    },
+    {
+      "id": "3",
+      "label": "Bone & Muscle Health",
+      "icon": "/images/complete-hormone/icons/icon-3.svg",
+      "iconAlt": "Baclofen icon"
+    },
+    {
+      "id": "4",
+      "label": "Electrolyte & Fluid Balance",
+      "icon": "/images/complete-hormone/icons/icon-4.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "5",
+      "label": "Kidney Health",
+      "icon": "/images/complete-hormone/icons/icon-5.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "6",
+      "label": "Cognition",
+      "icon": "/images/complete-hormone/icons/icon-6.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "7",
+      "label": "Inflammation",
+      "icon": "/images/complete-hormone/icons/icon-7.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "8",
+      "label": "Strength & Endurance",
+      "icon": "/images/complete-hormone/icons/icon-8.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "9",
+      "label": "Liver Function & Toxicity",
+      "icon": "/images/complete-hormone/icons/icon-9.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "10",
+      "label": "Menstrual Health",
+      "icon": "/images/complete-hormone/icons/icon-10.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "11",
+      "label": "Thyroid Health",
+      "icon": "/images/complete-hormone/icons/icon-11.svg",
+      "iconAlt": "Menthol icon"
+    }
+  ]
+}
+
+  ]
 
 }

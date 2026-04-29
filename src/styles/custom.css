@@ -3099,7 +3099,7 @@ body {
 }
 
 .benefit-item__imgWrapper{
-    background-color: #fff;
+    background-color: #DCDCDC;
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -4479,13 +4479,13 @@ quote section reusable
 /* Section */
 .quote-section {
   background: #333333;
-  padding: 80px 120px;
+  padding: 80px 60px;
   color: #fff;
 }
 
 /* Inner wrapper (centered content) */
 .quote-section__inner {
-    max-width: 912px;
+    max-width: 1212px;
     border-radius: 10px;
   padding: 70px 90px;
   margin: 0 auto;

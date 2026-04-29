@@ -4,6 +4,7 @@ import BenefitsBar from "@/components/pages/sections/BenefitsBar";
 import BiomarkerTable from "@/components/pages/sections/BioMarkerTable";
 import FaqSection from "@/components/pages/sections/FaqSection";
 import IncludesSection from "@/components/pages/sections/IncludesSection";
+import Ingredients from "@/components/pages/sections/Ingredients";
 import PanelSection from "@/components/pages/sections/PanelSection";
 import ProductShowCaseCream from "@/components/pages/sections/ProductShowCaseCream";
 import QuoteSection from "@/components/pages/sections/QuoteSection";
@@ -25,10 +26,11 @@ const { overallRating, maxRating, totalReviews, platform, reviews } =
 
          <main>
 
-            {/* <IncludesSection data={compareAllLabsData} /> */}   
             {/* <PanelCard data={compareAllLabsData} /> */}
             <PanelSection data={compareAllLabsData}/>
             <BiomarkerTable data={compareAllLabsData} />
+            {/* <IncludesSection data={compareAllLabsData} />    */}
+            <Ingredients data={compareAllLabsData}/>
             <FaqSection data={compareAllLabsData.faqs} />
             <YouMightLike youMightLikeData={compareAllLabsData.mightLike} />
             <ReviewsSection

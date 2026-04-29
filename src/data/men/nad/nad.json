@@ -1,0 +1,204 @@
+{
+  "product": {
+    "image": "/images/nad/nad.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Longevity",
+    "title": "NAD+",
+    "description": "NAD+ (nicotinamide adenine dinucleotide) is a vital coenzyme found in every cell and involved in essential metabolic processes. NAD+ plays a central role in converting nutrients into energy, supporting cellular repair, and maintaining overall metabolic function. Natural levels of NAD+ have been observed to decline with age.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$150/mo",
+      "description": "$150 for a month supply",
+      "highlight": "Save 20% + Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#E8F1ED"
+    },
+    {
+      "id": "sub2",
+      "title": "One Time Purchase",
+      "price": "$187/mo",
+      "description": "$187 for a month supply",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Supports Healthy Aging",
+      "description": "Involved in pathways related to DNA repair, mitochondrial function, and cellular resilience."
+    },
+    {
+      "id": "b2",
+      "title": "Supports Brain Health",
+      "description": "Studied for its role in neuronal signaling, cognitive pathways, and metabolic activity in the brain."
+    },
+    {
+      "id": "b3",
+      "title": "Cellular Energy Support",
+      "description": "Plays a role in mitochondrial energy production and cellular metabolism."
+    }
+  ],
+
+  "splitContent":{
+  "title": "A Key Player in Cellular Health",
+  "features": [
+    "NAD+ is a vital coenzyme that plays a key role in energy production, metabolism, and cellular repair.",
+    "Involved in energy production",
+    "Cofactor for DNA repair",
+    "Aids in immune system balance and liver function",
+    "Supports cognitive health",
+    "Protects against oxidative stress",
+    "May slow down the aging process"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/men/sexual-health/img-1.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+"quotes":{
+  "quote": "“I don’t want a long lifespan. I want a long health span. There’s a difference. NAD+ was a significant addition to my supplement routine this year. NAD+ is really big in the anti-aging community. You may have heard of it from David Sinclair or Andrew Huberman. I immediately noticed the benefits of increased recovery, better mood, and more energy.”",
+  "author": "Steve Lutsk"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is NAD+?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How is NAD+ administered?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "How long until I feel the benefits of NAD+?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

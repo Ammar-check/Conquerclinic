@@ -9,6 +9,7 @@ import ReviewsSection from "@/components/pages/sections/ReviewsSection";
 import homeBloodData from "@/data/home-blood-test/home-blood-test.json";
 import reviewsData from "@/data/reviews-data.json";
 import comparisonData from "@/data/comparison-data.json";
+import RightTest from "@/components/pages/sections/RightTest";
 
 export default function HomeBloodTest() {
   const { brandName, competitors, features } = comparisonData.comparisonTable;
@@ -22,6 +23,7 @@ export default function HomeBloodTest() {
       <main>
         <ProductShowCaseCream data={homeBloodData} />
         <BenefitsBar data={homeBloodData} />
+        <RightTest data={homeBloodData} />
         <QuoteSection data={homeBloodData.quotes} />
         <ComparisonTable
           brandName={brandName}

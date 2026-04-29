@@ -15,15 +15,15 @@ const BiomarkerTable = ({ data }) => {
         <thead>
           <tr >
             {headers.map((head, i) => (
-              <th key={i} className={styles.th}>
+              <th key={i} className={`${styles.th} ${i===0? styles.thFirst : ""}`}>
                 {head.image ? (
                   <div className={styles.headerCard}>
-                    <Image src={head.image} width={60} height={60} alt={head.title} />
+                    <Image style={{filter:"drop-shadow(10px 10px 10px  rgba(0, 0, 0, 0.25))"}} src={head.image} width={90} height={90} alt={head.title} />
                     <p className={styles.tag}>{head.subtitle}</p>
-                    <h3 >{head.title}</h3>
+                    <h3 className={styles.headTitle} >{head.title}</h3>
                   </div>
                 ) : (
-                  <span>{head.title}</span>
+                  <span className="text-2xl font-medium ">THE <br />{head.title}</span>
                 )}
               </th>
             ))}
@@ -38,15 +38,15 @@ const BiomarkerTable = ({ data }) => {
               {/* Biomarker Column */}
               <td className={styles.firstCol}>
                 <div className={styles.bioCell}>
-                  <Image src={row.icon} width={20} height={20} alt={row.title} />
+                  <Image src={row.icon} width={28} height={28} alt={row.title} />
                   <span>{row.title}</span>
                 </div>
               </td>
 
               {/* Values */}
               {row.values.map((val, idx) => (
-                <td key={idx} className={styles.td}>
-                  {val ? "✔" : "—"}
+                <td key={idx} className={styles.td} style={{color:"#949494"}}>
+                  {val ? val : "—"}
                 </td>
               ))}
 

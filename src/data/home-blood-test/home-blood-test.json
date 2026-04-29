@@ -133,6 +133,57 @@
       "image": "/images/glp-1/main-product.png"
     }
   ]
-}
+},
 
+  "rightTest":{
+
+     "title":"Which Test Is Right for You?",
+     "subTitle":"Find the perfect starting point for your health journey.",
+
+  "longevityCards": [
+    {
+      "id": 1,
+      "title": "Longevity At-Home Test",
+      "subtitle": "Best for overall health, recovery, and longevity baseline",
+      "note": "This panel does NOT qualify for HRT/TRT. Hormone Panel required for treatment.",
+      "label": "What it does:",
+      "features": [
+        "30-min clinician review",
+        "Key markers: cholesterol, CRP, vitamin D & more",
+        "Screens heart + metabolic health",
+        "Connects inflammation to energy + weight"
+      ],
+      "description": "Start here for a complete view of your health and metabolic baseline",
+      "button": {
+        "text": "Order My Longevity Lab Kit",
+        "variant": "#000000",
+        "textColor": "#ffffff"
+      },
+      "footer": "Free clinician visit included · HSA/FSA eligible",
+      "bgVariant": "#F7F7F7"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Longevity Plus Panel",
+      "subtitle": "Deeper insights for performance, hormones, and aging",
+      "note": "Recommended for users optimizing performance or tracking hormone balance.",
+      "label": "What it includes:",
+      "features": [
+        "Advanced hormone markers",
+        "Inflammation + stress analysis",
+        "Cardiovascular risk screening",
+        "Metabolic + energy profiling"
+      ],
+      "description": "Go beyond basics and understand your body at a deeper biological level",
+      "button": {
+        "text": "Upgrade to Plus Panel",
+        "variant": "#363636",
+        "textColor": "#ffffff"
+      },
+      "footer": "Priority clinician review included",
+      "bgVariant": "#EFEFEF"
+    }
+  ]
+
+  }
 }

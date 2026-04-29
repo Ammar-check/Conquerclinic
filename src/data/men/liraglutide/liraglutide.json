@@ -1,0 +1,192 @@
+{
+  "product": {
+    "image": "/images/men/liraglutide/liraglutide-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "lab":"Add to Cart - $299",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Weight Loss",
+    "title": "Liraglutide",
+    "description":"This compounded formulation featuring Liraglutide (a GLP-1 receptor agonist) is designed to support weight management and metabolic health. Liraglutide helps regulate appetite, balance blood sugar levels, and promote fat metabolism, contributing to a sustainable approach to weight loss.",
+    "description2":"For $299/mo, our comprehensive program includes virtual provider visits, personalized health coaching, lab access, and continuous support.",
+    "primaryCta": {
+      "label": "",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "",
+      "href": "#get-started"
+    },
+    
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "Our drugs may include compounded products that have not been approved by the FDA. The FDA does not verify the safety or effectiveness of compounded dr...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Clinically Proven Support",
+      "description": "Designed to support weight management and metabolic health."
+    },
+    {
+      "id": "b2",
+      "title": "Appetite & Metabolic Optimization",
+      "description": "Helps regulate appetite, improve metabolic function, and promote sustained weight loss."
+      },
+    {
+      "id": "b3",
+      "title": "Personalized Guidance",
+      "description": "Ongoing support from a dedicated health coach to help optimize your treatment."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Conquer your cravings",
+  "subTitle": "Stop fighting the weight battle alone. Liraglutide is here to help you take control of your body with real, lasting results.",
+  "features": [
+    "Promotes weight loss",
+    "Helps lower BMI",
+    "Regulates insulin levels",
+    "Supports lower blood pressure",
+    "Reduces waist size"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/men/liraglutide/img-1.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is Liraglutide?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How is Liraglutide administered?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "What are the most common side effects of Liraglutide?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Will I gain all the weight back when I stop Liraglutide?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Do I need to change my diet or lifestyle?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

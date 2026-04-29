@@ -1,0 +1,170 @@
+{
+  "product": {
+    "image": "/images/men/enclomiphene/prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "lab":"Get started for $75",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Weight Loss",
+    "category2": "Lab + clinician visit required",
+    "title": "Enclomiphene",
+    "description":" A simple daily capsule that helps stimulate your body’s natural production of testosterone. Most men see a 1.5–2.5X increase in testosterone without testicular shrinkage, shutdown, or infertility.",
+    "description2":"Monthly subscription starts from just $99 and includes all medications, clinician consults and follow-up labs. Plans are billed quarterly. No hidden fees. Easy cancellations.",
+    "primaryCta": {
+      "label": "",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "",
+      "href": "#get-started"
+    },
+    
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "Our drugs may include compounded products that have not been approved by the FDA. The FDA does not verify the safety or effectiveness of compounded dr...",
+    "finePrintLink": "Read more"
+  },
+
+"benefits": [
+    {
+      "id": "b1",
+      "icon":"/images/men/enclomiphene/icon-1.svg",
+      "title": "Needle-Free Convenience",
+      "description": "Offers a more comfortable alternative to traditional blood draws—no needles or phlebotomy required."
+    },
+    {
+      "id": "b2",
+      "icon":"/images/men/enclomiphene/icon-2.svg",
+      "title": "At-Home Simplicity",
+      "description": "Collects high-quality blood samples from the comfort of home, making lab testing more accessible and flexible."
+      },
+    {
+      "id": "b3",
+      "icon":"/images/men/enclomiphene/icon-3.svg",
+      "title": "Clinically Backed Comfort",
+      "description": "Designed to reduce discomfort compared to traditional methods like finger sticks or venipuncture, improving the overall lab experience."
+    }
+  ],
+
+
+"quotes":{
+  "quote": "“Testosterone naturally starts decreasing around age 30. While on testosterone replacement therapy, there’s an overall wellness that comes from taking it. Our patients will see improved energy levels, reduced joint pain due to it being a natural inflammatory, and better sleep and mood.”",
+  "author": " Melissa Loseke, DO"
+},
+
+"quotes2":{
+  "image":"/images/men/enclomiphene/img-1.png"
+},
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is the pricing?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Are hair and ED meds really $1 per month?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "How does enclomiphene work?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "How long does it take to see results?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Are there any side effects of enclomiphene?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "What can I expect being on enclomiphene?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "What common symptoms can be treated with Enclomiphene?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+},
+
+"testosteroneSection": {
+    "bgVariant": {
+      "type": "color", 
+      "value": "#2B2B2B66"
+    },
+    "card": {
+      "title": "Your testosterone called—it wants to make a comeback",
+      "description": "Enclomiphene is a great option for younger men who aren’t ready for testosterone but want a boost. Get treatment without the side effects and hassle of traditional TRT.",
+      "features": [
+        "Boosts Natural Testosterone",
+        "Elevates Mood and Energy",
+        "Enhances Sex Drive and Performance",
+        "Supports Healthy Metabolism",
+        "Sharpens Mental Clarity"
+      ],
+      "button": {
+        "text": "GET STARTED",
+        "variant": "#ffffff",
+        "textColor": "#000000"
+      }
+    }
+  }
+
+}

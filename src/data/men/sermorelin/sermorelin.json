@@ -1,0 +1,199 @@
+{
+  "product": {
+    "image": "/images/sermorelin/sermorelin.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"GET STARTED WITH TREATMENT",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Longevity",
+    "title": "Sermorelin",
+    "description": "wp:paragraph → This compounded growth hormone (GH) plays a role in body composition, recovery, sleep patterns, and cellular function. As we age, GH levels may decline, which can influence factors such as muscle mass, fat distribution, and energy. Sermorelin is a peptide that mimics the body’s natural GH-releasing mechanisms. By encouraging your body's own growth hormone production, Sermorelin provides the advantages of increased HGH levels.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "SUBSCRIBE & SAVE",
+      "price": "$186.33/mo",
+      "description": "$559 for 12-week supply",
+      "highlight": "Save 20% + Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#E8F1ED"
+    },
+    {
+      "id": "sub2",
+      "title": "ONE TIME PURCHASE",
+      "price": "$233/mo",
+      "description": "$699 for 12-week supply",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Healthy Aging",
+      "description": "Growth hormone is involved in processes that support muscle tone, skin structure, and bone maintenance over time."
+    },
+    {
+      "id": "b2",
+      "title": "Natural Growth Hormone",
+      "description": "Sermorelin is a growth hormone–releasing peptide that works by signaling the body’s natural GH production pathways."
+    },
+    {
+      "id": "b3",
+      "title": "Sleep & Recovery",
+      "description": "Growth hormone plays a role in the regulation of sleep patterns and the body’s natural recovery functions."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Science-Led. Purposefully Designed",
+  "subTitle":"Sermorelin is a growth hormone–releasing peptide. Peptides are short chains of amino acids, the basic building blocks of proteins, often used to support short and long term health benefits.",
+  "features": [
+    "Supports natural growth hormone pathways",
+    "May aid recovery and muscle maintenance",
+    "Could promote healthy body composition",
+    "May support restful sleep",
+    "Aids the body in cellular repair"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/Sermorelin/sermo-men.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+"quotes":{
+  "quote": "“Since I have been using Sermorelin, I have felt a difference in my energy and strength, along with my sleep. It has also helped with the aches in my hands and hips joints. One added bonus, I get constantly receive compliments on how young I look (I’m 53 years old)”",
+  "author": " Arcangela G."
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What benefits should I expect to see (and when) from Sermorelin?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

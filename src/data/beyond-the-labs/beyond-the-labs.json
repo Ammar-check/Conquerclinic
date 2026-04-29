@@ -9,7 +9,7 @@
     "id":1,
     "icon":"/images/compare-all-labs/symbol.png",
     "heading":" Time with Health Coach: 15 minutes",
-    "image":"/images/beyond-the-labs/card-1.png",
+    "image":"/images/beyond-the-labs/card-3.png",
     "tag":"Most economical",
     "mainHeading":"Health Coach Consultation",
     "features":[
@@ -47,7 +47,7 @@
     "id":3,
     "icon":"/images/compare-all-labs/symbol.png",
     "heading":" Time with clinician: 30 minutes",
-    "image":"/images/beyond-the-labs/card-3.png",
+    "image":"/images/beyond-the-labs/card-1.png",
     "tag":"Most Comprehensive",
     "mainHeading":"Comprehensive Clinician Consultation",
     "features":[

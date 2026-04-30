@@ -7,13 +7,12 @@ import ProductShowCaseCream from "@/components/pages/sections/ProductShowCaseCre
 import QuoteSection from "@/components/pages/sections/QuoteSection";
 import ReviewsSection from "@/components/pages/sections/ReviewsSection";
 import SplitContentSection from "@/components/pages/sections/SplitContentSection";
-import smartSupData from "@/data/smart-supplements/smart-supplements.json"
+import focusData from "@/data/men/focus/focus.json"
 import reviewsData from "@/data/reviews-data.json";
-import PathSection from "@/components/pages/sections/PathSection";
 
 
 
-export default function Balance(){
+export default function Focus(){
 const { overallRating, maxRating, totalReviews, platform, reviews } =
     reviewsData.reviewsSection;
 
@@ -22,12 +21,13 @@ const { overallRating, maxRating, totalReviews, platform, reviews } =
          <Navbar/>
 
          <main>
-            <ProductShowCaseCream data={smartSupData} />
-            <BenefitsBar data={smartSupData}/>
-            <QuoteSection data={smartSupData.quotes} />
-            <PathSection data={smartSupData}/>
-            <FaqSection data={smartSupData.faqs} />
-            <YouMightLike youMightLikeData={smartSupData.mightLike} />
+            <ProductShowCaseCream data={focusData} />
+            <BenefitsBar data={focusData}/>
+            <SplitContentSection data={focusData} />
+            <IncludesSection data={focusData} />
+            <QuoteSection data={focusData.quotes} />
+            <FaqSection data={focusData.faqs} />
+            <YouMightLike youMightLikeData={focusData.mightLike} />
             <ReviewsSection
                       overallRating={overallRating}
                       maxRating={maxRating}

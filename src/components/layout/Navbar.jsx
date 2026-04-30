@@ -2,12 +2,13 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Container } from "react-bootstrap";
+import { CloseButton, Container } from "react-bootstrap";
 import Image from "next/image";
 
 import styles from "./Navbar.module.css";
 import navbarData from "@/data/navbar.json";
-import { ChevronLeft } from "react-bootstrap-icons";
+import { ChevronLeft, Search } from "react-bootstrap-icons";
+import LoginForm from "./LoginForm";
 
 const Navbar = () => {
   const { logo, navItems, icons, button } = navbarData;
@@ -17,11 +18,12 @@ const Navbar = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(null); // men / women
   const [mobileSubMenu, setMobileSubMenu] = useState(null); // category
+  const [activePanel,setActivePanel] = useState(null);
+
 
   return (
     <header className={styles.navbar}>
       <Container className={styles.navContainer}>
-
         {/* ==================== mobile navbar ==================== */}
         {isMobileOpen && (
           <div className={styles.mobileMenu}>
@@ -92,29 +94,27 @@ const Navbar = () => {
               </>
             )}
 
-               {/* RIGHT */}
-               {!mobileMenu &&
+            {/* RIGHT */}
+            {!mobileMenu &&
               navItems.map((item, i) => (
-                      <div className={styles.rightSec}>
-                        <span className={styles.megaProdTitle}>
-                          {item.megaMenu.productTitle}
+                <div className={styles.rightSec}>
+                  <span className={styles.megaProdTitle}>
+                    {item.megaMenu.productTitle}
+                  </span>
+                  <div className={styles.productRow}>
+                    {item.megaMenu.products.map((prod, i) => (
+                      <div key={i} className={styles.productCard}>
+                        <img src={prod.image} alt={prod.name} />
+                        <h1 className={styles.popularProdName}>{prod.name}</h1>
+                        <p className={styles.prodDesc}>{prod.desc}</p>
+                        <span className={styles.popularProdPrice}>
+                          {prod.price}
                         </span>
-                        <div className={styles.productRow}>
-                          {item.megaMenu.products.map((prod, i) => (
-                            <div key={i} className={styles.productCard}>
-                              <img src={prod.image} alt={prod.name} />
-                              <h1 className={styles.popularProdName}>
-                                {prod.name}
-                              </h1>
-                              <p className={styles.prodDesc}>{prod.desc}</p>
-                              <span className={styles.popularProdPrice}>
-                                {prod.price}
-                              </span>
-                            </div>
-                          ))}
-                        </div>
-                        
-                      </div>  ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
           </div>
         )}
 
@@ -219,7 +219,6 @@ const Navbar = () => {
                             </div>
                           ))}
                         </div>
-                        
                       </div>
                     </div>
                   </div>
@@ -232,10 +231,13 @@ const Navbar = () => {
         {/* RIGHT SIDE */}
         <div className={styles.right}>
           {icons.map((icon, i) => (
-            <div className={styles.iconWrapper}>
+            <div className={styles.iconWrapper}
+            key={icon.id}
+            onClick={()=>setActivePanel(icon.id)}
+            >
               <Image
                 key={i}
-                src={icon}
+                src={icon.src}
                 alt="icon"
                 width={20}
                 height={20}
@@ -243,15 +245,48 @@ const Navbar = () => {
               />
             </div>
           ))}
-  
+
           <button className={styles.ctaBtn}>{button}</button>
           <div
-                          className={styles.mobileToggle}
-                          onClick={() => setIsMobileOpen(true)}
-                        >
-                          ☰
-                        </div>
+            className={styles.mobileToggle}
+            onClick={() => setIsMobileOpen(true)}
+          >
+            ☰
+          </div>
         </div>
+
+
+{/* ====================== Search panels ================ */}
+  <div
+  className={`${styles.searchPanel} ${
+    activePanel === "search" ? styles.searchPanelOpen : ""
+  }`}
+>
+  <div className="flex gap-5 items-center">
+    <span>Conquer Clinic</span>
+    <div className={styles.search}>
+      <Search/>
+      <input  className={styles.searchInput} type="text" placeholder="Search..." />
+    </div>
+    <button onClick={() => setActivePanel(null)}>Close</button>
+  </div>
+  </div>
+
+{/* ====================== Cart panels ================ */}
+  <div className={`${styles.cartPanel} ${activePanel === "cart" ? styles.cartPanelOpen: ""}`}>
+    <button onClick={()=>setActivePanel(null)}>close</button>
+  </div>
+
+{/* ====================== login panels ================ */}
+
+<div  className={`${styles.loginPanel} ${activePanel==="login" ? styles.loginPanelOpen:""}`}
+>
+  <button onClick={()=>setActivePanel(null)}><CloseButton/></button>
+   <LoginForm/>
+
+</div>
+
+
       </Container>
     </header>
   );

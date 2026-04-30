@@ -7,13 +7,12 @@ import ProductShowCaseCream from "@/components/pages/sections/ProductShowCaseCre
 import QuoteSection from "@/components/pages/sections/QuoteSection";
 import ReviewsSection from "@/components/pages/sections/ReviewsSection";
 import SplitContentSection from "@/components/pages/sections/SplitContentSection";
-import smartSupData from "@/data/smart-supplements/smart-supplements.json"
+import longevityData from "@/data/men/longevity-supplement/longevity-supplement.json"
 import reviewsData from "@/data/reviews-data.json";
-import PathSection from "@/components/pages/sections/PathSection";
 
 
 
-export default function Balance(){
+export default function LongevitySupplement(){
 const { overallRating, maxRating, totalReviews, platform, reviews } =
     reviewsData.reviewsSection;
 
@@ -22,12 +21,12 @@ const { overallRating, maxRating, totalReviews, platform, reviews } =
          <Navbar/>
 
          <main>
-            <ProductShowCaseCream data={smartSupData} />
-            <BenefitsBar data={smartSupData}/>
-            <QuoteSection data={smartSupData.quotes} />
-            <PathSection data={smartSupData}/>
-            <FaqSection data={smartSupData.faqs} />
-            <YouMightLike youMightLikeData={smartSupData.mightLike} />
+            <ProductShowCaseCream data={longevityData} />
+            <BenefitsBar data={longevityData}/>
+            <SplitContentSection data={longevityData} />
+            <QuoteSection data={longevityData.quotes} />
+            <FaqSection data={longevityData.faqs} />
+            <YouMightLike youMightLikeData={longevityData.mightLike} />
             <ReviewsSection
                       overallRating={overallRating}
                       maxRating={maxRating}

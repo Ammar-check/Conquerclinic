@@ -4487,7 +4487,7 @@ quote section reusable
 .quote-section__inner {
     max-width: 1212px;
     border-radius: 10px;
-  padding: 70px 90px;
+  padding: 70px 180px;
   margin: 0 auto;
   text-align: center;
   background: #2c2b2b;
@@ -4598,4 +4598,13 @@ quote section reusable
     top: 6px;
 }
 
+}
+
+
+.selectMethodBtnActive{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+  
 }

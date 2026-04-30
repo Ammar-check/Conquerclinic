@@ -35,7 +35,7 @@ const ingredientsArray = Array.isArray(ingredients)
                         </h2>
                         {item.subHeading && ( <p className='text-white text-sm'>{item.subHeading}</p> )}
 
-                        {item.btn && ( <button className='bg-[#C9A55A] py-3 px-5 rounded-b-md text-white'>{item.btn}</button> )}
+                        {item.btn && ( <button className='bg-[#C9A55A] py-2 px-5  text-white' style={{borderRadius:'30px'}}>{item.btn}</button> )}
                     </Col>
                 </Row>
 

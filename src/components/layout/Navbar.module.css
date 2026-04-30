@@ -343,3 +343,69 @@
     display: block;
   }
 }
+
+.searchPanel {
+  position: fixed;
+  padding: 100px ;
+  top: 0;
+  left: -100%; /* hidden */
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  background: #fff;
+  z-index: 999;
+  transition: left 0.5s ease;
+}
+
+/* ACTIVE */
+.searchPanelOpen {
+  left: 0;
+}
+
+.search{
+  background-color: #a4a5a8;
+  border-radius: 30px;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.searchInput{
+  width: 100%;
+  
+  border: none;
+  outline: none;
+}
+
+.cartPanel{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 999;
+  transition: right 0.4s ease;
+}
+
+.cartPanelOpen{
+  right: 0;
+}
+
+.loginPanel{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  max-width: 500px;
+  background-color: #fff;
+  transition: 0.5s ease;
+  z-index: 999;
+}
+
+.loginPanelOpen{
+  right: 0;
+}

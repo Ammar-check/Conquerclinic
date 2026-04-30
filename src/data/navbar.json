@@ -119,9 +119,18 @@
     }
   ],
   "icons": [
-    "/icons/login.svg",
-    "/icons/search.svg",
-    "/icons/add-to-cart.svg"
+    {
+      "id":"login",
+      "src":"/icons/login.svg"
+    },
+    {
+      "id":"search",
+      "src":"/icons/search.svg"
+    },
+    {
+      "id":"cart",
+      "src":"/icons/add-to-cart.svg"
+    }
   ],
   "button": "SCHEDULE A CONSULT"
 }

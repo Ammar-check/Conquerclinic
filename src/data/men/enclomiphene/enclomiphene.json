@@ -165,6 +165,31 @@
         "textColor": "#000000"
       }
     }
+  },
+
+  "clinicalStats": {
+    "heading": "Clinical studies all agree: medication for low testosterone works.",
+    "disclaimer": "*The studies referenced are for clomiphene citrate. Clomiphene is made up of two compounds: Enclomiphene and Zuclomiphene.",
+    "stats": [
+      {
+        "id": 1,
+        "value": "77%",
+        "description": "Achieved healthy testosterone levels",
+        "citation": "(Krizastek et al., 2019)"
+      },
+      {
+        "id": 2,
+        "value": "75%",
+        "description": "Reported improvements in symptoms",
+        "citation": "(Krizastek et al., 2019)"
+      },
+      {
+        "id": 3,
+        "value": "88%",
+        "description": "Reported improvements in sexual function",
+        "citation": "(Guay et al., 2003)"
+      }
+    ]
   }
 
 }

@@ -41,7 +41,7 @@ const ProductShowCaseCream = ({ data }) => {
                   />
                   {card.reviews.trust}
                 </span>
-                <span className="product-card__hsa">{card.hsaFsa}</span>
+                {data?.card?.hsaFsa && (<span className="product-card__hsa">{card.hsaFsa}</span>)}
               </div>
 
               {/* Row 2: category + requirement badge */}
@@ -154,11 +154,20 @@ const ProductShowCaseCream = ({ data }) => {
                     {data.card.lab}
                   </button>
                 )}
+
+                             
+                {data?.card?.giftCardCheckBox && (
+                  <div className="mt-9 flex gap-3 items-center">
+                  <input type="checkbox" className="w-6 h-6 border-2 border-[#5C5C5C]" />
+                  <label className="text-sm">{data.card.giftCardCheckBox}</label>
+                </div>)}
+
                 {data?.card?.adToCart && (
                   <button className="cream-sub__btn">
                     {data.card.adToCart}
                   </button>
                 )}
+
                 {data?.card?.tested && (
                   <div className="cream-sub tested-sub">
                     <Image

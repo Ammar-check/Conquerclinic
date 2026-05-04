@@ -25,11 +25,9 @@ const { overallRating, maxRating, totalReviews, platform, reviews } =
          <Navbar/>
 
          <main>
-
-            {/* <PanelCard data={compareAllLabsData} /> */}
+            
             <PanelSection data={compareAllLabsData}/>
             <BiomarkerTable data={compareAllLabsData} />
-            {/* <IncludesSection data={compareAllLabsData} />    */}
             <Ingredients data={compareAllLabsData}/>
             <FaqSection data={compareAllLabsData.faqs} />
             <YouMightLike youMightLikeData={compareAllLabsData.mightLike} />

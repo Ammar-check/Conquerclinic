@@ -1,0 +1,31 @@
+{
+  "product": {
+    "image": "/images/gift-card/gift-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"Select an Option",
+      "lab":"Choose an Option",
+      "giftCardCheckBox":"Send this gift card to someone else",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "category": "Accessories",
+    "title": "Gift Card",
+         "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    
+    "finePrint": "Cancel your subscription anytime. *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagn...",
+    "finePrintLink": "Read more"
+  }
+
+}

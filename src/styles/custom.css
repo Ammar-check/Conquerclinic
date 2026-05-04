@@ -4102,6 +4102,9 @@ split content section reusable component
 .split-section__content {
   max-width: 400px;
 }
+.split-section__content2 {
+  max-width: 600px;
+}
 
 /* Title */
 .split-section__title {

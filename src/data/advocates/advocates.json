@@ -1,0 +1,91 @@
+{
+  "splitContent":{
+
+  "rightSec":{
+    "title": "At Conquer, we’re not selling hype. We’re delivering real, life-changing results backed by science, labs, and leadership.",
+  "subTitle": "If you’re here, it means you’re bold enough to bet on yourself and smart enough to know that wellness is the next wave of true wealth. This isn’t just another product line. This is purpose-driven health rooted in movement, longevity, and feeling your best. Movement is medicine. Feeling better is possible. Living longer is the mission. We’re here to redefine what it means to lead, live, and earn. The future belongs to those who take action. Let’s build it together.",
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  }
+  },
+  
+  "image2": {
+    "src": "/images/storyCard/img-2.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"howItWorks":{
+    "title":"How It Works",
+    "cards":[
+        {
+            "id":1,
+            "heading":"Step 1",
+            "subHeading":"Select a lab with membership, or choose membership only Conquer",
+            "image":""
+        },
+        {
+            "id":2,
+            "heading":"Step 1",
+            "subHeading":"Select a lab with membership, or choose membership only Conquer",
+            "image":""
+        },
+        {
+            "id":3,
+            "heading":"Step 1",
+            "subHeading":"Select a lab with membership, or choose membership only Conquer",
+            "image":""
+        },
+        {
+            "id":4,
+            "heading":"Step 1",
+            "subHeading":"Select a lab with membership, or choose membership only Conquer",
+            "image":""
+        }
+    ]
+},
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is the best way and time to take Balance?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Can I take Balance with other supplements or medications?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I see the testing for purity, heavy metals, or the Certificate of Analysis (COA) for this product?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "What can I expect from Conquer?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "What are targeted supplements?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "How long does a single order last?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+}
+
+}

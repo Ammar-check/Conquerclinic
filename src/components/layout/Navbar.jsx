@@ -281,7 +281,7 @@ const Navbar = () => {
 
 <div  className={`${styles.loginPanel} ${activePanel==="login" ? styles.loginPanelOpen:""}`}
 >
-  <button onClick={()=>setActivePanel(null)}><CloseButton/></button>
+  <button onClick={()=>setActivePanel(null)}>X</button>
    <LoginForm/>
 
 </div>

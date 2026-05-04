@@ -47,3 +47,14 @@ body {
   );
   z-index: -1;
 }
+
+
+.common__btn{
+  border-radius: 50px;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+

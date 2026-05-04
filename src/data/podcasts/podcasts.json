@@ -1,0 +1,80 @@
+{
+    "title":"podcasts",
+    "subTitle":"See what people are saying and read the latest news.",
+    "btns":[
+        {
+            "id":1,
+            "bgVarient":"black",
+            "textVarient":"white",
+            "content":"Everything"
+        },
+        {
+            "id":2,
+            "bgVarient":"white",
+            "textVarient":"black",
+            "content":"conquer"
+        }
+    ],
+    "cards": [
+    {
+      "id": 1,
+      "title": "The Bossticks",
+      "description": "In this episode, Josh and Katy open up about overcoming hormone imbalances that impacted their sex drive and marriage. They dive into the power of personalized peptide therapy, the benefits of testosterone optimization, and how modern lifestyle factors – like chronic stress, lack of sunlight, and sedentary jobs – can quietly wreck your hormone levels. If you’ve been feeling off, low energy, or disconnected in your relationship, this conversation breaks down what could actually be happening in your body and what you can do about it.",
+      "image": "/images/podcast/img-1.png",
+      "links": [
+        {
+          "label": "Episode",
+          "url": "#"
+        },
+        {
+          "label": "Podcast",
+          "url": "#"
+        },
+        {
+          "label": "Website",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Bossticks",
+      "description": "In this episode, Josh and Katy open up about overcoming hormone imbalances that impacted their sex drive and marriage. They dive into the power of personalized peptide therapy, the benefits of testosterone optimization, and how modern lifestyle factors – like chronic stress, lack of sunlight, and sedentary jobs – can quietly wreck your hormone levels. If you’ve been feeling off, low energy, or disconnected in your relationship, this conversation breaks down what could actually be happening in your body and what you can do about it.",
+      "image": "/images/podcast/img-2.png",
+      "links": [
+        {
+          "label": "Episode",
+          "url": "#"
+        },
+        {
+          "label": "Podcast",
+          "url": "#"
+        },
+        {
+          "label": "Website",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Bossticks",
+      "description": "In this episode, Josh and Katy open up about overcoming hormone imbalances that impacted their sex drive and marriage. They dive into the power of personalized peptide therapy, the benefits of testosterone optimization, and how modern lifestyle factors – like chronic stress, lack of sunlight, and sedentary jobs – can quietly wreck your hormone levels. If you’ve been feeling off, low energy, or disconnected in your relationship, this conversation breaks down what could actually be happening in your body and what you can do about it.",
+      "image": "/images/podcast/img-3.png",
+      "links": [
+        {
+          "label": "Episode",
+          "url": "#"
+        },
+        {
+          "label": "Podcast",
+          "url": "#"
+        },
+        {
+          "label": "Website",
+          "url": "#"
+        }
+      ]
+    }
+]
+}

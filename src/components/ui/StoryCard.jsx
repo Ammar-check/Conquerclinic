@@ -4,7 +4,7 @@ import { ArrowRight } from "react-bootstrap-icons";
 
 const StoryCard = ({ card }) => {
   return (
-    <div className="min-w-[260px] sm:min-w-[280px] lg:min-w-[300px] overflow-hidden flex flex-col">
+    <div className="min-w-[260px] sm:min-w-[280px] lg:min-w-[300px] overflow-hidden flex flex-col ">
 
       {/* Image */}
       <div className="relative w-full aspect-[4/5]">

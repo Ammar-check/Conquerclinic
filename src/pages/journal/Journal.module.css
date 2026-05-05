@@ -1,0 +1,91 @@
+.container {
+  background: #333333;
+  padding: 40px 16px;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.description {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+.jImageWrapper{
+    height: 850px;
+    position: relative;
+    margin: 50px 0;
+}
+
+.tag{
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    position: absolute;
+    bottom: -25px;
+}
+
+/* ---------- BUTTONS ---------- */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  background: white;
+  color: black;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.active{
+    background: black;
+    color: white;
+}
+
+/* ---------- TABLET ---------- */
+@media (min-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+
+  .jImageWrapper{
+    height: 650px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+    .jImageWrapper{
+      height: 450px;
+    }
+    
+}
+
+/* ---------- DESKTOP ---------- */
+@media (min-width: 1024px) {
+  .container {
+    padding: 80px 60px;
+  }
+
+  .title {
+    font-size: 58px;
+  }
+
+}

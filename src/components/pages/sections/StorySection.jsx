@@ -5,7 +5,7 @@ const StorySection = ({ data }) => {
   const { title, btn, cards } = data;
 
   return (
-    <div className="flex flex-col gap-6 px-4 sm:px-6 lg:px-16 py-18">
+    <div className="flex flex-col gap-6 px-4 sm:px-6 lg:px-16 py-18 bg-[#333333]">
 
       {/* Title */}
       <h1 className="text-white text-xl sm:text-2xl lg:text-[28px] font-normal">

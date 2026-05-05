@@ -1,0 +1,79 @@
+{
+  "page": "webinars",
+
+    "hero":{
+        "title": "Webinars",
+        "description": "See what people are saying and read the latest news."
+    },
+    "buttons": [
+          { "id": 1, "label": "Everything", "value": "all" },
+          { "id": 2, "label": "Diagnostic Lab", "value": "lab" },
+          { "id": 3, "label": "Hormone Health", "value": "hormone" },
+          { "id": 4, "label": "Longevity", "value": "longevity" },
+          { "id": 5, "label": "Sexual Health", "value": "sexual" },
+          { "id": 6, "label": "Thyroid", "value": "thyroid" },
+          { "id": 7, "label": "Weight Loss", "value": "weight" }
+        ],
+    "webinarContent":{
+        "video": {
+          "thumbnail": "/images/webinar/video.jpg",
+          "url": "https://youtube.com/..."
+        },
+        "title": "Hormone Health",
+        "subtitle": "From Dismissed to Optimized",
+        "description": "Rewriting the Women’s Hormone Story",
+        "speakers": [
+          {
+            "name": "Katy Whalen",
+            "position": "Joi Co-founder",
+            "image": "/images/webinar/Katy-Whalen.png"
+          },
+          {
+            "name": "Mila Magnani",
+            "position": "Founder of Milamend",
+            "image": "/images/webinar/Mila-Magnani.png"
+          },
+          {
+            "name": "Tessa Harkey",
+            "position": "Nurse + Partnerships Director at Conquer",
+            "image": "/images/webinar/Tessa-Harkey.png"
+          }
+        ]
+    },
+  "storySection":{
+    "title":"The Story",
+    "btn":"explore",
+    "cards":[
+        {
+            "id":1,
+          "image":"/images/storyCard/img-1.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":2,
+          "image":"/images/storyCard/img-2.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":3,
+          "image":"/images/storyCard/img-3.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":4,
+          "image":"/images/storyCard/img-4.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":5,
+          "image":"/images/storyCard/img-5.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        }
+    ]
+}
+}

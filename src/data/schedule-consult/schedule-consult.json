@@ -1,0 +1,81 @@
+{
+  "form": {
+    "title":"Enter your contact information",
+    "maxWidth": "600px",
+    "fields": [
+      {
+        "type": "group",
+        "columns": 2,
+        "fields": [
+          { "name": "firstName", "type": "text", "placeholder": "First Name" },
+          { "name": "lastName", "type": "text", "placeholder": "Last Name" }
+        ]
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "placeholder": "Email"
+      },
+      {
+        "name": "phone",
+        "type": "text",
+        "placeholder": "Phone Number"
+      },
+      {
+        "name": "address",
+        "type": "text",
+        "placeholder": "Address"
+      },
+      {
+        "name": "apartment",
+        "type": "text",
+        "placeholder": "Apartment"
+      },
+      {
+        "type": "group",
+        "columns": 2,
+        "fields": [
+          { "name": "city", "type": "text", "placeholder": "City" },
+          {
+            "name": "state",
+            "type": "select",
+            "options": ["STATE","State 1", "State 2"]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "columns": 2,
+        "fields": [
+          { "name": "zip", "type": "text", "placeholder": "Zip Code" },
+          {
+            "name": "timezone",
+            "type": "select",
+            "options": ["TIMEZONE","UTC", "GMT"]
+          }
+        ]
+      },
+      {
+        "name": "gender",
+        "type": "select",
+        "options": ["Male", "Female"]
+      },
+      {
+        "type": "dob",
+        "label": "What's your date of birth?"
+      },
+      {
+        "type": "checkbox",
+        "label": "By submitting this form, you consent to receive promotional text messages from Joi + Blokes at the number provided. Consent is not a condition of purchase. Message & data rates may apply. Message frequency varies. Unsubscribe by replying STOP. Reply HELP for help. Phone numbers aren't shared with third parties. Privacy Policy & Terms."
+      },
+      {
+        "type": "checkbox",
+        "label": "I agree to receive marketing and promotional messages from Joi + Blokes"
+      },
+      {
+        "type": "submit",
+        "label": "Get Started"
+      }
+    ]
+  }
+}

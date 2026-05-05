@@ -32,7 +32,7 @@ export default function Advocates(){
       >
 
         {/* Circle */}
-        <div className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] lg:w-[180px] lg:h-[180px] rounded-full bg-black"></div>
+        <div className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] lg:w-[180px] lg:h-[180px] rounded-full bg-[linear-gradient(154deg,_#EEEEEE_0%,_#EEEEEE_35%,_#BACDFF_100%)]"></div>
 
         {/* Heading */}
         <span className="font-bold text-[10px] sm:text-xs text-center uppercase text-white">

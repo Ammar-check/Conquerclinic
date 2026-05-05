@@ -10,11 +10,12 @@ export default function Contact(){
 
         <main>
             <section
-              className="product-page-sec bg-cover bg-center bg-no-repeat py-16 px-4"
+              className="product-page-sec bg-cover bg-center bg-no-repeat py-16 px-4 relative"
               style={{ backgroundImage: `url(${hero.backgroundImage})` }}
             >
+              <div className="absolute inset-0 bg-black/50" />
               {/* Responsive container */}
-              <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
+              <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 z-10">
 
                 {/* Responsive Heading */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl text-white font-normal text-center max-w-2xl">

@@ -1,0 +1,26 @@
+{
+   "hero":{
+       "paragraph":{
+        "para":"Refund & Return Policy"
+       },
+       "mainPoints":[
+        {
+            "title":"Returns",
+            "desc":"We cannot accept returns of prescription products. All sales are final. If you think there was an error with your prescription medication, please contact info@conquer.com."
+        },
+        {
+            "title":"Insurance backed GLP-1 Policy",
+            "desc":"The GLP-1 subscription can be cancelled at any time. If you are not a candidate or approved for GLP-1 medication, your subscription will be cancelled, and we will work with you to find another solution. The subscription fees already paid cannot be refunded, all sales are final."
+        },
+        {
+            "title":"Subscription policy",
+            "desc":"Subscriptions to include hormone therapy, clomiphene, or enclomephene can be cancelled at any time. The subscription cannot be refunded, all sales are final."
+        },
+        {
+            "title":"Diagnostic labs policy",
+            "desc":"All diagnostic lab sales and lab subscription sales are final and cannot be refunded."
+        }
+       ]
+
+   }
+}

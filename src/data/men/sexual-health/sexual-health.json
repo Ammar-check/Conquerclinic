@@ -1,0 +1,38 @@
+{
+  "slug": "sexual-health",
+  "hero": {
+    "heading": "Sexual Health",
+    "backgroundImage": "/images/men/sexual-health/img-1.png"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "hh1",
+      "slug": "sexual-health",
+      "category": "sexual-health",
+      "name": "Sexual Performance",
+      "subtitle": "Support for connection and physical intimacy.",
+      "price": "Starting at $74.00",
+      "image": "/images/men/sexual-health/prod-1.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "hh2",
+      "slug": "sexual-health",
+      "category": "sexual-health",
+      "name": "Sexual Performance",
+      "subtitle": "Support for connection and physical intimacy.",
+      "price": "Starting at $74.00",
+      "image": "/images/men/sexual-health/prod-2.png"
+    }
+]
+}

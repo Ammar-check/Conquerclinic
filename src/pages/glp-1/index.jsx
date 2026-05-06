@@ -13,6 +13,8 @@ import benefitsBarData from "@/data/glp-1/benefitsBarData.json";
 import transparentPricingData from "@/data/glp-1/transparentPricing.json";
 import youMightLikeData from "@/data/glp-1/youMightLike.json";
 import menopauseStatData from "@/data/glp-1/menopauseStats.json";
+import Ingredients from "@/components/pages/sections/Ingredients";
+import perimenoData from "@/data/glp-1/whatIsPerimenopause.json";
 
 export default function Homepage() {
   return (
@@ -25,7 +27,8 @@ export default function Homepage() {
             <Pricing />
             <HRTStats />
             <TransparentPricing transparentPricingData={transparentPricingData}/>
-            <WhatIsPerimenopause />
+            {/* <WhatIsPerimenopause /> */}
+            <Ingredients data={perimenoData} />
             <MenopauseStats menopauseStatData={menopauseStatData} />
             <Faq />
             <YouMightLike youMightLikeData={youMightLikeData} />

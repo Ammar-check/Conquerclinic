@@ -1,0 +1,231 @@
+{
+  "product": {
+    "image": "/images/smart-suppliments/smart-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+       "extraPrice":"60-minute clinician consultation included | $149/MO",
+     "tested2": [
+  {
+    "id": 1,
+    "icon": "/images/smart-suppliments/icons/icon.svg",
+    "h1": "Take the quiz",
+    "p": "Fastest way to get started.",
+    "type":"Fastest"
+  },
+  {
+    "id": 2,
+    "icon": "/images/smart-suppliments/icons/icon-2.svg",
+    "h1": "Build your own pack",
+    "p": "Full control. Choose your daily stack.",
+    "type":"Most Custom"
+  },
+  {
+    "id": 3,
+    "icon": "/images/smart-suppliments/icons/icon-3.svg",
+    "h1": "Start with a lab",
+    "p": "Most accurate, tailored to your markers.",
+    "type":"Most Advance"
+  }
+],
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Supplements",
+    "title": "Smart Supplements",
+    "description":"You can choose the path that works best for you: take the quiz to receive a personalized recommendation, build your own pack with the ingredients you prefer, or follow the gold standard by starting with lab testing so we can customize ingredients and dosages to your unique results and goals.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },    
+    "finePrint": "Cancel anytime. No charge until after lab work is completed. These statements have not been evaluated by the Food and Drug Administration. This produc... Read more",
+    "finePrintLink": "Read more"
+  },
+
+
+"benefits": [
+    {
+      "id": "b1",
+      "icon":"/images/smart-suppliments/img-1.png",
+      "title": "Precision, Personalized",
+      "description": "Leave one-size-fits-all behind—your supplements are tailored to your unique needs."
+    },
+    {
+      "id": "b2",
+      "icon":"/images/smart-suppliments/img-2.png",
+      "title": "Seamless Convenience",
+      "description": "A simplified daily routine designed to support real, sustainable results."
+      },
+    {
+      "id": "b3",
+      "icon":"/images/smart-suppliments/img-3.png",
+      "title": "Evolving With You",
+      "description": "As your body changes, your supplements can too—easily adjust your pack each month."
+    }
+  ],
+
+"quotes":{
+  "quote": "“Conquer specialized supplements have truly transformed my daily routine. Gone are the days of guesswork, as they offer precisely what I need and in the correct dosage. The pre-packaged format eliminates the hassle of counting pills and dealing with multiple bottles, making it an effortless and practical addition to my daily regimen.”",
+   "author": "Anthony Diaz"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "Is it truly customized off of my biomarkers?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How often are the packs delivered?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I change what’s in my pack?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "How many supplements can I have in my pack?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "When should I get my labs done to reassess my supplements?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "What is precision medicine and 'smart' supplements?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "How does the subscription work?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "How long does the process usually take?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "What will I find in my daily smart supplements?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Which biomarkers and labs do you offer?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+},
+
+  "pathSection": {
+    "heading": "Three Simple Paths. One Powerful Routine.",
+    "subHeading": "A revolutionary approach to supplements.",
+    "cards": [
+      {
+        "id": 1,
+        "image": "/images/men/hormone-health/img-1.png",
+        "tag":"Fastest",
+        "title": "Take the quiz",
+        "price": "$149/mo",
+        "shortDesc": "Find your formula in minutes.",
+        "description": "Take our quick, expert-designed quiz and receive personalized supplement recommendations based on your health goals, lifestyle, and symptoms—no labs required.",
+        "features": [
+          "Personalized plan in under 5 minutes",
+          "Clinician-powered symptom matching",
+          "Clinician-reviewed recommendations"
+        ],
+        "button": "GET STARTED"
+      },
+      {
+        "id": 2,
+        "image": "/images/smart-suppliments/path-img-2.png",
+        "tag":"Most Custom",
+        "title": "Build your own pack",
+        "price": "$149/mo",
+        "shortDesc": "You know your body—we support your choices",
+        "description": "Select up to 8 supplements from our clinical-grade dispensary. Build the exact stack you want, when you want it—with expert quality, built-in simplicity, and monthly delivery—no labs required.",
+        "features": [
+          "Choose from 60+ clinical-grade options",
+          "No fluff—just targeted ingredients that fit your routine",
+          "Edit your pack monthly as your needs evolve"
+        ],
+        "button": "GET STARTED"
+      },
+      {
+        "id": 3,
+        "image": "/images/smart-suppliments/path-img-3.jpg",
+        "tag":"Most advanced",
+        "title": "Start with a lab",
+        "price": "$99/mo",
+        "shortDesc": "The most data-driven supplements available.",
+        "description": "We analyze your biomarkers from our lab panel to recommend a personalized supplement pack grounded in science. Your health data powers your protocol.",
+        "features": [
+          "Precision formulas based on your labs",
+          "Track improvements over time",
+          "Guided by licensed clinicians"
+        ],
+        "button": "GET STARTED"
+      }
+    ]
+  }
+
+
+}

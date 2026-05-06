@@ -1,0 +1,137 @@
+{
+
+   "panelSection":{
+    "heading": "BEYOND THE LABS",
+  "description": "Have a lab from another clinic, a lab PDF report you can’t interpret, or AI-generated results that left you with questions? Want expert guidance on supplementation or treatment options? Our team can help you get clear answers and a plan that works for you.",
+  
+  "panelCard":[
+    {
+    "id":1,
+    "icon":"/images/compare-all-labs/symbol.png",
+    "heading":" Time with Health Coach: 15 minutes",
+    "image":"/images/beyond-the-labs/card-3.png",
+    "tag":"Most economical",
+    "mainHeading":"Health Coach Consultation",
+    "features":[
+    "A quick conversation to help you understand your labs or explore our services, treatments, and approach."
+    ],
+    "btns":[
+        {
+            "id":1,
+            "content":"Get Started | Free",
+            "variant": "#363636",
+            "textVariant":"#fff"
+        }
+    ]
+},
+{
+    "id":2,
+    "icon":"/images/compare-all-labs/symbol.png",
+    "heading":" Time with clinician: 30 minutes",
+    "image":"/images/beyond-the-labs/card-2.png",
+    "tag":"Most Popular",
+    "mainHeading":"Advanced Clinician Consultation",
+    "features":[
+    "A focused, 30-minute video consultation with an expert clinician to review your labs or answer specific clinical questions about our treatments and solutions."
+    ],
+    "btns":[
+        {
+            "id":1,
+            "content":"Get Started | $150",
+            "variant": "#363636",
+            "textVariant":"#fff"
+        }
+    ]
+},
+{
+    "id":3,
+    "icon":"/images/compare-all-labs/symbol.png",
+    "heading":" Time with clinician: 30 minutes",
+    "image":"/images/beyond-the-labs/card-1.png",
+    "tag":"Most Comprehensive",
+    "mainHeading":"Comprehensive Clinician Consultation",
+    "features":[
+    "Our most in-depth option. A full one-on-one Zoom with an expert clinician to review your lab biomarkers and create a personalized, data-driven health plan."
+    ],
+    "btns":[
+        {
+            "id":1,
+            "content":"Get Started | $225",
+            "variant": "#363636",
+            "textVariant":"#fff"
+        }
+    ]
+}
+  
+],
+   
+
+"bottomSection": {
+    "heading": "Our Approach",
+    "text": [
+      "With the rise of diagnostics, more patients than ever are left with more questions than answers. Most companies lean solely into an AI approach, which often leaves people scratching their heads. Sometimes you end up more confused than when you started. Even when AI nudges things in the right direction, patients still ask the big question: what’s next? Should I change my lifestyle, consider treatment, start supplementation, or all of the above? Here’s the truth. Labs are only as powerful as the person explaining them. AI is an incredible co-pilot, but it’s not meant to fly the plane alone. The clinician is still the most valuable instrument in healthcare. The art of care comes from human expertise, context, and conversation.",
+      "That’s why we built this program. While others race to strip humans out of the loop, we believe the future of health is human plus machine. AI makes clinicians sharper, faster, and more precise, but it doesn’t replace them. Our approach blends cutting-edge technology with world-class clinicians to give you clarity, confidence, and a path forward. We don’t just hand you your labs. We guide you through them, connect the dots, and help you actually do something about it. Because the goal isn’t data for the sake of data. The goal is better outcomes, smarter decisions, and optimal health that lasts."
+    ]
+  }
+
+},
+
+
+"quotes":{
+  "quote": "“I feel heard and understood. The case manager and nurse practioner I am working with clearly know their respective areas. Conquer has opened access to medication that is currently and all too often denied patients. I am so grateful to Conquer and their associates for work they are doing.”",
+      "author": " Pamela K."
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "Are you able to ship out of the country or treat patients outside the US?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Do you take FSA/HSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Do you take insurance?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

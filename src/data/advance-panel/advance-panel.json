@@ -1,0 +1,280 @@
+{
+  "product": {
+    "image": "/images/complete-hormone/com-hormone.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Diagnostic Lab",
+    "title": "Advanced Panel",
+    "description":"When hormones, metabolism, and thyroid function are out of sync, achieving balance can feel challenging. This lab panel includes a broader range of biomarkers to provide deeper insights into thyroid health, metabolism, and hormone levels. Measures 71 biomarkers.",
+          "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "SINGLE LAB",
+      "price": "$399.00",
+      "description": "Essential hormone insights (56 biomarkers).",
+      "circleColor": "black",
+      "bgColor": "#F6F0E1"
+    },
+    {
+      "id": "sub2",
+      "title": "LAB TWO PACKS",
+      "price": "$798.00",
+      "description": "Perfect for bi-annual hormone tracking.",
+      "highlight": "Most Common",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    },
+    {
+      "id": "sub3",
+      "title": "LAB FOUR PACK",
+      "price": "$1596.00",
+      "description": "Ideal for comprehensive, year-round monitoring.",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    "safetyLink": {
+      "label": "30-minute clinician consultation included",
+      "href": "#safety"
+    },
+    "finePrint": "If you live in NY, NJ, or RI, and your address is serviceable, we will offer a mobile phlebotomy option for an additional $99 for traditional blood dr... Read more",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Personalized Health Optimization",
+      "description": "Delivers actionable insights to support treatment plans tailored to your unique needs."
+    },
+    {
+      "id": "b2",
+      "title": "Most Recommended by Providers",
+      "description": "Provides a detailed view of your metabolic and hormonal health."
+      },
+    {
+      "id": "b3",
+      "title": "Early Detection & Prevention",
+      "description": "Helps identify hormonal and metabolic imbalances before they become larger issues."
+    }
+  ],
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+"quotes":{
+  "quote": "“Fantastic company and service! I got my comprehensive lab panel done and reviewed with a Conquer provider. I have been using the monthly supplement packs curated specifically for me, and my biomarkers have improved over six months. I recommend this to everyone who isn’t feeling their best to help locate the root cause and make changes.”",
+      "author": " Nikki Zahka"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "Where do I get my blood drawn?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "What is the best way to prepare for my lab test?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "How long until my lab results are ready?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Should I stop supplements or medications before my lab draw?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Should I test on a specific day in my cycle?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Where can I find my biological age after my labs are complete?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+},
+
+"ingredients": {
+  "heading": "Advanced lab panel offers an in-depth analysis of 71 key biomarkers",
+  "symptomCards": [
+    {
+      "id": "1",
+      "label": "Metabolism & Weight Control",
+      "icon": "/images/complete-hormone/icons/icon-1.svg",
+      "iconAlt": "Ketoprofen icon"
+    },
+    {
+      "id": "2",
+      "label": "Oxygen Transfer & Blood Function",
+      "icon": "/images/complete-hormone/icons/icon-2.svg",
+      "iconAlt": "NAD icon"
+    },
+    {
+      "id": "3",
+      "label": "Bone & Muscle Health",
+      "icon": "/images/complete-hormone/icons/icon-3.svg",
+      "iconAlt": "Baclofen icon"
+    },
+    {
+      "id": "4",
+      "label": "Electrolyte & Fluid Balance",
+      "icon": "/images/complete-hormone/icons/icon-4.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "5",
+      "label": "Kidney Health",
+      "icon": "/images/complete-hormone/icons/icon-5.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "6",
+      "label": "Cognition",
+      "icon": "/images/complete-hormone/icons/icon-6.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "7",
+      "label": "Inflammation",
+      "icon": "/images/complete-hormone/icons/icon-7.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "8",
+      "label": "Strength & Endurance",
+      "icon": "/images/complete-hormone/icons/icon-8.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "9",
+      "label": "Liver Function & Toxicity",
+      "icon": "/images/complete-hormone/icons/icon-9.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "10",
+      "label": "Menstrual Health",
+      "icon": "/images/complete-hormone/icons/icon-10.svg",
+      "iconAlt": "Menthol icon"
+    },
+    {
+      "id": "11",
+      "label": "Thyroid Health",
+      "icon": "/images/complete-hormone/icons/icon-11.svg",
+      "iconAlt": "Menthol icon"
+    }
+  ]
+}
+
+
+}

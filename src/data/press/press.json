@@ -1,0 +1,93 @@
+{
+    "title":"Featured Press",
+    "subTitle":"See what people are saying and read the latest news.",
+    "btns":[
+        {
+            "id":1,
+            "bgVarient":"black",
+            "textVarient":"white",
+            "content":"Everything"
+        },
+        {
+            "id":2,
+            "bgVarient":"white",
+            "textVarient":"black",
+            "content":"conquer"
+        }
+    ],
+    "cards": [
+    {
+      "id": 1,
+      "title": "The Personalized Performance Strategy This 44-Year-Old Executive Used to Lose 50 Pounds and Reclaim His Vitality",
+      "description": "Testosterone is one of those seemingly buzzy topics that a lot of people have started talking about in recent years, but there’s a valid reason for that buzz. Josh Whalen, 44, co-founder and CEO of Conquer, experienced that reality firsthand when he discovered his testosterone levels had dropped low enough to trigger a wide range of debilitating symptoms.",
+      "image": "/images/podcast/img-1.png",
+      "links": [
+        {
+          "label": "Read More",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kindbody Founder Gina Bartasi Joins Conquer as Founding Partner to Lead New Fertility Division",
+      "description": "Conquer, the precision health platform focused on hormone optimization and personalized care, has announced a strategic combination with Gina Bartasi and her company YourJOY.ai to add fertility to its existing hormonal health platform. Bartasi will join as founding partner and CEO of the fertility division.",
+      "image": "/images/podcast/img-2.png",
+      "links": [
+        {
+          "label": "Read more",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "My ‘dad bod’ was actually a sneaky sign of a hidden health issue",
+      "description": "When Josh Whalen‘s once athletic, rugby-playing physique morphed into a heftier “dad bod,” he figured it was just the reality of getting older. That’s how he dismissed other symptoms, too. His sex drive plummeted and he felt super tired — but working as a entrepreneur in his mid-30s, he attributed his problems to the mounting pressures of work and parenting two kids. And he wasn’t motivated to do anything about it.",
+      "image": "/images/podcast/img-3.png",
+      "links": [
+        {
+          "label": "Read More",
+          "url": "#"
+        }
+      ]
+    }
+],
+
+"storySection":{
+    "title":"The Story",
+    "btn":"explore",
+    "cards":[
+        {
+            "id":1,
+          "image":"/images/storyCard/img-1.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":2,
+          "image":"/images/storyCard/img-2.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":3,
+          "image":"/images/storyCard/img-3.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":4,
+          "image":"/images/storyCard/img-4.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":5,
+          "image":"/images/storyCard/img-5.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        }
+    ]
+}
+}

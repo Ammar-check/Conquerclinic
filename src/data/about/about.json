@@ -1,0 +1,80 @@
+{
+   "hero":{
+       "paragraph":{
+        "span":"Health isn’t a luxury, it’s a non-negotiable.",
+        "para":" Life is already challenging and full of friction. Still, it’s even more complicated when your physical and mental health aren’t at their best."
+       },
+       "arrow":"Our Story",
+       "image":"/images/about/about.jpg",
+       "tag":"Josh & Katy, 2024"
+   },
+   "story":{
+      "num":"01",
+      "title":"our story",
+      "subTitle":"Conquer Clinic",
+      "storySec":[
+        "I created Blokes after going through my own health journey—and hitting wall after wall with the traditional healthcare system. I was tired all the time, had zero sex drive, no energy, brain fog… and every time I went to a doctor, I was told I was “normal.” But I didn’t feel normal.",
+        "That frustration led me to take control of my own health—and what I discovered was a massive gap in how men are treated when it comes to hormones, performance, and long-term wellness. That’s where Blokes was born.",
+        "With nearly 20 years in healthcare and a background in regenerative medicine, I knew there had to be a better way—one that’s built around real diagnostics, real conversations, and real results.",
+        "My mission is simple: help men feel strong, sharp, and in control—without shame, judgment, or guesswork.",
+        "I started Joi because I lived the frustration so many women face—I was exhausted, foggy, emotional, and just didn’t feel like myself. After four miscarriages, two babies, and finishing breastfeeding my son, I hit a wall. I was in perimenopause, but no one had answers. I was told to “wait it out,” or worse, that everything looked “normal.”",
+        "When I finally went through Blokes—Josh’s platform—I got real answers, real diagnostics, and a path forward. The results changed everything. That’s when I knew: women need a place like this too.",
+        "Joi was born to give women what I never had—a space to feel heard, supported, and empowered with the kind of care that’s built for women, by women.",
+        "My mission is simple: help women take control of their hormones, their energy, and their confidence—without confusion, shame, or being dismissed."
+      ]
+
+   },
+   "approach":{
+      "num":"02",
+      "title":"Our approach",
+      "subTitle":"It's not one-size-fits-all",
+      "storySec":[
+        "Conquer Clinic were created to disrupt the outdated, one-size-fits-all approach to hormone and preventative care. After personal health struggles and a lack of answers from the traditional system, founders Josh and Katy Whalen built diagnostics-first platforms designed specifically for men and women. Through personalized treatment plans, advanced lab testing, and a functional medicine approach, Conquer supports men’s health and longevity, while Joi specializes in helping women navigate perimenopause, menopause, and hormonal imbalance with real, evidence-based solutions. The mission is simple: empower people to feel like themselves again—stronger, sharper, and more alive."
+      ]
+
+   },
+   "conquer":{
+      "num":"03",
+      "title":"Why Conquer?",
+      "subTitle":"Science backed, nationwide coverage",
+      "storySec":[
+        "Practicing telemedicine across all 50 states, we make it easy for you to start your journey online. Whether you begin with a lab test or a therapy, you’ll receive personalized care with access to a dedicated coach for one-on-one guidance. We’re here to support you every step of the way.",
+        "And the best part? We believe in transparency. No hidden fees—just clear, honest pricing. We’re here for you, welcome to Joi and Blokes."
+      ],
+     "image":"/images/about/Background.png"
+   },
+
+   "mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

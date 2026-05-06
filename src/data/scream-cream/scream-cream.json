@@ -4,6 +4,8 @@
     "imageAlt": "Conquer MD compounded GLP-1 injectable product"
   },
   "card": {
+    "adToCart":"Add to Cart",
+    
     "reviews": {
       "count": "1,305",
       "rating": "4.6",
@@ -70,10 +72,10 @@
   "splitContent":{
   "title": "Ready for a little more excitement?",
   "features": [
-    "Boost your confidence",
-    "Improve performance",
-    "Feel more energetic",
-    "Doctor-approved solutions"
+    "Increases blood flow",
+    "Enhances responsiveness",
+    "Delivers a more intense and satisfying intimate experience",
+    "A targeted, effective solution"
   ],
   "button": {
     "label": "Have Fun",
@@ -125,5 +127,74 @@
       "description": "Support from others on the same journey —feeling better, together."
     }
   ]
+},
+"quotes":{
+  "quote": "I’m amazed by the results! This product has truly enhanced my experience in ways I didn’t expect. The boost in arousal was immediate. I love that it’s so easy to apply and doesn’t leave any mess. Highly recommend this for any woman looking to elevate her intimate experiences!",
+  "author": " Kate B."
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "How long do the effects of (!) Scream Cream last?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "What are instructions for use?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Who is my health coach?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
 }
+
 }

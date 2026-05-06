@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imageWrapper {
+  width: 100%;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* content */
+.content {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.title {
+  color: #363636;
+  font-size: 12px;
+}
+
+.description {
+  color: #363636;
+  font-size: 18px;
+}
+
+.label {
+  color: #363636;
+  font-size: 13px;
+}

@@ -1,0 +1,81 @@
+{
+  "page": "webinars",
+
+    "hero":{
+        "title": "Journal"
+    },
+    "buttons": [
+          { "id": 1, "label": "Everything", "value": "all" },
+          { "id": 2, "label": "Latest", "value": "latest" },
+          { "id": 3, "label": "Anti-aging", "value": "anti-aging" },
+          { "id": 4, "label": "at-home Testing", "value": "at-home-testing" },
+          { "id": 5, "label": "Boosting Testosterone", "value": "boosting-testosterone" },
+          { "id": 6, "label": "Diagnostic Lab", "value": "diagnostic-lab" },
+          { "id": 7, "label": "Getting In Shape", "value": "getting-in-shape" },
+          { "id": 8, "label": "GLP-1s", "value": "glp-1s" },
+          { "id": 9, "label": "Health", "value": "health" },
+          { "id": 10, "label": "Hormone Health", "value": "hormone-health" }
+        ],
+
+     "imageSection":{
+            "image":"/images/journal/img-1.png",
+            "tag":"Josh & Katy, 2024",
+            "title":"Boosting Testosterone",
+            "description":"Bone Health for Women: Protecting Strength Through Perimenopause and Menopause",
+            "label":"When women think about aging well, the focus is often ..."
+     },
+     "imageSection2": [
+    {
+      "image": "/images/journal/blog-img-1.png",
+      "title": "at-home testing",
+      "description": "The Silent Risk Most People Miss – And What to Do About It",
+      "label": "Bone density loss begins years before symptoms appear. Here’s what ...",
+      "height": "750px"
+    },
+    {
+      "image": "/images/journal/blog-img-2.png",
+      "title": "at-home testing",
+      "description": " Why Hormone Testing Matters for Your Health & How to Do It From Home",
+      "label": "Hormones are your body’s chemical messengers. Quietly influencing everything from ...",
+      "height": "500px"
+    }
+  ],
+
+
+  "storySection":{
+    "title":"The Story",
+    "btn":"explore",
+    "cards":[
+        {
+            "id":1,
+          "image":"/images/storyCard/img-1.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":2,
+          "image":"/images/storyCard/img-2.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":3,
+          "image":"/images/storyCard/img-3.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":4,
+          "image":"/images/storyCard/img-4.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        },
+        {
+            "id":5,
+          "image":"/images/storyCard/img-5.png",
+          "date":"December 4, 2025",
+          "description":"The Women’s Wellness Stack: Foundational Supplements for Feeling Your Best "  
+        }
+    ]
+}
+}

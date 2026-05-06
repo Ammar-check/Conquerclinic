@@ -1,0 +1,146 @@
+{
+  "product": {
+    "image": "/images/screamCream/scream-cream.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"Buy Now",
+      "extraPrice": "$395.00 + tax and shipping",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Only Women Shop",
+    "title": "vFit® Gold+ Device",
+    "description": "Developed by OB-GYNs and endorsed by hundreds of doctors, the vFit Gold® Device is a patented, at-home solution that uses red-light technology to support pelvic floor strength, hydration, and intimate wellness. With regular use, it may help promote comfort, sensation, and confidence, all from the privacy of your home.",
+    "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "No membership required. We bill & ship quarterly and you can cancel your subscription at any time. Due to state regulations we cannot ship test...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Enhance Vaginal Health",
+      "description": "Boosts blood flow and collagen production for stronger pelvic floor muscles and lubrication."
+    },
+    {
+      "id": "b2",
+      "title": "Support Intimate Comfort",
+      "description": "Provides a non-invasive solution to help with dryness, discomfort, and reduced sensitivity."
+    },
+    {
+      "id": "b3",
+      "title": "Improve Sexual Health",
+      "description": "Enhances sensitivity and rejuvenating intimate areas through targeted light therapy."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Improve your pelvic floor strength and sexual function with vFit.",
+  "features": [
+    "Promotes a stronger pelvic floor",
+    "Improves natural lubrication",
+    "Increases sensation",
+    "Increases feeling of tightness",
+    "Improves hydration and sexual function for women"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/v-fit/v-fit.jpg",
+    "alt": "Excitement section image"
+  }
+},
+
+"quotes":{
+  "quote": "“I have absolutely enjoyed using Conquers services. The process was so easy and convenient with my busy schedule. And now I feel like a rockstar after dialing in all my markers. I recommend them to everyone!”",
+  "author": " Janna Breslin"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is the vFit Gold® Device?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "How does vFit Gold® work?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "How often should I use vFit Gold®?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Who can benefit from using vFit Gold®?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "How long does it take to notice results?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "Does vFit Gold® require a prescription?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Can vFit Gold® be used with lubricants?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

@@ -1,0 +1,75 @@
+.wrapper {
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  
+}
+
+.card {
+  backdrop-filter: blur(30px);
+    border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+/* TEXT */
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+  font-size: 13px;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  width: 60%;
+  align-self: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .card {
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

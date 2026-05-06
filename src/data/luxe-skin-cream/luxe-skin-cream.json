@@ -1,0 +1,168 @@
+{
+  "product": {
+    "image": "/images/luxe-skin-cream/luxe-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Supplements",
+    "title": "Luxe Skin Cream",
+    "description":"(Estriol/GHK-Cu/HA/Niacinomide 0.3/0.3/0.2/0.5%)",
+    "description2":"All the regenerative power of GHK-Cu peptide with the added benefits of estrogen, niacinamide & hyaluronic acid. This cream is the star player in your routine!",
+         "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "Monthly Subscription",
+      "price": "$99.50/mo",
+      "description": "$199 for a 2-month supply",
+       "highlight": "Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#F6F0E1"
+    },
+    {
+      "id": "sub2",
+      "title": "Semi-Annual Subscription",
+      "price": "$124.50/mo",
+      "description": "$249 for a 2-month supply",
+      "highlight": "Save 10% + Free Shipping",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+
+  "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    
+    "finePrint": "All prescriptions require a consultation with a licensed provider, either asynchronously or synchronously. If the provider determines the medication i... Read more",
+        "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Hydrate & Nourish",
+      "description": "Supports moisture retention and texture with research-backed ingredients."
+    },
+    {
+      "id": "b2",
+      "title": "Skin Structure Support",
+      "description": "Includes peptides and nutrients studied for their role in collagen pathways."
+      },
+    {
+      "id": "b3",
+      "title": "Barrier Boost",
+      "description": "Formulated with compounds linked to skin barrier integrity and resilience."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Peptides Meet Skin Support",
+  "subTitle": "Luxe combines GHK-Cu peptide with niacinamide, hyaluronic acid, and estrogen—ingredients studied for their potential roles in skin support and structure.",
+        "features": [
+    "Supports skin firmness",
+    "Linked to skin barrier protein modulation",
+    "Promotes elasticity and clarity",
+    "Visibly improves texture in clinical observations",
+    "Shown to influence collagen expression",
+    "Connected to skin resilience pathways"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/longevity/longevity.jpg",
+    "alt": "Excitement section image"
+  }
+},
+
+"quotes":{
+  "quote": "“Conquer skincare products have been a game-changer for me. The products are gentle yet effective, and I’ve noticed a significant improvement in my skin’s texture and overall appearance. Plus, they’re made with natural ingredients and don’t contain any harsh chemicals.”",
+   "author": " Mary Hughan"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "How long until I see results?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "When should I apply my cream—morning or night?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I apply the cream to my throat and eye area?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

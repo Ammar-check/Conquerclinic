@@ -1,0 +1,19 @@
+{
+   "hero":{
+       "paragraph":{
+        "para":"Web Accessibility Statement"
+       },
+       "mainPoints":[
+        {
+            "desc":"Making therapy and health services accessible to all is at the core of what we do at Joi. Making sure our content is easily found and consumed is a part of bringing that vision to life. To support everyone on their unique cold therapy journeys and to ensure digital accessibility of our website for people with disabilities, we are continually improving the user experience for everyone and strive to meet relevant ADA and WCAG standards for accessibility."
+        },
+        {
+            "desc":"To that end, we are investing in tools to make our website as user friendly as possible for people of all different backgrounds and abilities. We are using a service called AudioEye to help ensure our website is accessible to all."
+        },
+        {
+            "desc":"Despite our best efforts to ensure accessibility of our website, there may be some limitations. If you have any issues accessing our website, please contact us for further assistance. We’ll be happy to assist you and welcome your feedback as we continually improve our website to address any issues. This statement highlights our efforts to improve accessibility. We know it is important to have an inclusive website that is accessible to everyone."
+        }
+       ]
+
+   }
+}

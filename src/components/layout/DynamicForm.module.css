@@ -1,0 +1,75 @@
+.container {
+  background: #333333;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heading{
+    font-size: 16px;
+    color: white;
+
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px 5px;
+  color: white;
+  width: 100%;
+  outline: none;
+}
+.input option {
+    background: #333333;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 15px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  color: white;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+ .box {
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: transparent;
+  cursor: pointer;
+}
+
+.heading {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.button {
+    max-width: 260px;
+    margin: auto;
+  background: white;
+  color: black;
+  padding: 10px 80px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+

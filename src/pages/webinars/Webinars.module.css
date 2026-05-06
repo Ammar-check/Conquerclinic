@@ -1,0 +1,182 @@
+.container {
+  background: #333333;
+  padding: 40px 16px;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.description {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+/* ---------- BUTTONS ---------- */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  background: white;
+  color: black;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.active{
+    background: black;
+    color: white;
+}
+/* ---------- WEBINAR BOX ---------- */
+.webinarBox {
+  background: #c9a55a;
+  margin-top: 40px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ---------- VIDEO ---------- */
+.videoBox {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  border-radius: 4px;
+   max-width: 120px;
+   max-height: 40px;
+ background: #0000001F;
+  cursor: pointer;
+}
+
+.videoLink{
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.videoLabel {
+  gap: 6px;
+  font-size: 14px;
+}
+
+/* ---------- CONTENT ---------- */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+
+}
+
+.smallTitle {
+  font-size: 12px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 14px;
+  max-width: 600px;
+}
+
+/* ---------- SPEAKERS ---------- */
+.speakers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  padding-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.cardImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/5;
+  border-radius: 5px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.name {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.position {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ---------- TABLET ---------- */
+@media (min-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+
+  .webinarBox {
+    flex-direction: column;
+  }
+
+  .speakers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---------- DESKTOP ---------- */
+@media (min-width: 1024px) {
+  .container {
+    padding: 80px 60px;
+  }
+
+  .title {
+    font-size: 58px;
+  }
+
+  .webinarBox {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .videoBox {
+    width: 250px;
+    flex-shrink: 0;
+  }
+
+  .speakers {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

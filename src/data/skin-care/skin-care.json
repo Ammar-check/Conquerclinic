@@ -1,0 +1,48 @@
+{
+  "slug": "skin-care",
+  "hero": {
+    "heading": "Skin Care",
+    "backgroundImage": "/images/longevity/longevity.jpg",
+    "btn":"GET STARTED"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "l1",
+      "slug": "skin-care",
+      "category": "skin-care",
+      "name": "Luxe Skin Cream",
+      "subtitle": "Where hydration meets hormone-informed skincare.",
+      "price": "$99/mo",
+      "image": "/images/skin-care/prod-1.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "l2",
+      "slug": "skin-care",
+      "category": "skin-care",
+      "name": "Essentials Skin Cream",
+      "subtitle": "Simple, effective skincare with estriol at its core.",
+      "price": "$59/mo",
+      "image": "/images/skin-care/prod-2.png"
+    },
+    {
+      "id": "l3",
+      "slug": "skin-care",
+      "category": "weight-loss",
+      "name": "GHK-Cu Peptide Skin Cream",
+      "subtitle": "A daily dose of peptide-powered skin support.",
+      "price": "$79/mo",
+      "image": "/images/skin-care/prod-3.png"
+    }
+]
+}

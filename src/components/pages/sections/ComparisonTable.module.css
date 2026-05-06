@@ -1,0 +1,173 @@
+.comparison-section {
+    background: #e8e8e8;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+/* ─── Table Wrapper (enables horizontal scroll on small screens) ─── */
+.comparison-section__wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ─── Table ─── */
+.comparison-table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+/* ─── Column widths ─── */
+.comparison-table__feature-col {
+    width: 28%;
+}
+
+.comparison-table__brand-col {
+    width: 18%;
+}
+
+/* ─── Header Row ─── */
+.comparison-table thead tr th {
+    padding: 0.6rem 0.75rem 1.25rem;
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(0.6rem, 1vw, 0.7rem);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    vertical-align: bottom;
+    background: transparent;
+    border: none;
+}
+
+/* Conquer Clinic header — has the logo/brand feel */
+.comparison-table__th-brand {
+    text-align: center;
+}
+
+.comparison-table__th-brand .comparison-table__brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: clamp(0.65rem, 1.1vw, 0.75rem);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #1a1a1a;
+}
+
+.comparison-table__brand-logo svg {
+    flex-shrink: 0;
+}
+
+.comparison-table__th-competitor {
+    text-align: center;
+    color: #888;
+}
+
+.comparison-table__th-feature {
+    text-align: left;
+    color: transparent; /* empty header above feature labels */
+}
+
+/* ─── Body Rows ─── */
+.comparison-table tbody tr td {
+    padding: 0.35rem 0.5rem;
+    vertical-align: middle;
+}
+
+/* feature label cell */
+.comparison-table__feature-label {
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: clamp(0.6rem, 1vw, 0.68rem);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #444;
+    padding-right: 1rem !important;
+    white-space: normal;
+    line-height: 1.4;
+}
+
+/* check cell */
+.comparison-table__check-cell {
+    text-align: center;
+    padding: 0.35rem 0.25rem !important;
+}
+
+/* ─── Check Box — Conquer (filled slate) ─── */
+.check-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 0 auto;
+    height: 44px;
+}
+
+.check-box--brand {
+    background: #6b7490;
+    width: 100%;
+}
+
+.check-box--competitor {
+    background: #ffffff;
+    width: 80%;
+    border: 1px solid #d0d0d0;
+}
+
+/* Check icon */
+.check-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 1px;
+    background: #1a1a1a;
+    flex-shrink: 0;
+}
+
+.check-icon--white {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+/* ─── Responsive scroll hint ─── */
+.comparison-section__scroll-hint {
+    display: none;
+    text-align: center;
+    font-family: var(--font-primary, 'Inter', sans-serif);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    color: #888;
+    margin-bottom: 0.75rem;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 767px) {
+    .comparison-section {
+        padding: 2.5rem 0;
+    }
+
+    .comparison-section__scroll-hint {
+        display: block;
+    }
+
+    .comparison-table {
+        min-width: 560px;
+    }
+
+    .comparison-table__feature-col {
+        width: 32%;
+    }
+}
+
+@media (max-width: 480px) {
+    .comparison-table {
+        min-width: 500px;
+    }
+
+    .check-box {
+        height: 38px;
+    }
+}

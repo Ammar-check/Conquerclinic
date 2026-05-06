@@ -1,0 +1,180 @@
+{
+  "product": {
+    "image": "/images/gut-health/gut-prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "adToCart":"ADD TO CART",
+     "tested":{
+        "icon":"/icons/tick.svg",
+       "h1":"Tested by Light Labs in",
+       "date":"JUL 2025",
+       "p":"20 substances tested for quality"
+     },
+    "reviews": {
+      "count": "1,305", 
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Supplements",
+    "title": "Gut Health",
+    "description":"A comprehensive blend formulated to support gut integrity, digestion, and microbiome balance. Featuring zinc carnosine, glutamine, quercetin, licorice root, and a targeted probiotic blend, Gut Health may help strengthen intestinal permeability, reduce occasional bloating, and modulate healthy immune and inflammatory responses where they start- in the gut.",
+                 "primaryCta": {
+      "label": "Start with a lab",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    },
+    "subscriptions": [
+    {
+      "id": "sub1",
+      "title": "Monthly Subscription",
+      "price": "$74/mo",
+      "description": "$74 for 30 day supply",
+       "highlight": "Free Shipping",
+      "circleColor": "black",
+      "bgColor": "#F6F0E1"
+    },
+    {
+      "id": "sub2",
+      "title": "Semi-Annual Subscription",
+      "price": "$66/mo",
+      "description": "$396 for 6 month supply",
+      "highlight": "Save 10% + Free Shipping",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    },
+    {
+      "id": "sub3",
+      "title": "Annual Subscription",
+      "price": "$59/mo",
+      "description": "$708 for a 12-month supply",
+      "highlight": "Save 20% + Free Shipping",
+      "circleColor": "white",
+      "bgColor": "#F8F9FA"
+    }
+       
+  ],
+    
+    "finePrint": "Cancel your subscription anytime. *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagn...",
+    "finePrintLink": "Read more"
+  },
+
+
+  "benefits": [
+    {
+      "id": "b1",
+      "title": "Gut Lining Support",
+      "description": "Formulated with ingredients like zinc carnosine and glutamine, often used to help maintain gut lining integrity."
+    },
+    {
+      "id": "b2",
+      "title": "Digestive & Microbiome Balance",
+      "description": "Includes a blend of probiotics and herbs traditionally used to support digestive comfort and microbial diversity."
+      },
+    {
+      "id": "b3",
+      "title": "Gut–Immune Connection",
+      "description": "Highlights the relationship between gut integrity and immune system communication throughout the body."
+    }
+  ],
+
+  "splitContent":{
+  "title": "Trust Your Gut—It Knows What You Need",
+  "subTitle": "Gut Health supports digestion, microbiome balance, and the foundation of your well-being—starting from the inside out.",
+        "features": [
+    "Supports healthy digestion and regularity",
+    "Encourages microbial balance in the gut",
+    "Provides nutrients that help maintain gut lining integrity",
+    "Supports natural immune defenses through gut health",
+    "Formulated to promote overall digestive comfort"
+  ],
+  "button": {
+    "label": "GET STARTED",
+    "href": "#"
+  },
+  "image": {
+    "src": "/images/men/hormone-health/img-1.png",
+    "alt": "Excitement section image"
+  }
+},
+
+"quotes":{
+  "quote": "“The supplements they offer were able to target the deficits that my lab tests indicated, and I feel fantastic. I am sleeping better, getting stronger, and my recovery has improved. Blokes have made a definite difference and helped me reach my fitness goals!”",
+   "author": "Michael N."
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is the best way and time to take Gut Health?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "Can I take Gut Health with other supplements or medications?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "Can I see the testing for purity, heavy metals, or the Certificate of Analysis (COA) for this product?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+   
+    {
+      "question": "What can I expect from Joi + Blokes?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+}
+
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "hormone-health",
+  "hero": {
+    "heading": "Hormone Health",
+    "backgroundImage": "/images/men/hormone-health/img-1.png"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "hh1",
+      "slug": "hormone-health",
+      "category": "hormone-health",
+      "name": "Testosterone Replacement Therapy",
+      "subtitle": "Prescription-based testosterone therapy.",
+      "price": "$99/mo",
+      "image": "/images/men/hormone-health/prod-1.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "hh2",
+      "slug": "hormone-health",
+      "category": "sexual-health",
+      "name": "Enclomiphene",
+      "subtitle": "Support the body’s natural testosterone production.",
+      "price": "$99/mo",
+      "image": "/images/men/hormone-health/prod-2.png"
+    },
+    {
+      "id": "hh3",
+      "slug": "hormone-health",
+      "category": "sexual-health",
+      "name": "Thyroid Care",
+      "subtitle": "A functional approach to optimizing thyroid health.",
+      "price": "$99/mo",
+      "image": "/images/men/hormone-health/prod-3.png"
+    }
+]
+}

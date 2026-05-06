@@ -1,0 +1,119 @@
+{
+  "slug": "supplements",
+  "hero": {
+    "heading": "Supplements",
+    "backgroundImage": "/images/men/weight-loss/img-1.png"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "l1",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "Balance",
+      "subtitle": "Your all-in-one daily hormone support.",
+      "price": "$74/mo",
+      "image": "/images/suppliments/sup-prod.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "l2",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "Smart Supplements",
+      "subtitle": "Personalized daily supplement packs.",
+      "price": "$149/mo",
+      "image": "/images/suppliments/sup-prod-2.png"
+    },
+    {
+      "id": "l3",
+      "slug": "supplements",
+      "category": "weight-loss",
+      "name": "Creatine Powder",
+      "subtitle": "Strength for your body, clarity for your mind",
+      "price": "$45/mo",
+      "image": "/images/suppliments/sup-prod-3.png"
+    },
+    {
+      "id": "l4",
+      "slug": "supplements",
+      "category": "weight-loss",
+      "name": "Focus",
+      "subtitle": "Targeted nootropic formula for mental clarity.",
+      "price": "$74/mo",
+      "image": "/images/suppliments/sup-prod-4.png"
+    },
+    {
+      "id": "l5",
+      "slug": "supplements",
+      "category": "weight-loss",
+      "name": "Gut Health",
+      "subtitle": "Daily nutrient support for gut and digestive health.",
+      "price": "Starting at $74.00",
+      "image": "/images/suppliments/sup-prod-5.png"
+    },
+    {
+      "id": "l6",
+      "slug": "supplements",
+      "category": "weight-loss",
+      "name": "Hair Support",
+      "subtitle": "Nutrient-focused support for healthy-looking hair.",
+      "price": "Starting at $66.00",
+      "image": "/images/suppliments/sup-prod-6.png"
+    },
+    {
+      "id": "l7",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "Longevity",
+      "subtitle": "Daily support for cellular health and longevity.",
+      "price": "Starting at $89.00",
+      "image": "/images/suppliments/sup-prod-7.png"
+    },
+    {
+      "id": "l8",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "LSexual Performance",
+      "subtitle": "Support for connection and physical intimacy.",
+      "price": "Starting at $74.00",
+      "image": "/images/suppliments/sup-prod-8.png"
+    },
+    {
+      "id": "l9",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "Sleep",
+      "subtitle": "Your evening ritual for restful nights.",
+      "price": "$74/mo",
+      "image": "/images/suppliments/sup-prod-9.png"
+    },
+    {
+      "id": "l10",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "Thyroid Support",
+      "subtitle": "Nutrient support for balanced thyroid function.",
+      "price": "Starting at $66.00",
+      "image": "/images/suppliments/sup-prod-10.png"
+    },
+    {
+      "id": "l11",
+      "slug": "supplements",
+      "category": "longevity",
+      "name": "GLP-1 Assist",
+      "subtitle": "A smart companion for your metabolic wellness routine.",
+      "price": "$74/mo",
+      "image": "/images/suppliments/sup-prod-11.png"
+    }
+]
+}

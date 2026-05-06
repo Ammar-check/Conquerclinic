@@ -1,0 +1,66 @@
+{
+  "slug": "diagnostic-labs",
+  "hero": {
+    "heading": "Diagnostic Labs",
+    "backgroundImage": "/images/men/sexual-health/img-1.png",
+    "subHeading":"Not sure which lab is best for you?",
+    "btn":"COMPARE LABS"
+  },
+  "filters": [
+    { "id": "all", "label": "All Products" },
+    { "id": "diagnostic-labs", "label": "Diagnostic Labs" },
+    { "id": "hormone-health", "label": "Hormone Health" },
+    { "id": "longevity", "label": "Longevity" },
+    { "id": "sexual-health", "label": "Sexual Health" },
+    { "id": "skin-care", "label": "Skin Care" },
+    { "id": "supplements", "label": "Supplements" },
+    { "id": "weight-loss", "label": "Weight Loss" }
+  ],
+  "products": [
+    {
+      "id": "l1",
+      "slug": "diagnostic-labs",
+      "category": "longevity",
+      "name": "Advanced Panel",
+      "subtitle": "Hormones, metabolism, & thyroid (71 biomarkers)",
+      "price": "$399",
+      "image": "/images/diagnostic-labs/prod-1.png",
+      "badge": "Best Seller"
+    },
+    {
+      "id": "l2",
+      "slug": "diagnostic-labs",
+      "category": "longevity",
+      "name": "Complete Hormone Panel",
+      "subtitle": "Covers 56 hormone-related biomarkers.",
+      "price": "$149",
+      "image": "/images/diagnostic-labs/prod-2.png"
+    },
+    {
+      "id": "l3",
+      "slug": "diagnostic-labs",
+      "category": "weight-loss",
+      "name": "At Home Blood Test",
+      "price": "$129",
+      "image": "/images/diagnostic-labs/prod-2.png"
+    },
+    {
+      "id": "l4",
+      "slug": "diagnostic-labs",
+      "category": "weight-loss",
+      "name": "Comprehensive Panel",
+      "subtitle": "Expanded panel covering 110 biomarkers.",
+      "price": "$699",
+      "image": "/images/diagnostic-labs/prod-4.png"
+    },
+    {
+      "id": "l5",
+      "slug": "diagnostic-labs",
+      "category": "weight-loss",
+      "name": "Food Sensitivity",
+      "subtitle": "Laboratory testing of immune response to 96 foods.",
+      "price": "$249",
+      "image": "/images/diagnostic-labs/prod-5.png"
+    }
+]
+}

@@ -1,0 +1,55 @@
+{
+  "reviewsSection": {
+    "overallRating": 4.6,
+    "maxRating": 5.0,
+    "totalReviews": 1307,
+    "platform": "Trustpilot",
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 5,
+        "title": "I have had such a great experience with...",
+        "excerpt": "I have had such a great experience with this company. I have been using the...",
+        "reviewer": "Carmen Tolley",
+        "date": "Apr 15, 2026",
+        "time": "7:23 pm"
+      },
+      {
+        "id": 2,
+        "rating": 5,
+        "title": "I had a great experience with Conquer clinic",
+        "excerpt": "I had a great experience with Conquer clinic. Their service of reviewing bl...",
+        "reviewer": "Christina",
+        "date": "Apr 14, 2026",
+        "time": "9:45 pm"
+      },
+      {
+        "id": 3,
+        "rating": 5,
+        "title": "Great Experience",
+        "excerpt": "Had a great experience. Signed up for two tests as they had a sale and I wa...",
+        "reviewer": "Jason Knox",
+        "date": "Apr 14, 2026",
+        "time": "3:24 pm"
+      },
+      {
+        "id": 3,
+        "rating": 3,
+        "title": "Great Experience",
+        "excerpt": "Had a great experience. Signed up for two tests as they had a sale and I wa...",
+        "reviewer": "Jason Knox",
+        "date": "Apr 14, 2026",
+        "time": "3:24 pm"
+      },
+      {
+        "id": 3,
+        "rating": 1,
+        "title": "Great Experience",
+        "excerpt": "Had a great experience. Signed up for two tests as they had a sale and I wa...",
+        "reviewer": "Jason Knox",
+        "date": "Apr 14, 2026",
+        "time": "3:24 pm"
+      }
+    ]
+  }
+}

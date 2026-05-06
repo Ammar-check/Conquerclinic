@@ -1,0 +1,217 @@
+{
+  "product": {
+    "image": "/images/men/testrosterone/prod.png",
+    "imageAlt": "Conquer MD compounded GLP-1 injectable product"
+  },
+  "card": {
+      "lab":"Get started for $75",
+    "reviews": {
+      "count": "1,305",
+      "rating": "4.6",
+      "star": "/images/screamCream/star.png",
+      "trust": "Trustpilot"
+    },
+    "hsaFsa": "HSA/FSA",
+    "category": "Hormone Health",
+    "category2": "Lab + clinician visit required",
+    "title": "Testosterone Replacement Therapy",
+    "description":"Our TRT program provides comprehensive, ongoing care, including testosterone cypionate prescriptions delivered to your door, visits with licensed clinicians, quarterly hormone labs, and personalized 1:1 support to optimize your health and performance.",
+    "description2":"Monthly subscription starts from just $99 and includes all medications, clinician consults and follow-up labs. No hidden fees. Easy cancellations.",
+    "primaryCta": {
+      "label": "",
+      "href": "#start-lab"
+    },
+    "secondaryCta": {
+      "label": "",
+      "href": "#get-started"
+    },
+    
+    "safetyLink": {
+      "label": "Important Safety Information",
+      "href": "#safety"
+    },
+    "finePrint": "Our drugs may include compounded products that have not been approved by the FDA. The FDA does not verify the safety or effectiveness of compounded dr...",
+    "finePrintLink": "Read more"
+  },
+
+"benefits": [
+    {
+      "id": "b1",
+      "icon":"/images/men/testrosterone/icon-1.svg",
+      "title": "Elevate Mood & Libido",
+      "description": "Helps restore mood, energy, and sexual wellness in individuals with low testosterone."
+    },
+    {
+      "id": "b2",
+      "icon":"/images/men/testrosterone/icon-2.svg",
+      "title": "Support Physical Vitality",
+      "description": "May support physical function and recovery in men with clinically diagnosed testosterone deficiency."
+      },
+    {
+      "id": "b3",
+      "icon":"/images/men/testrosterone/icon-3.svg",
+      "title": "Promote Long-Term Health",
+      "description": "May support metabolic efficiency and cognitive health in men with confirmed low testosterone levels."
+    }
+  ],
+
+
+"whatInclude": {
+  "title": "What’s included?",
+  "items": [
+    {
+      "id": "i1",
+      "icon": "/icons/whatIncludeIcons/stethoscope.svg",
+      "heading": "Board Certified Clinicians",
+      "description": "Expert guidance and personalized care."
+    },
+    {
+      "id": "i2",
+      "icon": "/icons/whatIncludeIcons/clean-ingredients.svg",
+      "heading": "Lifestyle & Nutrition Support",
+      "description": "Customized plans based on your needs."
+    },
+    {
+      "id": "i3",
+      "icon": "/icons/whatIncludeIcons/coaching.svg",
+      "heading": "1:1 Coaching",
+      "description": "Personalized support to help you achieve your health goals."
+    },
+    {
+      "id": "i4",
+      "icon": "/icons/whatIncludeIcons/strength.svg",
+      "heading": "Medications Delivered to Your Door",
+      "description": "Convenient home delivery for hassle-free treatment."
+    },
+    {
+      "id": "i5",
+      "icon": "/icons/whatIncludeIcons/chat.svg",
+      "heading": "Unlimited Messaging",
+      "description": "Direct access to your care team whenever you need it."
+    },
+    {
+      "id": "i6",
+      "icon": "/icons/whatIncludeIcons/liver.svg",
+      "heading": "Community",
+      "description": "Support from others on the same journey —feeling better, together."
+    }
+  ]
+},
+
+"quotes":{
+  "quote": "“Blokes has helped me with my energy levels and get back to feeling like my old self. I feel how I did in my twenties, and my wife loves my increased libido. I will be staying with Blokes, and I appreciate all the service they provide.”",
+  "author": " Tony Whiting"
+},
+"quotes2":{
+  "image":"/images/men/testrosterone/img-1.png"
+},
+
+
+"faqs":{
+  "title": "Have Questions? We're Here to Help",
+  "items": [
+    {
+      "question": "What is the pricing?",
+      "answer": "You can expect personalized treatment plans, licensed medical support, and continuous follow-up designed around your goals."
+    },
+    {
+      "question": "What are symptoms of low testosterone?",
+      "answer": "Coverage depends on your plan and location. We provide transparent pricing and documentation you can use for reimbursement when eligible."
+    },
+    {
+      "question": "What can I expect on TRT?",
+      "answer": "Yes, many of our services can be paid using HSA/FSA cards. Eligibility may vary by provider and treatment type."
+    },
+    {
+      "question": "My testosterone level is 350, and my primary care provider said it's ‘normal,’ but I still have symptoms. Am I a candidate for TRT?",
+      "answer": "At the moment, services and fulfillment are focused on approved U.S. regions where our providers are licensed."
+    },
+    {
+      "question": "What can I expect from Blokes?",
+      "answer": "Your care team includes qualified clinicians and support staff who guide you through onboarding, treatment, and progress tracking."
+    },
+    {
+      "question": "Are injections my only option for treating low testosterone?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "How often do I do labs and clinician follow-ups?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "What states can you NOT ship testosterone to?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "Can I use my HSA or FSA?",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    },
+    {
+      "question": "I have another question for you.",
+      "answer": "No problem. Reach out to our support team and we will help you quickly with any additional questions."
+    }
+  ]
+},
+
+"mightLike":{
+  "heading": "You Might Like",
+  "products": [
+    {
+      "id": "p13",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p14",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    },
+    {
+      "id": "p15",
+      "slug": "product",
+      "category": "immune-health",
+      "name": "Low Dose Naltrexone (LDN)",
+      "subtitle": "Supports immune balance and natural repair processes.",
+      "price": "$63/mo",
+      "image": "/images/glp-1/main-product.png"
+    }
+  ]
+},
+
+"testosteroneSection": {
+    "bgVariant": {
+      "type": "color", 
+      "value": "#222222"
+    },
+    "card": {
+      "title": "Low testosterone: it’s not just aging",
+      "description": "Low energy, brain fog, or feeling off? It’s not just age, low testosterone could be the cause. Blokes helps you take back control.",
+      "features": [
+        "Increased Energy",
+        "Reduced Body Fat",
+        "Improved Mood and Mental Clarity",
+        "Better Libido and Sexual Function",
+        "Enhanced Muscle Mass and Strength",
+        "Improved Sleep and Overall Wellbeing"
+      ],
+      "button": {
+        "text": "GET STARTED",
+        "variant": "#ffffff",
+        "textColor": "#000000"
+      }
+    }
+  }
+
+}

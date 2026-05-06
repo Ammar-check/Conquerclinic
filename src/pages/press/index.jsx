@@ -1,7 +1,7 @@
 import React from "react";
 import pressData from "@/data/press/press.json";
 import PodCastCard from "@/components/ui/PodCastCard";
-import StorySection from "@/components/pages/sections/storySection";
+import StorySection from "@/components/pages/sections/StorySection";
 import Navbar from "@/components/layout/Navbar";
 
 const Press = () => {

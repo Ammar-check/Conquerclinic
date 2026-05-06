@@ -8,14 +8,65 @@
         "cta": "ALL MEN'S HEALTH",
         "categoryTitle":"Category",
         "categories": [
-          { "label": "Hormone Health", "href": "/" },
-          { "label": "Weight Loss", "href": "/" },
-          { "label": "Sexual Health", "href": "/" },
-          { "label": "Longevity", "href": "/" },
-          { "label": "Diagnostic Labs", "href": "/" },
-          { "label": "Supplements", "href": "/" },
-          { "label": "Skin Care", "href": "/" },
-          { "label": "Fertility (coming soon)", "href": "/" }
+          { "label": "Hormone Health",
+          "children": [
+                 {"label": "Testosterone Replacement", "href": "/men/testosterone-replacement"},
+                 {"label": "Enclomiphene", "href": "/men/enclomiphene"},
+                 {"label": "Thyroid Support", "href": "/men/thyroid-support"},
+                 {"label": "Thyroid Care", "href": "/men/thyroid-care"}
+             ] 
+         },
+          { "label": "Weight Loss", 
+             "children": [
+                 {"label": "Zepbound", "href": "/men/zepbound"},
+                 {"label": "Liraglutide", "href": "/men/liraglutide"},
+                 {"label": "GLP-1 Assist", "href": "/men/glp-1-assist"}
+             ] 
+        },
+          { "label": "Sexual Health", 
+             "children": [
+                 {"label": "Oxytocin Nasal Spray", "href": "/men/oxytocin-nasal-spray"}  
+             ] 
+        },
+          { "label": "Longevity", 
+            "children": [
+                 {"label": "NAD+", "href": "/men/zepbound"},
+                 {"label": "Sermorelin", "href": "/men/sermorelin"},
+                 {"label": "B12 + MIC Injection", "href": "/men/b12-mic-injection"},
+                 {"label": "Glutathione", "href": "/men/glutathione"},
+                 {"label": "Rapamycin (Sirolimus)", "href": "/men/rapamycin"},
+                 {"label": "VIP", "href": "/men/vip"},
+                 {"label": "Low Dose Naltrexone (LDN)", "href": "/men/low-dose-naltrexone"},
+                 {"label": "Pain Cream", "href": "/men/pain-cream"}
+             ] 
+        },
+          { "label": "Diagnostic Labs", 
+             "children": [
+                 {"label": "Food Sensitivity", "href": "/men/food-sensitivity"},
+                 {"label": "At Home Blood Test", "href": "/men/home-blood-test"},
+                 {"label": "Complete Hormone Panel", "href": "/men/complete-hormone-panel"},
+                 {"label": "Advance Panel", "href": "/men/glutathione"},
+                 {"label": "Comprehensive Panel", "href": "/men/comprehensive-panel"},
+                 {"label": "Compare All Labs", "href": "/men/compare-all-labs"},
+                 {"label": "Beyond The Lab (consultation)", "href": "/men/beyond-the-labs"}
+             ] 
+        },
+          { "label": "Supplements", 
+            "children": [
+                 {"label": "Smart Suppliments", "href": "/men/smart-suppliments"},
+                 {"label": "Focus", "href": "/men/focus"},
+                 {"label": "Sleep", "href": "/men/sleep"},
+                 {"label": "GLP-1 Assist", "href": "/men/glp-1-assist"},
+                 {"label": "Gut Health", "href": "/men/gut-health"},
+                 {"label": "Longevity", "href": "/men/longevity"},
+                 {"label": "Thyroid Support", "href": "/men/thyroid-support"},
+                 {"label": "Hair Support", "href": "/men/hair-support"},
+                 {"label": "Creatine", "href": "/men/creatine"},
+                 {"label": "Sexual Performance", "href": "/men/sexual-performance"}
+             ] 
+        },
+
+        { "label": "Fertility (coming soon)", "href": "/fertility" }
         ],
         "productTitle":"Popular Products",
         "products": [
@@ -59,29 +110,73 @@
         "cta": "All Products",
         "categoryTitle":"Category",
         "categories": [
-          { 
-            "label": "Hormone Health",
-             "children": [
-                 {"label": "Weight Loss", "href": "/"},
-                 {"label": "Weight Loss", "href": "/"},
-                 {"label": "Weight Loss", "href": "/"},
-                 {"label": "Weight Loss", "href": "/"}
-             ] 
-            },
-          { "label": "Weight Loss", 
-            "children": [
-                 {"label": "Weight Loss", "href": "/"},
-                 {"label": "Weight Loss", "href": "/"},
-                 {"label": "Weight Loss", "href": "/"},
-                 {"label": "Weight Loss", "href": "/"}
-             ] 
-        },
-          { "label": "Sexual Health", "href": "/" },
-          { "label": "Longevity", "href": "/" },
-          { "label": "Diagnostic Labs", "href": "/" },
-          { "label": "Supplements", "href": "/" },
-          { "label": "Fertility (coming soon)", "href": "/" }
-        ],
+  { "label": "Hormone Health",
+    "children": [
+      {"label": "Testosterone Replacement", "href": "/testosterone-replacement"},
+      {"label": "Enclomiphene", "href": "/enclomiphene"},
+      {"label": "Thyroid Support", "href": "/thyroid-support"},
+      {"label": "Thyroid Care", "href": "/thyroid-care"}
+    ] 
+  },
+  { "label": "Weight Loss", 
+    "children": [
+      {"label": "Zepbound", "href": "/zepbound"},
+      {"label": "Liraglutide", "href": "/liraglutide"},
+      {"label": "GLP-1 Assist", "href": "/glp-1-assist"}
+    ] 
+  },
+  { "label": "Sexual Health", 
+    "children": [
+      {"label": "Oxytocin Nasal Spray", "href": "/oxytocin-nasal-spray"}  
+    ] 
+  },
+  { "label": "Longevity", 
+    "children": [
+      {"label": "NAD+", "href": "/zepbound"},
+      {"label": "Sermorelin", "href": "/sermorelin"},
+      {"label": "B12 + MIC Injection", "href": "/b12-mic-injection"},
+      {"label": "Glutathione", "href": "/glutathione"},
+      {"label": "Rapamycin (Sirolimus)", "href": "/rapamycin"},
+      {"label": "VIP", "href": "/vip"},
+      {"label": "Low Dose Naltrexone (LDN)", "href": "/low-dose-naltrexone"},
+      {"label": "Pain Cream", "href": "/pain-cream"}
+    ] 
+  },
+  { "label": "Diagnostic Labs", 
+    "children": [
+      {"label": "Food Sensitivity", "href": "/food-sensitivity"},
+      {"label": "At Home Blood Test", "href": "/home-blood-test"},
+      {"label": "Complete Hormone Panel", "href": "/complete-hormone-panel"},
+      {"label": "Advance Panel", "href": "/glutathione"},
+      {"label": "Comprehensive Panel", "href": "/comprehensive-panel"},
+      {"label": "Compare All Labs", "href": "/compare-all-labs"},
+      {"label": "Beyond The Lab (consultation)", "href": "/beyond-the-labs"}
+    ] 
+  },
+  { "label": "Supplements", 
+    "children": [
+      {"label": "Smart Suppliments", "href": "/smart-suppliments"},
+      {"label": "Focus", "href": "/focus"},
+      {"label": "Sleep", "href": "/sleep"},
+      {"label": "GLP-1 Assist", "href": "/glp-1-assist"},
+      {"label": "Gut Health", "href": "/gut-health"},
+      {"label": "Longevity", "href": "/longevity"},
+      {"label": "Thyroid Support", "href": "/thyroid-support"},
+      {"label": "Hair Support", "href": "/hair-support"},
+      {"label": "Creatine", "href": "/creatine"},
+      {"label": "Sexual Performance", "href": "/sexual-performance"}
+    ] 
+  },
+  { "label": "Weight Loss", 
+    "children": [
+      {"label": "Luxe skin Cream", "href": "/luxe-skin-cream"},
+      {"label": "GHK-Cu Peptide Skin Cream", "href": "/ghk-cu-peptide-skin-cream"},
+      {"label": "Essentials Skin Cream", "href": "/essentials-skin-cream"}
+    ] 
+  },
+
+  { "label": "Fertility (coming soon)", "href": "/fertility" }
+],
         "productTitle":"Popular Products",
         "products": [
           {
@@ -121,15 +216,15 @@
   "icons": [
     {
       "id":"login",
-      "src":"/icons/login.svg"
+      "icon":"user"
     },
     {
       "id":"search",
-      "src":"/icons/search.svg"
+      "icon":"search"
     },
     {
       "id":"cart",
-      "src":"/icons/add-to-cart.svg"
+      "icon":"cart"
     }
   ],
   "button": "SCHEDULE A CONSULT"

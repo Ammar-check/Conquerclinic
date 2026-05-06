@@ -9,6 +9,15 @@ import styles from "./Navbar.module.css";
 import navbarData from "@/data/navbar.json";
 import { ChevronLeft, Search } from "react-bootstrap-icons";
 import LoginForm from "./LoginForm";
+import { Person, Bag } from "react-bootstrap-icons";
+
+const iconMap = {
+  user: Person,
+  search: Search,
+  cart: Bag,
+};
+
+
 
 const Navbar = () => {
   const { logo, navItems, icons, button } = navbarData;
@@ -104,6 +113,7 @@ const Navbar = () => {
                   <div className={styles.productRow}>
                     {item.megaMenu.products.map((prod, i) => (
                       <div key={i} className={styles.productCard}>
+                        
                         <img src={prod.image} alt={prod.name} />
                         <h1 className={styles.popularProdName}>{prod.name}</h1>
                         <p className={styles.prodDesc}>{prod.desc}</p>
@@ -208,7 +218,9 @@ const Navbar = () => {
                         <div className={styles.productRow}>
                           {item.megaMenu.products.map((prod, i) => (
                             <div key={i} className={styles.productCard}>
+                             <div className={`bg-gray-300 ${styles.prodImgWrapper}`}>
                               <img src={prod.image} alt={prod.name} />
+                             </div>
                               <h1 className={styles.popularProdName}>
                                 {prod.name}
                               </h1>
@@ -230,21 +242,19 @@ const Navbar = () => {
 
         {/* RIGHT SIDE */}
         <div className={styles.right}>
-          {icons.map((icon, i) => (
-            <div className={styles.iconWrapper}
-            key={icon.id}
-            onClick={()=>setActivePanel(icon.id)}
-            >
-              <Image
-                key={i}
-                src={icon.src}
-                alt="icon"
-                width={20}
-                height={20}
-                className={styles.icon}
-              />
-            </div>
-          ))}
+         {icons.map((icon) => {
+  const IconComponent = iconMap[icon.icon];
+
+  return IconComponent ? (
+    <div
+      className={styles.iconWrapper}
+      key={icon.id}
+      onClick={() => setActivePanel(icon.id)}
+    >
+      <IconComponent size={20} className={`${styles.icon} ${activeMenu?styles.icon2:''} `}/>
+    </div>
+  ) : null;
+})}
 
           <button className={styles.ctaBtn}>{button}</button>
           <div
